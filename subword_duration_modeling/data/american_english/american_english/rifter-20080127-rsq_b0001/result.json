@@ -1,0 +1,188 @@
+{
+    "task_id": "rifter-20080127-rsq_b0001",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/rifter-20080127-rsq/wav/b0001.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/rifter-20080127-rsq_b0001/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.3792219161987305,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.048,
+        "snr": -6.178136872794541,
+        "zcr": 0.03184344951923077,
+        "speech_energy": 4.054314938063422,
+        "noise_energy": 16.816327969233196
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.3748021125793457
+        },
+        "language": "en",
+        "text": "I do remember it.",
+        "text_normalized": "I DO REMEMBER IT",
+        "segments": [
+            {
+                "text": "I do remember it.",
+                "text_normalized": "I DO REMEMBER IT",
+                "start": 0.0,
+                "duration": 1.44,
+                "temperature": false,
+                "avg_logprob": -0.307830810546875,
+                "compression_ratio": 0.68,
+                "no_speech_prob": 0.007563726045191288,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.48,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I",
+                        "word_normalized": "I",
+                        "start": 0.48,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.48,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.2456563115119934
+                    },
+                    {
+                        "word": " do",
+                        "word_normalized": "DO",
+                        "start": 0.6,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.6,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.72,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8532704710960388
+                    },
+                    {
+                        "word": " remember",
+                        "word_normalized": "REMEMBER",
+                        "start": 0.87,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "r",
+                                "start": 0.87,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.93,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 0.96,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.99,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 1.08,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "b",
+                                "start": 1.14,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.23,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9484149813652039
+                    },
+                    {
+                        "word": " it.",
+                        "word_normalized": "IT",
+                        "start": 1.29,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.29,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.38,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9256677031517029
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 89.2648,
+            "a1": 133.7642,
+            "a2": 123.2821,
+            "b1": 84.5318,
+            "b2": 92.4784,
+            "c": 59.4703
+        }
+    }
+}

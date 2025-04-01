@@ -1,0 +1,278 @@
+{
+    "task_id": "tozden-20090830-irc_a0532",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/tozden-20090830-irc/wav/a0532.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/tozden-20090830-irc_a0532/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0361149311065674,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.20167838079201594,
+        "noise": -1.0,
+        "duration": 3.5,
+        "snr": 13.956325549143322,
+        "zcr": 0.10037286931818182,
+        "speech_energy": 199.35541754370337,
+        "noise_energy": 8.016697333458765
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9215049743652344
+        },
+        "language": "en",
+        "text": "My job destroy your crops.",
+        "text_normalized": "MY JOB DESTROY YOUR CROPS",
+        "segments": [
+            {
+                "text": "My job destroy your crops.",
+                "text_normalized": "MY JOB DESTROY YOUR CROPS",
+                "start": 0.0,
+                "duration": 3.0300000000000002,
+                "temperature": false,
+                "avg_logprob": -0.5213514433966743,
+                "compression_ratio": 0.7647058823529411,
+                "no_speech_prob": 0.0007102679810486734,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.63,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "My",
+                        "word_normalized": "MY",
+                        "start": 0.63,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.63,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.75,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8846748471260071
+                    },
+                    {
+                        "word": " job",
+                        "word_normalized": "JOB",
+                        "start": 0.9,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "j",
+                                "start": 0.9,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.99,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "b",
+                                "start": 1.17,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3738305866718292
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.29,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " destroy",
+                        "word_normalized": "DESTROY",
+                        "start": 1.35,
+                        "duration": 0.69,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 1.35,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.44,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.5,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.59,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.71,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.8,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.89,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8973426818847656
+                    },
+                    {
+                        "word": " your",
+                        "word_normalized": "YOUR",
+                        "start": 2.04,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 2.04,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.07,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.19,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.22,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.966293215751648
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.34,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.34,
+                                "duration": 0.12,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " crops.",
+                        "word_normalized": "CROPS",
+                        "start": 2.46,
+                        "duration": 0.5700000000000001,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 2.46,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.55,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.64,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "p",
+                                "start": 2.73,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.79,
+                                "duration": 0.24,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.49382346868515015
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 2789.0093,
+            "a1": 1918.9633,
+            "a2": 3088.8728,
+            "b1": 3106.4667,
+            "b2": 2948.9456,
+            "c": 2255.8834
+        }
+    }
+}

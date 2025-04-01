@@ -1,0 +1,212 @@
+{
+    "task_id": "unbridledrage-20090106-uco_b0529",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/unbridledrage-20090106-uco/wav/b0529.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/unbridledrage-20090106-uco_b0529/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0303103923797607,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.25,
+        "snr": 26.626892091894625,
+        "zcr": 0.09720923195422536,
+        "speech_energy": 31.956104792299726,
+        "noise_energy": 0.06948077075538181
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9512121677398682
+        },
+        "language": "en",
+        "text": "Come on. Delmar challenged.",
+        "text_normalized": "COME ON DELMAR CHALLENGED",
+        "segments": [
+            {
+                "text": "Come on. Delmar challenged.",
+                "text_normalized": "COME ON DELMAR CHALLENGED",
+                "start": 0.0,
+                "duration": 1.89,
+                "temperature": false,
+                "avg_logprob": -0.40721960067749025,
+                "compression_ratio": 0.7714285714285715,
+                "no_speech_prob": 0.006108081433922052,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.21,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Come",
+                        "word_normalized": "COME",
+                        "start": 0.21,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 0.21,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.3,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 0.33,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.36,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4395565986633301
+                    },
+                    {
+                        "word": " on.",
+                        "word_normalized": "ON",
+                        "start": 0.54,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 0.54,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.57,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8982042670249939
+                    },
+                    {
+                        "word": " Delmar",
+                        "word_normalized": "DELMAR",
+                        "start": 0.66,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.66,
+                                "duration": 0.54,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.7548774182796478
+                    },
+                    {
+                        "word": " challenged.",
+                        "word_normalized": "CHALLENGED",
+                        "start": 1.2,
+                        "duration": 0.69,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 1.2,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.35,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.44,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.5,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.53,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.56,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.59,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.71,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.8,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6931059956550598
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 220.8514,
+            "a1": 87.8753,
+            "a2": 225.2683,
+            "b1": 146.4423,
+            "b2": 583.7589,
+            "c": 506.0189
+        }
+    }
+}

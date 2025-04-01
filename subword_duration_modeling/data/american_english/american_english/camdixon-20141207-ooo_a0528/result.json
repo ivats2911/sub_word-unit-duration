@@ -1,0 +1,206 @@
+{
+    "task_id": "camdixon-20141207-ooo_a0528",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/camdixon-20141207-ooo/wav/a0528.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/camdixon-20141207-ooo_a0528/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.651141881942749,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.1453770482427294,
+        "noise": -1.0,
+        "duration": 3.875,
+        "snr": -3.578456271577859,
+        "zcr": 0.15602186859631148,
+        "speech_energy": 3.851462780467925,
+        "noise_energy": 8.779531319936117
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.7858312129974365
+        },
+        "language": "en",
+        "text": "Manureate call living death.",
+        "text_normalized": "MANUREATE CALL LIVING DEATH",
+        "segments": [
+            {
+                "text": "Manureate call living death.",
+                "text_normalized": "MANUREATE CALL LIVING DEATH",
+                "start": 0.0,
+                "duration": 2.46,
+                "temperature": false,
+                "avg_logprob": -0.8070528030395507,
+                "compression_ratio": 0.8,
+                "no_speech_prob": 0.005931961815804243,
+                "words": [
+                    {
+                        "word": "Manureate",
+                        "word_normalized": "MANUREATE",
+                        "start": 0.0,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 0.63,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.24032677710056305
+                    },
+                    {
+                        "word": " call",
+                        "word_normalized": "CALL",
+                        "start": 0.63,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 0.63,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.75,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.78,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.81,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5353936553001404
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.99,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.99,
+                                "duration": 0.6,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " living",
+                        "word_normalized": "LIVING",
+                        "start": 1.59,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "l",
+                                "start": 1.59,
+                                "duration": 0.27,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.86,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 1.95,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.98,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.04,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 2.07,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5809217095375061
+                    },
+                    {
+                        "word": " death.",
+                        "word_normalized": "DEATH",
+                        "start": 2.16,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 2.16,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.19,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.28,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 2.31,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 2.4,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5090519785881042
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 9852.9588,
+            "a1": 3792.2759,
+            "a2": 5245.2546,
+            "b1": 8139.5426,
+            "b2": 9283.2496,
+            "c": 5806.7548
+        }
+    }
+}

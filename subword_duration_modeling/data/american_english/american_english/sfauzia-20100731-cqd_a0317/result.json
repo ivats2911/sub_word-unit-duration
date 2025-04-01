@@ -1,0 +1,204 @@
+{
+    "task_id": "sfauzia-20100731-cqd_a0317",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/sfauzia-20100731-cqd/wav/a0317.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/sfauzia-20100731-cqd_a0317/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0418169498443604,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.04088007741321025,
+        "noise": 5.448564833981441,
+        "duration": 3.4133125,
+        "snr": 15.59224684216776,
+        "zcr": 0.07394494742990654,
+        "speech_energy": 2555.5157877604165,
+        "noise_energy": 70.51051457722983
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.105788230895996
+        },
+        "language": "en",
+        "text": "He was a wise hire.",
+        "text_normalized": "HE WAS A WISE HIRE",
+        "segments": [
+            {
+                "text": "He was a wise hire.",
+                "text_normalized": "HE WAS A WISE HIRE",
+                "start": 0.0,
+                "duration": 1.98,
+                "temperature": false,
+                "avg_logprob": -0.4926026662190755,
+                "compression_ratio": 0.7037037037037037,
+                "no_speech_prob": 0.008648483082652092,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.48,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "He",
+                        "word_normalized": "HE",
+                        "start": 0.48,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.48,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.6,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8396255373954773
+                    },
+                    {
+                        "word": " was",
+                        "word_normalized": "WAS",
+                        "start": 0.75,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.75,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.78,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.84,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9934024214744568
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 0.93,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 0.93,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8502287268638611
+                    },
+                    {
+                        "word": " wise",
+                        "word_normalized": "WISE",
+                        "start": 0.96,
+                        "duration": 0.4799999999999999,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.96,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.08,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.29,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.38,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8848565220832825
+                    },
+                    {
+                        "word": " hire.",
+                        "word_normalized": "HIRE",
+                        "start": 1.44,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 1.44,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.47,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.65,
+                                "duration": 0.21,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.86,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.05223381146788597
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 567.7406,
+            "a1": 922.076,
+            "a2": 748.2557,
+            "b1": 606.876,
+            "b2": 472.7519,
+            "c": 531.1698
+        }
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "task_id": "anonymous-20111030-ebn_a0296",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20111030-ebn/wav/a0296.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20111030-ebn_a0296/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.7636606693267822,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.09419926203391459,
+        "noise": -1.0,
+        "duration": 5.125,
+        "snr": -3.1574275135245045,
+        "zcr": 0.08276518827639752,
+        "speech_energy": 21.004463870832254,
+        "noise_energy": 43.45646067781166
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.907792568206787
+        },
+        "language": "en",
+        "text": "Basset was a fastedious man.",
+        "text_normalized": "BASSET WAS A FASTEDIOUS MAN",
+        "segments": [
+            {
+                "text": "Basset was a fastedious man.",
+                "text_normalized": "BASSET WAS A FASTEDIOUS MAN",
+                "start": 0.0,
+                "duration": 3.12,
+                "temperature": false,
+                "avg_logprob": -0.7078713637131911,
+                "compression_ratio": 0.7777777777777778,
+                "no_speech_prob": 0.001717815874144435,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.11,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.11,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Basset",
+                        "word_normalized": "BASSET",
+                        "start": 1.11,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.3296683554848035
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.14,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.14,
+                                "duration": 0.21,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " was",
+                        "word_normalized": "WAS",
+                        "start": 1.35,
+                        "duration": 0.78,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 1.35,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.47,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.53,
+                                "duration": 0.6,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9904938340187073
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.13,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.13,
+                                "duration": 0.09,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 2.22,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 2.22,
+                                "duration": 0.36,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.974563479423523
+                    },
+                    {
+                        "word": " fastedious",
+                        "word_normalized": "FASTEDIOUS",
+                        "start": 2.58,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.58,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.5253431598345438
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.61,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.61,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " man.",
+                        "word_normalized": "MAN",
+                        "start": 2.64,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 2.64,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.76,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.91,
+                                "duration": 0.21,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9960934519767761
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 12.2574,
+            "a1": 10.7424,
+            "a2": 12.6999,
+            "b1": 16.457,
+            "b2": 11.8509,
+            "c": 14.2659
+        }
+    }
+}

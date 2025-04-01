@@ -1,0 +1,230 @@
+{
+    "task_id": "glenn-20080119-uwj_b0375",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/glenn-20080119-uwj/wav/b0375.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/glenn-20080119-uwj_b0375/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0057334899902344,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 1.875,
+        "snr": 0.8996834290678674,
+        "zcr": 0.006355932203389831,
+        "speech_energy": 917.9129576071715,
+        "noise_energy": 746.1620512462798
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.7935101985931396
+        },
+        "language": "en",
+        "text": "Man cannot conquer them.",
+        "text_normalized": "MAN CANNOT CONQUER THEM",
+        "segments": [
+            {
+                "text": "Man cannot conquer them.",
+                "text_normalized": "MAN CANNOT CONQUER THEM",
+                "start": 0.0,
+                "duration": 1.5899999999999999,
+                "temperature": false,
+                "avg_logprob": -0.310690313577652,
+                "compression_ratio": 0.75,
+                "no_speech_prob": 0.01236980315297842,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.42,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Man",
+                        "word_normalized": "MAN",
+                        "start": 0.42,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.42,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.54,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.63,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.472416490316391
+                    },
+                    {
+                        "word": " cannot",
+                        "word_normalized": "CANNOT",
+                        "start": 0.72,
+                        "duration": 0.33,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 0.72,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.78,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.84,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.87,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.9,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.99,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.45688432455062866
+                    },
+                    {
+                        "word": " conquer",
+                        "word_normalized": "CONQUER",
+                        "start": 1.05,
+                        "duration": 0.36000000000000004,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 1.05,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.11,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.2,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "q",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.29,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.32,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.35,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7802517414093018
+                    },
+                    {
+                        "word": " them.",
+                        "word_normalized": "THEM",
+                        "start": 1.41,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.44,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.47,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 1.5,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8417322039604187
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 4272.6778,
+            "a1": 6087.2348,
+            "a2": 6028.6498,
+            "b1": 7373.2678,
+            "b2": 3217.66,
+            "c": 8285.5269
+        }
+    }
+}

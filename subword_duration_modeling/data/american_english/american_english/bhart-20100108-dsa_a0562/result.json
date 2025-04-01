@@ -1,0 +1,184 @@
+{
+    "task_id": "bhart-20100108-dsa_a0562",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/bhart-20100108-dsa/wav/a0562.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/bhart-20100108-dsa_a0562/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4183571338653564,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.05609418282548485,
+        "noise": 129.89596964515843,
+        "duration": 3.125,
+        "snr": 20.498543187588346,
+        "zcr": 0.019341916454081634,
+        "speech_energy": 12.263406060990835,
+        "noise_energy": 0.10933439092089733
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.5034713745117188
+        },
+        "language": "en",
+        "text": "What the Flaming?",
+        "text_normalized": "WHAT THE FLAMING",
+        "segments": [
+            {
+                "text": "What the Flaming?",
+                "text_normalized": "WHAT THE FLAMING",
+                "start": 0.0,
+                "duration": 1.53,
+                "temperature": false,
+                "avg_logprob": -0.4628444015979767,
+                "compression_ratio": 0.68,
+                "no_speech_prob": 0.005853267852216959,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.48,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "What",
+                        "word_normalized": "WHAT",
+                        "start": 0.48,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.48,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.6,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.66,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.69,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8452669382095337
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 0.84,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.84,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.87,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.9,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8590962886810303
+                    },
+                    {
+                        "word": " Flaming?",
+                        "word_normalized": "FLAMING",
+                        "start": 0.93,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.93,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.02,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.11,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 1.2,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.35,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.44,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5879202112555504
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 3301.2251,
+            "a1": 1999.7468,
+            "a2": 2380.4007,
+            "b1": 2808.6655,
+            "b2": 3267.3839,
+            "c": 2973.3784
+        }
+    }
+}

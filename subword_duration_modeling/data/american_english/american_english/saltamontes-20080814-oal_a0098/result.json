@@ -1,0 +1,204 @@
+{
+    "task_id": "saltamontes-20080814-oal_a0098",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/saltamontes-20080814-oal/wav/a0098.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/saltamontes-20080814-oal_a0098/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.8689820766448975,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.375,
+        "snr": 22.436082344407694,
+        "zcr": 0.1642578125,
+        "speech_energy": 17.473052779833477,
+        "noise_energy": 0.09971501394396735
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 2.121058225631714
+        },
+        "language": "en",
+        "text": "Sure I carry you.",
+        "text_normalized": "SURE I CARRY YOU",
+        "segments": [
+            {
+                "text": "Sure I carry you.",
+                "text_normalized": "SURE I CARRY YOU",
+                "start": 0.0,
+                "duration": 1.92,
+                "temperature": false,
+                "avg_logprob": -0.30647602677345276,
+                "compression_ratio": 0.68,
+                "no_speech_prob": 0.015480886213481426,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.27,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Sure",
+                        "word_normalized": "SURE",
+                        "start": 0.27,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.27,
+                                "duration": 0.24,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.51,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.63,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.43139493465423584
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.81,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.81,
+                                "duration": 0.15,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " I",
+                        "word_normalized": "I",
+                        "start": 0.96,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.96,
+                                "duration": 0.21,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7085438966751099
+                    },
+                    {
+                        "word": " carry",
+                        "word_normalized": "CARRY",
+                        "start": 1.17,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 1.17,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.35,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.5,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.53,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.59,
+                                "duration": 0.21,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8910088539123535
+                    },
+                    {
+                        "word": " you.",
+                        "word_normalized": "YOU",
+                        "start": 1.8,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 1.8,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.83,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.86,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7479444742202759
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 515.9173,
+            "a1": 1053.2225,
+            "a2": 612.2659,
+            "b1": 549.9965,
+            "b2": 562.4709,
+            "c": 537.1555
+        }
+    }
+}

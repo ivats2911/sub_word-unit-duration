@@ -1,0 +1,238 @@
+{
+    "task_id": "anonymous-20110901-hmf_a0215",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/anonymous-20110901-hmf/wav/a0215.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/anonymous-20110901-hmf_a0215/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0944931507110596,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.020208932549278635,
+        "noise": -1.0,
+        "duration": 5.376,
+        "snr": 35.82078399859269,
+        "zcr": 0.2247133875739645,
+        "speech_energy": 12.76465411539431,
+        "noise_energy": 0.00334141679621976
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.052069902420044
+        },
+        "language": "en",
+        "text": "They die out of spite.",
+        "text_normalized": "THEY DIE OUT OF SPITE",
+        "segments": [
+            {
+                "text": "They die out of spite.",
+                "text_normalized": "THEY DIE OUT OF SPITE",
+                "start": 0.0,
+                "duration": 3.63,
+                "temperature": false,
+                "avg_logprob": -0.6221834288703071,
+                "compression_ratio": 0.7333333333333333,
+                "no_speech_prob": 0.008342741057276726,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.65,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.65,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "They",
+                        "word_normalized": "THEY",
+                        "start": 1.65,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.74,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.77,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.8,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8612900972366333
+                    },
+                    {
+                        "word": " die",
+                        "word_normalized": "DIE",
+                        "start": 1.92,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 1.92,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.98,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.19,
+                                "duration": 0.21,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8803845047950745
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.4,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.4,
+                                "duration": 0.09,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " out",
+                        "word_normalized": "OUT",
+                        "start": 2.49,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 2.49,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.67,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 2.73,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9637728929519653
+                    },
+                    {
+                        "word": " of",
+                        "word_normalized": "OF",
+                        "start": 2.82,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 2.82,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 2.88,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9982695579528809
+                    },
+                    {
+                        "word": " spite.",
+                        "word_normalized": "SPITE",
+                        "start": 2.91,
+                        "duration": 0.72,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 2.91,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "p",
+                                "start": 3.06,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 3.15,
+                                "duration": 0.24,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 3.39,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 3.45,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.1376909464597702
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 2263.9493,
+            "a1": 2798.122,
+            "a2": 1507.1854,
+            "b1": 1901.1515,
+            "b2": 2051.0049,
+            "c": 2265.3403
+        }
+    }
+}

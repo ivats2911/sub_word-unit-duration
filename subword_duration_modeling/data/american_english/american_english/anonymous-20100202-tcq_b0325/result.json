@@ -1,0 +1,264 @@
+{
+    "task_id": "anonymous-20100202-tcq_b0325",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20100202-tcq/wav/b0325.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20100202-tcq_b0325/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.5147302150726318,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.005336871167843958,
+        "noise": 213.98361438346544,
+        "duration": 4.375,
+        "snr": 4.185863268221621,
+        "zcr": 0.10727574703467153,
+        "speech_energy": 106.24674783236739,
+        "noise_energy": 40.52558740626813
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.5233426094055176
+        },
+        "language": "en",
+        "text": "It was a jagiantic in accuracy.",
+        "text_normalized": "IT WAS A JAGIANTIC IN ACCURACY",
+        "segments": [
+            {
+                "text": "It was a jagiantic in accuracy.",
+                "text_normalized": "IT WAS A JAGIANTIC IN ACCURACY",
+                "start": 0.0,
+                "duration": 2.8200000000000003,
+                "temperature": false,
+                "avg_logprob": -0.7732744950514573,
+                "compression_ratio": 0.7948717948717948,
+                "no_speech_prob": 0.001457142410799861,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.9,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.9,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It",
+                        "word_normalized": "IT",
+                        "start": 0.9,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.9,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.99,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8720345497131348
+                    },
+                    {
+                        "word": " was",
+                        "word_normalized": "WAS",
+                        "start": 1.05,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 1.05,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.08,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9964981079101562
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 1.23,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.23,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9714494943618774
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.35,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.35,
+                                "duration": 0.51,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " jagiantic",
+                        "word_normalized": "JAGIANTIC",
+                        "start": 1.86,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.86,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.44201673567295074
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.98,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.98,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " in",
+                        "word_normalized": "IN",
+                        "start": 2.01,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 2.01,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.1,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6251392364501953
+                    },
+                    {
+                        "word": " accuracy.",
+                        "word_normalized": "ACCURACY",
+                        "start": 2.16,
+                        "duration": 0.66,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 2.16,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 2.34,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 2.4,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.43,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.46,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.49,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 2.52,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 2.61,
+                                "duration": 0.21,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.03440714627504349
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 167.9345,
+            "a1": 291.0851,
+            "a2": 291.9712,
+            "b1": 235.7762,
+            "b2": 150.1689,
+            "c": 217.8412
+        }
+    }
+}

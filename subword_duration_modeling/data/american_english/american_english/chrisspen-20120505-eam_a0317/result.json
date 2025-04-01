@@ -1,0 +1,204 @@
+{
+    "task_id": "chrisspen-20120505-eam_a0317",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/chrisspen-20120505-eam/wav/a0317.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/chrisspen-20120505-eam_a0317/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.7874202728271484,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.0034343691892463326,
+        "noise": -1.0,
+        "duration": 5.078125,
+        "snr": 25.135253984392637,
+        "zcr": 0.15768106328616352,
+        "speech_energy": 257.840562749792,
+        "noise_energy": 0.7903616185541505
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0024056434631348
+        },
+        "language": "en",
+        "text": "It was a wise idea.",
+        "text_normalized": "IT WAS A WISE IDEA",
+        "segments": [
+            {
+                "text": "It was a wise idea.",
+                "text_normalized": "IT WAS A WISE IDEA",
+                "start": 0.0,
+                "duration": 3.2399999999999998,
+                "temperature": false,
+                "avg_logprob": -0.45965131123860675,
+                "compression_ratio": 0.7037037037037037,
+                "no_speech_prob": 0.014071710407733917,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 2.16,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 2.16,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It",
+                        "word_normalized": "IT",
+                        "start": 2.16,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 2.16,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 2.25,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.46549054980278015
+                    },
+                    {
+                        "word": " was",
+                        "word_normalized": "WAS",
+                        "start": 2.28,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 2.28,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.34,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.4,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9971752166748047
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 2.46,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 2.46,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9609537124633789
+                    },
+                    {
+                        "word": " wise",
+                        "word_normalized": "WISE",
+                        "start": 2.49,
+                        "duration": 0.38999999999999996,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 2.49,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.58,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.73,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.82,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6597141623497009
+                    },
+                    {
+                        "word": " idea.",
+                        "word_normalized": "IDEA",
+                        "start": 2.88,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 2.88,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.91,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 3.06,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 3.09,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.48119527101516724
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 158.8303,
+            "a1": 280.5326,
+            "a2": 224.2505,
+            "b1": 167.2438,
+            "b2": 146.8419,
+            "c": 143.4113
+        }
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "task_id": "anonymous-20100106-eyq_a0015",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20100106-eyq/wav/a0015.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20100106-eyq_a0015/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1178343296051025,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.08819573111664057,
+        "noise": 169.7871767916104,
+        "duration": 3.625,
+        "snr": 0.8991986513903155,
+        "zcr": 0.03574304413377193,
+        "speech_energy": 5.367351261277992,
+        "noise_energy": 4.363551972847846
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.1206893920898438
+        },
+        "language": "en",
+        "text": "It's the Royales.",
+        "text_normalized": "IT'S THE ROYALES",
+        "segments": [
+            {
+                "text": "It's the Royales.",
+                "text_normalized": "IT'S THE ROYALES",
+                "start": 0.0,
+                "duration": 2.4,
+                "temperature": false,
+                "avg_logprob": -0.6043053732977973,
+                "compression_ratio": 0.68,
+                "no_speech_prob": 0.003058881964534521,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.63,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It's",
+                        "word_normalized": "IT'S",
+                        "start": 0.63,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.63,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t;A",
+                                "start": 0.78,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.84,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.946090042591095
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.93,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.93,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 0.96,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.96,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.05,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.830057680606842
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.23,
+                        "duration": 1.14,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.23,
+                                "duration": 1.14,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Royales.",
+                        "word_normalized": "ROYALES",
+                        "start": 2.37,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.37,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.1995007023215294
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 56.0273,
+            "a1": 96.2942,
+            "a2": 70.5342,
+            "b1": 60.9256,
+            "b2": 52.2516,
+            "c": 55.7443
+        }
+    }
+}

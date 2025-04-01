@@ -1,0 +1,204 @@
+{
+    "task_id": "anonymous-20080702-jqa_b0339",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20080702-jqa/wav/b0339.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20080702-jqa_b0339/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.5311763286590576,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.625,
+        "snr": 21.543622050892793,
+        "zcr": 0.10299792921686747,
+        "speech_energy": 815.4657965307838,
+        "noise_energy": 5.715359392620268
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.805426836013794
+        },
+        "language": "en",
+        "text": "Well, I'll be from Gashdand.",
+        "text_normalized": "WELL I'LL BE FROM GASHDAND",
+        "segments": [
+            {
+                "text": "Well, I'll be from Gashdand.",
+                "text_normalized": "WELL I'LL BE FROM GASHDAND",
+                "start": 0.0,
+                "duration": 2.43,
+                "temperature": false,
+                "avg_logprob": -0.5585214069911412,
+                "compression_ratio": 0.7777777777777778,
+                "no_speech_prob": 0.0039968471974134445,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.21,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Well,",
+                        "word_normalized": "WELL",
+                        "start": 0.21,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.21,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.27,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.36,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.39,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.21754446625709534
+                    },
+                    {
+                        "word": " I'll",
+                        "word_normalized": "I'LL",
+                        "start": 0.45,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "i;A",
+                                "start": 0.45,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.48,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.6,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8454107344150543
+                    },
+                    {
+                        "word": " be",
+                        "word_normalized": "BE",
+                        "start": 0.66,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 0.66,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.72,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9921574592590332
+                    },
+                    {
+                        "word": " from",
+                        "word_normalized": "FROM",
+                        "start": 0.87,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.87,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.99,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.05,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 1.14,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.18147818744182587
+                    },
+                    {
+                        "word": " Gashdand.",
+                        "word_normalized": "GASHDAND",
+                        "start": 1.32,
+                        "duration": 1.11,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.32,
+                                "duration": 1.11,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.616356760263443
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 137.0408,
+            "a1": 493.7705,
+            "a2": 389.8299,
+            "b1": 293.6805,
+            "b2": 140.7181,
+            "c": 99.1631
+        }
+    }
+}

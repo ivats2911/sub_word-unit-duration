@@ -1,0 +1,194 @@
+{
+    "task_id": "Nadim-20100515-mwu_b0435",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Nadim-20100515-mwu/wav/b0435.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Nadim-20100515-mwu_b0435/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0506725311279297,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.03751724697670648,
+        "noise": -1.0,
+        "duration": 3.1573125,
+        "snr": 20.821919788667792,
+        "zcr": 0.0501104797979798,
+        "speech_energy": 134.86600852594142,
+        "noise_energy": 1.116119062199312
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.705259084701538
+        },
+        "language": "en",
+        "text": "Well did they eat?",
+        "text_normalized": "WELL DID THEY EAT",
+        "segments": [
+            {
+                "text": "Well did they eat?",
+                "text_normalized": "WELL DID THEY EAT",
+                "start": 0.0,
+                "duration": 1.74,
+                "temperature": false,
+                "avg_logprob": -0.3481854796409607,
+                "compression_ratio": 0.6923076923076923,
+                "no_speech_prob": 0.0040393732488155365,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.51,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Well",
+                        "word_normalized": "WELL",
+                        "start": 0.51,
+                        "duration": 0.44999999999999996,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.51,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.63,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.78,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.87,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7528524398803711
+                    },
+                    {
+                        "word": " did",
+                        "word_normalized": "DID",
+                        "start": 0.96,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.96,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.02,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.11,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6001405715942383
+                    },
+                    {
+                        "word": " they",
+                        "word_normalized": "THEY",
+                        "start": 1.17,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.26,
+                                "duration": 0.24,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9180418252944946
+                    },
+                    {
+                        "word": " eat?",
+                        "word_normalized": "EAT",
+                        "start": 1.5,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "e",
+                                "start": 1.5,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.53,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.56,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9733242988586426
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 789.0419,
+            "a1": 968.9469,
+            "a2": 389.8702,
+            "b1": 872.0877,
+            "b2": 758.1934,
+            "c": 908.9501
+        }
+    }
+}

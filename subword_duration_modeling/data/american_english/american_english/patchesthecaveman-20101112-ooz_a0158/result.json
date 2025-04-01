@@ -1,0 +1,178 @@
+{
+    "task_id": "patchesthecaveman-20101112-ooz_a0158",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/patchesthecaveman-20101112-ooz/wav/a0158.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/patchesthecaveman-20101112-ooz_a0158/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0302863121032715,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.2359934886224848,
+        "noise": -1.0,
+        "duration": 3.25,
+        "snr": 9.481330681421888,
+        "zcr": 0.0744485294117647,
+        "speech_energy": 9.868817688316426,
+        "noise_energy": 1.1120698281696866
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.744727611541748
+        },
+        "language": "en",
+        "text": "Is that looking?",
+        "text_normalized": "IS THAT LOOKING",
+        "segments": [
+            {
+                "text": "Is that looking?",
+                "text_normalized": "IS THAT LOOKING",
+                "start": 0.0,
+                "duration": 1.77,
+                "temperature": false,
+                "avg_logprob": -0.5622283731188092,
+                "compression_ratio": 0.6666666666666666,
+                "no_speech_prob": 0.0335489846765995,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.84,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.84,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Is",
+                        "word_normalized": "IS",
+                        "start": 0.84,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.84,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.87,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.28675806522369385
+                    },
+                    {
+                        "word": " that",
+                        "word_normalized": "THAT",
+                        "start": 0.99,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.99,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.05,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.08,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.17,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9859746098518372
+                    },
+                    {
+                        "word": " looking?",
+                        "word_normalized": "LOOKING",
+                        "start": 1.26,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "l",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.35,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.38,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "k",
+                                "start": 1.41,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.53,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.68,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.71,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6063851118087769
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 358.3026,
+            "a1": 277.0289,
+            "a2": 248.4563,
+            "b1": 332.3725,
+            "b2": 503.1818,
+            "c": 427.9569
+        }
+    }
+}

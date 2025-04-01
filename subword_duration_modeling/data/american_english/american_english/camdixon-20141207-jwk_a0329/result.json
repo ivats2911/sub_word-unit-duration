@@ -1,0 +1,130 @@
+{
+    "task_id": "camdixon-20141207-jwk_a0329",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/camdixon-20141207-jwk/wav/a0329.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/camdixon-20141207-jwk_a0329/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0388634204864502,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.875,
+        "snr": -13.352768454735306,
+        "zcr": 0.1100802951388889,
+        "speech_energy": 1.5048127788572738,
+        "noise_energy": 32.565617387493454
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 2.0091075897216797
+        },
+        "language": "en",
+        "text": "I did.",
+        "text_normalized": "I DID",
+        "segments": [
+            {
+                "text": "I did.",
+                "text_normalized": "I DID",
+                "start": 0.0,
+                "duration": 1.1400000000000001,
+                "temperature": false,
+                "avg_logprob": -0.33435940742492676,
+                "compression_ratio": 0.42857142857142855,
+                "no_speech_prob": 0.027639450505375862,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.24,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I",
+                        "word_normalized": "I",
+                        "start": 0.24,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.24,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7304369211196899
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.27,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.27,
+                                "duration": 0.51,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " did.",
+                        "word_normalized": "DID",
+                        "start": 0.78,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.78,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.9,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.05,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8269612193107605
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 41.828,
+            "a1": 21.9702,
+            "a2": 45.2029,
+            "b1": 37.1108,
+            "b2": 47.7163,
+            "c": 49.4349
+        }
+    }
+}

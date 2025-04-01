@@ -1,0 +1,122 @@
+{
+    "task_id": "anonymous-20110802-dgv_b0159",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20110802-dgv/wav/b0159.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20110802-dgv_b0159/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.386756420135498,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 1.875,
+        "snr": Infinity,
+        "zcr": 0.1267296742584746,
+        "speech_energy": Infinity,
+        "noise_energy": Infinity
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.35826969146728516
+        },
+        "language": "en",
+        "text": " Thank you.",
+        "text_normalized": "THANK YOU",
+        "segments": [
+            {
+                "text": " Thank you.",
+                "text_normalized": "THANK YOU",
+                "start": 0.0,
+                "duration": 0.24,
+                "temperature": false,
+                "avg_logprob": -0.48834089438120526,
+                "compression_ratio": 0.5555555555555556,
+                "no_speech_prob": 0.02638171799480915,
+                "words": [
+                    {
+                        "word": " Thank",
+                        "word_normalized": "THANK",
+                        "start": 0.0,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.0,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.03,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.06,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.09,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "k",
+                                "start": 0.12,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.17031273245811462
+                    },
+                    {
+                        "word": " you.",
+                        "word_normalized": "YOU",
+                        "start": 0.15,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 0.15,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.18,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.21,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8914692401885986
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 81.1584,
+            "a1": 101.7029,
+            "a2": 68.5383,
+            "b1": 73.8811,
+            "b2": 98.734,
+            "c": 89.7636
+        }
+    }
+}

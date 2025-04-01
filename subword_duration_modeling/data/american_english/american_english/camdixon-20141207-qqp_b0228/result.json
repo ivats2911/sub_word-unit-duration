@@ -1,0 +1,162 @@
+{
+    "task_id": "camdixon-20141207-qqp_b0228",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/camdixon-20141207-qqp/wav/b0228.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/camdixon-20141207-qqp_b0228/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4457838535308838,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.625,
+        "snr": 8.265600704617654,
+        "zcr": 0.1799934111445783,
+        "speech_energy": 5.568300353156196,
+        "noise_energy": 0.8301614887184567
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.7297861576080322
+        },
+        "language": "en",
+        "text": "You're engaged.",
+        "text_normalized": "YOU'RE ENGAGED",
+        "segments": [
+            {
+                "text": "You're engaged.",
+                "text_normalized": "YOU'RE ENGAGED",
+                "start": 0.0,
+                "duration": 1.17,
+                "temperature": false,
+                "avg_logprob": -0.36297413281032015,
+                "compression_ratio": 0.6521739130434783,
+                "no_speech_prob": 0.00994063913822174,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.18,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "You're",
+                        "word_normalized": "YOU'RE",
+                        "start": 0.18,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 0.18,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.27,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u;A",
+                                "start": 0.33,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.36,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.42,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5349694490432739
+                    },
+                    {
+                        "word": " engaged.",
+                        "word_normalized": "ENGAGED",
+                        "start": 0.45,
+                        "duration": 0.72,
+                        "phones": [
+                            {
+                                "phone": "e",
+                                "start": 0.45,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.48,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 0.57,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.6,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 0.81,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.99,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.08,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9815386533737183
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 7082.1778,
+            "a1": 7262.1791,
+            "a2": 5287.6995,
+            "b1": 6917.2485,
+            "b2": 7339.503,
+            "c": 7074.028
+        }
+    }
+}

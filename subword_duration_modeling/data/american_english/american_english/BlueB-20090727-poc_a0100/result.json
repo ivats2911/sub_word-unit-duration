@@ -1,0 +1,252 @@
+{
+    "task_id": "BlueB-20090727-poc_a0100",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/BlueB-20090727-poc/wav/a0100.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/BlueB-20090727-poc_a0100/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.472963571548462,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.048,
+        "snr": 21.03681589952479,
+        "zcr": 0.06695462740384615,
+        "speech_energy": 2.201707705303475,
+        "noise_energy": 0.017341157087148763
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.7864131927490234
+        },
+        "language": "en",
+        "text": "You must sleep here arched.",
+        "text_normalized": "YOU MUST SLEEP HERE ARCHED",
+        "segments": [
+            {
+                "text": "You must sleep here arched.",
+                "text_normalized": "YOU MUST SLEEP HERE ARCHED",
+                "start": 0.0,
+                "duration": 1.74,
+                "temperature": false,
+                "avg_logprob": -0.5055368423461915,
+                "compression_ratio": 0.7714285714285715,
+                "no_speech_prob": 0.005198515485972166,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.39,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "You",
+                        "word_normalized": "YOU",
+                        "start": 0.39,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 0.39,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.51,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.54,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7261711359024048
+                    },
+                    {
+                        "word": " must",
+                        "word_normalized": "MUST",
+                        "start": 0.57,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.57,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.6,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.66,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.69,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9879094958305359
+                    },
+                    {
+                        "word": " sleep",
+                        "word_normalized": "SLEEP",
+                        "start": 0.72,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.72,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.75,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.87,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.9,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "p",
+                                "start": 0.96,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8910271525382996
+                    },
+                    {
+                        "word": " here",
+                        "word_normalized": "HERE",
+                        "start": 1.05,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 1.05,
+                                "duration": 0.21,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.29,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.32,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.34534120559692383
+                    },
+                    {
+                        "word": " arched.",
+                        "word_normalized": "ARCHED",
+                        "start": 1.44,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.44,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.47,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 1.5,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.59,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.62,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.41568242385983467
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 3533.7306,
+            "a1": 2936.5231,
+            "a2": 3292.3049,
+            "b1": 2669.9315,
+            "b2": 4061.3161,
+            "c": 5024.7767
+        }
+    }
+}

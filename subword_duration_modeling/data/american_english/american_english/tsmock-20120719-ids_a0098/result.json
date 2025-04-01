@@ -1,0 +1,194 @@
+{
+    "task_id": "tsmock-20120719-ids_a0098",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/tsmock-20120719-ids/wav/a0098.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/tsmock-20120719-ids_a0098/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4442901611328125,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.21777777777777763,
+        "noise": -1.0,
+        "duration": 3.5,
+        "snr": 16.54840462155112,
+        "zcr": 0.17591441761363635,
+        "speech_energy": 9.244358027824246,
+        "noise_energy": 0.20466156696018423
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.6948959827423096
+        },
+        "language": "en",
+        "text": " Shall I carry you?",
+        "text_normalized": "SHALL I CARRY YOU",
+        "segments": [
+            {
+                "text": " Shall I carry you?",
+                "text_normalized": "SHALL I CARRY YOU",
+                "start": 0.0,
+                "duration": 1.56,
+                "temperature": false,
+                "avg_logprob": -0.48745670914649963,
+                "compression_ratio": 0.6923076923076923,
+                "no_speech_prob": 0.02442597597837448,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.57,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Shall",
+                        "word_normalized": "SHALL",
+                        "start": 0.57,
+                        "duration": 0.30000000000000004,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.57,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.69,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.78,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.81,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.84,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.1411152333021164
+                    },
+                    {
+                        "word": " I",
+                        "word_normalized": "I",
+                        "start": 0.87,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.87,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9943941831588745
+                    },
+                    {
+                        "word": " carry",
+                        "word_normalized": "CARRY",
+                        "start": 0.96,
+                        "duration": 0.48000000000000004,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 0.96,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.05,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.17,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.26,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7231308221817017
+                    },
+                    {
+                        "word": " you?",
+                        "word_normalized": "YOU",
+                        "start": 1.44,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 1.44,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.47,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.5,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9735434055328369
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1170.1458,
+            "a1": 1705.7684,
+            "a2": 1195.6389,
+            "b1": 1405.1413,
+            "b2": 1803.6823,
+            "c": 934.2005
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "task_id": "anonymous-20120601-hxs_a0015",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20120601-hxs/wav/a0015.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20120601-hxs_a0015/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.5037977695465088,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.002770083102493076,
+        "noise": -1.0,
+        "duration": 4.125,
+        "snr": -11.539738717210941,
+        "zcr": 0.08030523255813954,
+        "speech_energy": 1.4534271674023733,
+        "noise_energy": 20.71892152458024
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.8348510265350342
+        },
+        "language": "en",
+        "text": "It's the Royales.",
+        "text_normalized": "IT'S THE ROYALES",
+        "segments": [
+            {
+                "text": "It's the Royales.",
+                "text_normalized": "IT'S THE ROYALES",
+                "start": 0.0,
+                "duration": 2.37,
+                "temperature": false,
+                "avg_logprob": -0.7215521070692275,
+                "compression_ratio": 0.68,
+                "no_speech_prob": 0.010631845332682133,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.69,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.69,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It's",
+                        "word_normalized": "IT'S",
+                        "start": 0.69,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.69,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t;A",
+                                "start": 0.81,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.9,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9317803084850311
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 0.96,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.96,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.05,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.960759699344635
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.2,
+                        "duration": 0.78,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.2,
+                                "duration": 0.78,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Royales.",
+                        "word_normalized": "ROYALES",
+                        "start": 1.98,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.98,
+                                "duration": 0.39,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.14466398768126965
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 56.0273,
+            "a1": 96.2942,
+            "a2": 70.5342,
+            "b1": 60.9256,
+            "b2": 52.2516,
+            "c": 55.7443
+        }
+    }
+}

@@ -1,0 +1,234 @@
+{
+    "task_id": "glasnost-20110202-kds_b0246",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/glasnost-20110202-kds/wav/b0246.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/glasnost-20110202-kds_b0246/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.6458377838134766,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.013641892156707768,
+        "noise": -1.0,
+        "duration": 4.125,
+        "snr": 27.700245334071,
+        "zcr": 0.09005571705426356,
+        "speech_energy": 75.08928444650438,
+        "noise_energy": 0.12751269725061232
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.7625393867492676
+        },
+        "language": "en",
+        "text": "The boy grew in prosper.",
+        "text_normalized": "THE BOY GREW IN PROSPER",
+        "segments": [
+            {
+                "text": "The boy grew in prosper.",
+                "text_normalized": "THE BOY GREW IN PROSPER",
+                "start": 0.0,
+                "duration": 2.37,
+                "temperature": false,
+                "avg_logprob": -0.28922730022006565,
+                "compression_ratio": 0.75,
+                "no_speech_prob": 0.005495499819517136,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.93,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.93,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "The",
+                        "word_normalized": "THE",
+                        "start": 0.93,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.93,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.05,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8398064374923706
+                    },
+                    {
+                        "word": " boy",
+                        "word_normalized": "BOY",
+                        "start": 1.11,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.23,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9789734482765198
+                    },
+                    {
+                        "word": " grew",
+                        "word_normalized": "GREW",
+                        "start": 1.35,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "g",
+                                "start": 1.35,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.44,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.56,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 1.59,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9855247139930725
+                    },
+                    {
+                        "word": " in",
+                        "word_normalized": "IN",
+                        "start": 1.71,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.71,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.77,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7151777148246765
+                    },
+                    {
+                        "word": " prosper.",
+                        "word_normalized": "PROSPER",
+                        "start": 1.86,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 1.86,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.92,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.98,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.04,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "p",
+                                "start": 2.1,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.22,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.25,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.45030879974365234
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 3073.6196,
+            "a1": 3339.2589,
+            "a2": 1975.2256,
+            "b1": 3176.8753,
+            "b2": 3440.4622,
+            "c": 4151.4528
+        }
+    }
+}

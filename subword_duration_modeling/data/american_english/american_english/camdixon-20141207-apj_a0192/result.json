@@ -1,0 +1,200 @@
+{
+    "task_id": "camdixon-20141207-apj_a0192",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/camdixon-20141207-apj/wav/a0192.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/camdixon-20141207-apj_a0192/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.6258859634399414,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.23489020872443261,
+        "noise": -1.0,
+        "duration": 3.125,
+        "snr": 15.936645824230546,
+        "zcr": 0.15537308673469388,
+        "speech_energy": 8.758931017170351,
+        "noise_energy": 0.22324745853741962
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8394522666931152
+        },
+        "language": "en",
+        "text": "He did not Russian.",
+        "text_normalized": "HE DID NOT RUSSIAN",
+        "segments": [
+            {
+                "text": "He did not Russian.",
+                "text_normalized": "HE DID NOT RUSSIAN",
+                "start": 0.0,
+                "duration": 1.5,
+                "temperature": false,
+                "avg_logprob": -0.48225972056388855,
+                "compression_ratio": 0.7037037037037037,
+                "no_speech_prob": 0.0128960981965065,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.54,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "He",
+                        "word_normalized": "HE",
+                        "start": 0.54,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.54,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.6,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.26544150710105896
+                    },
+                    {
+                        "word": " did",
+                        "word_normalized": "DID",
+                        "start": 0.66,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.66,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.72,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 0.84,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7397160530090332
+                    },
+                    {
+                        "word": " not",
+                        "word_normalized": "NOT",
+                        "start": 0.87,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.87,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.9,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.839902937412262
+                    },
+                    {
+                        "word": " Russian.",
+                        "word_normalized": "RUSSIAN",
+                        "start": 1.02,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "r",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.05,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.2,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.29,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.38,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7551270127296448
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 296.2648,
+            "a1": 515.5608,
+            "a2": 230.6959,
+            "b1": 413.3139,
+            "b2": 323.1321,
+            "c": 259.8843
+        }
+    }
+}

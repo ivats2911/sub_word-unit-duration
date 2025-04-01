@@ -1,0 +1,276 @@
+{
+    "task_id": "mgmiller-20080319-srh_a0066",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/mgmiller-20080319-srh/wav/a0066.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/mgmiller-20080319-srh_a0066/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.5168673992156982,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.12885357540618592,
+        "noise": -1.0,
+        "duration": 3.25,
+        "snr": 11.763400764395568,
+        "zcr": 0.03284409466911765,
+        "speech_energy": 137.35228254638537,
+        "noise_energy": 9.151574185020046
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.3623945713043213
+        },
+        "language": "en",
+        "text": "He saw a gene forter for a moment.",
+        "text_normalized": "HE SAW A GENE FORTER FOR A MOMENT",
+        "segments": [
+            {
+                "text": "He saw a gene forter for a moment.",
+                "text_normalized": "HE SAW A GENE FORTER FOR A MOMENT",
+                "start": 0.0,
+                "duration": 2.5500000000000003,
+                "temperature": false,
+                "avg_logprob": -0.5159577956566443,
+                "compression_ratio": 0.8947368421052632,
+                "no_speech_prob": 0.0025590229779481888,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.57,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "He",
+                        "word_normalized": "HE",
+                        "start": 0.57,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.57,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.66,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7196148633956909
+                    },
+                    {
+                        "word": " saw",
+                        "word_normalized": "SAW",
+                        "start": 0.72,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.72,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.84,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 0.9,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.35516512393951416
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 0.96,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 0.96,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.959528386592865
+                    },
+                    {
+                        "word": " gene",
+                        "word_normalized": "GENE",
+                        "start": 1.05,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "g",
+                                "start": 1.05,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.11,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.35,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.23737581074237823
+                    },
+                    {
+                        "word": " forter",
+                        "word_normalized": "FORTER",
+                        "start": 1.44,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.44,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.32949098944664
+                    },
+                    {
+                        "word": " for",
+                        "word_normalized": "FOR",
+                        "start": 1.47,
+                        "duration": 0.69,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 1.47,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.56,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.71,
+                                "duration": 0.45,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9875478744506836
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 2.16,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 2.16,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9907243847846985
+                    },
+                    {
+                        "word": " moment.",
+                        "word_normalized": "MOMENT",
+                        "start": 2.22,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 2.22,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.25,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 2.34,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.37,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.4,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 2.43,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9988042116165161
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 533.177,
+            "a1": 1290.9644,
+            "a2": 678.5336,
+            "b1": 706.4338,
+            "b2": 507.9087,
+            "c": 514.382
+        }
+    }
+}

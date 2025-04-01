@@ -1,0 +1,206 @@
+{
+    "task_id": "richard-20090828-soi_b0173",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/richard-20090828-soi/wav/b0173.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/richard-20090828-soi_b0173/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.091057538986206,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.25,
+        "snr": 21.701474161387495,
+        "zcr": 0.1065828565140845,
+        "speech_energy": 10.607639654486809,
+        "noise_energy": 0.07169210662444432
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.3716514110565186
+        },
+        "language": "en",
+        "text": "To D C gave Castroil.",
+        "text_normalized": "TO D C GAVE CASTROIL",
+        "segments": [
+            {
+                "text": "To D C gave Castroil.",
+                "text_normalized": "TO D C GAVE CASTROIL",
+                "start": 0.0,
+                "duration": 1.8900000000000001,
+                "temperature": false,
+                "avg_logprob": -0.7166780991987749,
+                "compression_ratio": 0.7241379310344828,
+                "no_speech_prob": 0.0014151056529954076,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.24,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "To",
+                        "word_normalized": "TO",
+                        "start": 0.24,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.24,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.39,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.33221158385276794
+                    },
+                    {
+                        "word": " D",
+                        "word_normalized": "D",
+                        "start": 0.48,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.48,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.36736443638801575
+                    },
+                    {
+                        "word": " C",
+                        "word_normalized": "C",
+                        "start": 0.63,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 0.63,
+                                "duration": 0.21,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4940648078918457
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.84,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.84,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " gave",
+                        "word_normalized": "GAVE",
+                        "start": 0.87,
+                        "duration": 0.96,
+                        "phones": [
+                            {
+                                "phone": "g",
+                                "start": 0.87,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.93,
+                                "duration": 0.84,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 1.77,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.8,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5624452829360962
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.83,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.83,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Castroil.",
+                        "word_normalized": "CASTROIL",
+                        "start": 1.86,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.86,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.41143983602523804
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 4812.8258,
+            "a1": 2190.9134,
+            "a2": 4748.1558,
+            "b1": 5775.972,
+            "b2": 7198.6371,
+            "c": 2788.6896
+        }
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "task_id": "anonymous-20100106-xov_a0317",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20100106-xov/wav/a0317.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20100106-xov_a0317/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.519146203994751,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.08025102520684713,
+        "noise": 118.87536359984433,
+        "duration": 3.125,
+        "snr": 15.222814201259034,
+        "zcr": 0.031045719068877552,
+        "speech_energy": 16.759665758629154,
+        "noise_energy": 0.5034819818460025
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8873941898345947
+        },
+        "language": "en",
+        "text": "He was a wise hyena.",
+        "text_normalized": "HE WAS A WISE HYENA",
+        "segments": [
+            {
+                "text": "He was a wise hyena.",
+                "text_normalized": "HE WAS A WISE HYENA",
+                "start": 0.0,
+                "duration": 1.6199999999999999,
+                "temperature": false,
+                "avg_logprob": -0.5077876567840576,
+                "compression_ratio": 0.7142857142857143,
+                "no_speech_prob": 0.004137156065553427,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.36,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "He",
+                        "word_normalized": "HE",
+                        "start": 0.36,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.36,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.45,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7667562961578369
+                    },
+                    {
+                        "word": " was",
+                        "word_normalized": "WAS",
+                        "start": 0.57,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.57,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.63,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.69,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9935691356658936
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 0.75,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9577130079269409
+                    },
+                    {
+                        "word": " wise",
+                        "word_normalized": "WISE",
+                        "start": 0.81,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.81,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.9,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.08,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.17,
+                                "duration": 0.24,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9065513610839844
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.41,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " hyena.",
+                        "word_normalized": "HYENA",
+                        "start": 1.44,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.44,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.2139211967587471
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 262.2255,
+            "a1": 676.8618,
+            "a2": 385.2787,
+            "b1": 313.9785,
+            "b2": 243.1784,
+            "c": 239.1663
+        }
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "task_id": "pcsnpny-20150321-ucd_a0389",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/pcsnpny-20150321-ucd/wav/a0389.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/pcsnpny-20150321-ucd_a0389/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.2745463848114014,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.375,
+        "snr": 46.467412188559656,
+        "zcr": 0.17780598958333332,
+        "speech_energy": 252.5805109679097,
+        "noise_energy": 0.005697162652557547
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.6479246616363525
+        },
+        "language": "en",
+        "text": " March she said.",
+        "text_normalized": "MARCH SHE SAID",
+        "segments": [
+            {
+                "text": " March she said.",
+                "text_normalized": "MARCH SHE SAID",
+                "start": 0.0,
+                "duration": 1.3199999999999998,
+                "temperature": false,
+                "avg_logprob": -0.6588536671229771,
+                "compression_ratio": 0.6521739130434783,
+                "no_speech_prob": 0.009656808339059353,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.33,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.33,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " March",
+                        "word_normalized": "MARCH",
+                        "start": 0.33,
+                        "duration": 0.42000000000000004,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.33,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.45,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.54,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 0.63,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.72,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.09246567636728287
+                    },
+                    {
+                        "word": " she",
+                        "word_normalized": "SHE",
+                        "start": 0.75,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.81,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.93,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4427292048931122
+                    },
+                    {
+                        "word": " said.",
+                        "word_normalized": "SAID",
+                        "start": 0.96,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.96,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.05,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.2,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8851713538169861
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1096.2258,
+            "a1": 532.0164,
+            "a2": 1272.6233,
+            "b1": 891.251,
+            "b2": 1219.2003,
+            "c": 1510.6021
+        }
+    }
+}

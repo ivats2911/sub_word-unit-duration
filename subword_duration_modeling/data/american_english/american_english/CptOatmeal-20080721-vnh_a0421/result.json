@@ -1,0 +1,204 @@
+{
+    "task_id": "CptOatmeal-20080721-vnh_a0421",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/CptOatmeal-20080721-vnh/wav/a0421.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/CptOatmeal-20080721-vnh_a0421/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0720348358154297,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.875,
+        "snr": 46.05740578727885,
+        "zcr": 0.11010199652777777,
+        "speech_energy": 150.65587918942023,
+        "noise_energy": 0.003734612147565241
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.103123664855957
+        },
+        "language": "en",
+        "text": "Bye Gally the boy wins.",
+        "text_normalized": "BYE GALLY THE BOY WINS",
+        "segments": [
+            {
+                "text": "Bye Gally the boy wins.",
+                "text_normalized": "BYE GALLY THE BOY WINS",
+                "start": 0.0,
+                "duration": 2.52,
+                "temperature": false,
+                "avg_logprob": -0.5617352398959073,
+                "compression_ratio": 0.7419354838709677,
+                "no_speech_prob": 0.004754764959216118,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.54,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Bye",
+                        "word_normalized": "BYE",
+                        "start": 0.54,
+                        "duration": 0.8099999999999999,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 0.54,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.63,
+                                "duration": 0.51,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.14,
+                                "duration": 0.21,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7737886905670166
+                    },
+                    {
+                        "word": " Gally",
+                        "word_normalized": "GALLY",
+                        "start": 1.35,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.35,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.448635071516037
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 1.47,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.47,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.56,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.59,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4495880901813507
+                    },
+                    {
+                        "word": " boy",
+                        "word_normalized": "BOY",
+                        "start": 1.65,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 1.65,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.68,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.83,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9159277677536011
+                    },
+                    {
+                        "word": " wins.",
+                        "word_normalized": "WINS",
+                        "start": 1.98,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 1.98,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.04,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.19,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.34,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9802291393280029
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 11977.7447,
+            "a1": 21689.5324,
+            "a2": 6236.272,
+            "b1": 11603.799,
+            "b2": 15008.9456,
+            "c": 27173.7792
+        }
+    }
+}

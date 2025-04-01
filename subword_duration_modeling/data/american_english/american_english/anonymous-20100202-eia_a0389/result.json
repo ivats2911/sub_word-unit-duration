@@ -1,0 +1,176 @@
+{
+    "task_id": "anonymous-20100202-eia_a0389",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20100202-eia/wav/a0389.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20100202-eia_a0389/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4300291538238525,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.11616918766348569,
+        "noise": 259.5046302740051,
+        "duration": 3.375,
+        "snr": 27.985498811053336,
+        "zcr": 0.075439453125,
+        "speech_energy": 75.55679760727227,
+        "noise_energy": 0.12014996854291447
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0187695026397705
+        },
+        "language": "en",
+        "text": "Mab. She said.",
+        "text_normalized": "MAB SHE SAID",
+        "segments": [
+            {
+                "text": "Mab. She said.",
+                "text_normalized": "MAB SHE SAID",
+                "start": 0.0,
+                "duration": 1.71,
+                "temperature": false,
+                "avg_logprob": -0.7618219057718912,
+                "compression_ratio": 0.6363636363636364,
+                "no_speech_prob": 0.010472195222973824,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.51,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Mab.",
+                        "word_normalized": "MAB",
+                        "start": 0.51,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.51,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.63,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "b",
+                                "start": 0.81,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.22800492122769356
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.99,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.99,
+                                "duration": 0.18,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " She",
+                        "word_normalized": "SHE",
+                        "start": 1.17,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 1.17,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.32,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8971792459487915
+                    },
+                    {
+                        "word": " said.",
+                        "word_normalized": "SAID",
+                        "start": 1.44,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 1.44,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.53,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.62,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.65,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9483231902122498
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 6336.5083,
+            "a1": 3053.1631,
+            "a2": 7370.1271,
+            "b1": 5765.3402,
+            "b2": 6877.4116,
+            "c": 8498.6501
+        }
+    }
+}

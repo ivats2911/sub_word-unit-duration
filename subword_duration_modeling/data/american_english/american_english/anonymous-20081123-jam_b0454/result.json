@@ -1,0 +1,190 @@
+{
+    "task_id": "anonymous-20081123-jam_b0454",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20081123-jam/wav/b0454.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20081123-jam_b0454/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.5259678363800049,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.5,
+        "snr": 17.597845878141783,
+        "zcr": 0.09150019778481013,
+        "speech_energy": 20.139304200808212,
+        "noise_energy": 0.35015463064878416
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9139444828033447
+        },
+        "language": "en",
+        "text": "Eighteen he added.",
+        "text_normalized": "EIGHTEEN HE ADDED",
+        "segments": [
+            {
+                "text": "Eighteen he added.",
+                "text_normalized": "EIGHTEEN HE ADDED",
+                "start": 0.0,
+                "duration": 1.98,
+                "temperature": false,
+                "avg_logprob": -0.3122839033603668,
+                "compression_ratio": 0.6923076923076923,
+                "no_speech_prob": 0.013616821728646755,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.78,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.78,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Eighteen",
+                        "word_normalized": "EIGHTEEN",
+                        "start": 0.78,
+                        "duration": 0.6599999999999999,
+                        "phones": [
+                            {
+                                "phone": "e",
+                                "start": 0.78,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.84,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 0.96,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.02,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.11,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.23,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.35,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6447969228029251
+                    },
+                    {
+                        "word": " he",
+                        "word_normalized": "HE",
+                        "start": 1.44,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 1.44,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.5,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.732791006565094
+                    },
+                    {
+                        "word": " added.",
+                        "word_normalized": "ADDED",
+                        "start": 1.62,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.62,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.68,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.77,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.8,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.86,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9751234650611877
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 5445.029,
+            "a1": 3552.8344,
+            "a2": 4087.191,
+            "b1": 4107.4761,
+            "b2": 5925.1592,
+            "c": 5014.4703
+        }
+    }
+}

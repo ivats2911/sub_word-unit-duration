@@ -1,0 +1,126 @@
+{
+    "task_id": "BlueB-20090727-ckj_a0028",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/BlueB-20090727-ckj/wav/a0028.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/BlueB-20090727-ckj_a0028/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.500673532485962,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.7306875,
+        "snr": Infinity,
+        "zcr": 0.02950127180232558,
+        "speech_energy": Infinity,
+        "noise_energy": Infinity
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9780580997467041
+        },
+        "language": "en",
+        "text": " Grabry, grabry, fraud.",
+        "text_normalized": "GRABRY GRABRY FRAUD",
+        "segments": [
+            {
+                "text": " Grabry, grabry, fraud.",
+                "text_normalized": "GRABRY GRABRY FRAUD",
+                "start": 0.0,
+                "duration": 2.25,
+                "temperature": false,
+                "avg_logprob": -0.8189402493563566,
+                "compression_ratio": 0.9166666666666666,
+                "no_speech_prob": 0.022558843716979027,
+                "words": [
+                    {
+                        "word": " Grabry,",
+                        "word_normalized": "GRABRY",
+                        "start": 0.0,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 0.24,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.16818903759121895
+                    },
+                    {
+                        "word": " grabry,",
+                        "word_normalized": "GRABRY",
+                        "start": 0.24,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.24,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.5809719562530518
+                    },
+                    {
+                        "word": " fraud.",
+                        "word_normalized": "FRAUD",
+                        "start": 0.42,
+                        "duration": 1.83,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.42,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.51,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.54,
+                                "duration": 1.59,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.13,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.16,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4739018678665161
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 115.6645,
+            "a1": 18.7932,
+            "a2": 57.2664,
+            "b1": 58.9386,
+            "b2": 88.9201,
+            "c": 56.1048
+        }
+    }
+}

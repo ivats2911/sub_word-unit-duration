@@ -1,0 +1,148 @@
+{
+    "task_id": "bennmann-20091102-vgn_b0536",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/bennmann-20091102-vgn/wav/b0536.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/bennmann-20091102-vgn_b0536/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0438847541809082,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.1962826470116966,
+        "noise": -1.0,
+        "duration": 3.0,
+        "snr": 32.23236821201536,
+        "zcr": 0.09834711602393617,
+        "speech_energy": 27.275670892386522,
+        "noise_energy": 0.016313179706533752
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.5698764324188232
+        },
+        "language": "en",
+        "text": " Bye for it.",
+        "text_normalized": "BYE FOR IT",
+        "segments": [
+            {
+                "text": " Bye for it.",
+                "text_normalized": "BYE FOR IT",
+                "start": 0.0,
+                "duration": 0.84,
+                "temperature": false,
+                "avg_logprob": -0.7759178025381905,
+                "compression_ratio": 0.5789473684210527,
+                "no_speech_prob": 0.016221802681684494,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.3,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Bye",
+                        "word_normalized": "BYE",
+                        "start": 0.3,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 0.3,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.42,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.45,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.16426122188568115
+                    },
+                    {
+                        "word": " for",
+                        "word_normalized": "FOR",
+                        "start": 0.54,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.54,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.57,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.66,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6803518533706665
+                    },
+                    {
+                        "word": " it.",
+                        "word_normalized": "IT",
+                        "start": 0.69,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.69,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.75,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8984642028808594
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 550.9664,
+            "a1": 491.8414,
+            "a2": 304.8772,
+            "b1": 513.0388,
+            "b2": 763.6601,
+            "c": 574.6125
+        }
+    }
+}

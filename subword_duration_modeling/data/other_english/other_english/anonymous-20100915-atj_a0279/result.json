@@ -1,0 +1,226 @@
+{
+    "task_id": "anonymous-20100915-atj_a0279",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/anonymous-20100915-atj/wav/a0279.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/anonymous-20100915-atj_a0279/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0576512813568115,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.37930796293908503,
+        "noise": -1.0,
+        "duration": 4.25,
+        "snr": 0.7790720391918484,
+        "zcr": 0.004992951127819549,
+        "speech_energy": 15.976726805043018,
+        "noise_energy": 13.353053993648954
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9974982738494873
+        },
+        "language": "en",
+        "text": "She said with chartering did.",
+        "text_normalized": "SHE SAID WITH CHARTERING DID",
+        "segments": [
+            {
+                "text": "She said with chartering did.",
+                "text_normalized": "SHE SAID WITH CHARTERING DID",
+                "start": 0.0,
+                "duration": 2.79,
+                "temperature": false,
+                "avg_logprob": -0.6886567115783692,
+                "compression_ratio": 0.7837837837837838,
+                "no_speech_prob": 0.0027978483121842146,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.42,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "She",
+                        "word_normalized": "SHE",
+                        "start": 0.42,
+                        "duration": 0.41999999999999993,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.42,
+                                "duration": 0.21,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.63,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.75,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.836498498916626
+                    },
+                    {
+                        "word": " said",
+                        "word_normalized": "SAID",
+                        "start": 0.84,
+                        "duration": 0.42000000000000004,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.84,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.99,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.08,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.11,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7157062888145447
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.26,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " with",
+                        "word_normalized": "WITH",
+                        "start": 1.29,
+                        "duration": 0.38999999999999996,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 1.29,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.47,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.53,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.62,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9162724614143372
+                    },
+                    {
+                        "word": " chartering",
+                        "word_normalized": "CHARTERING",
+                        "start": 1.68,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.68,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.4618859253823757
+                    },
+                    {
+                        "word": " did.",
+                        "word_normalized": "DID",
+                        "start": 1.83,
+                        "duration": 0.96,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 1.83,
+                                "duration": 0.69,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.52,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.61,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4153614342212677
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 232.7421,
+            "a1": 79.4648,
+            "a2": 289.5009,
+            "b1": 248.8141,
+            "b2": 308.2124,
+            "c": 323.3889
+        }
+    }
+}

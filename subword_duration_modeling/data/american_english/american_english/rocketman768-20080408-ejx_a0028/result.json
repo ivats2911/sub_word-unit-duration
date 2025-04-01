@@ -1,0 +1,126 @@
+{
+    "task_id": "rocketman768-20080408-ejx_a0028",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/rocketman768-20080408-ejx/wav/a0028.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/rocketman768-20080408-ejx_a0028/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.2426652908325195,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.024358060539999865,
+        "noise": -1.0,
+        "duration": 3.5,
+        "snr": Infinity,
+        "zcr": 0.17630504261363636,
+        "speech_energy": Infinity,
+        "noise_energy": Infinity
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.1640625
+        },
+        "language": "en",
+        "text": "Rabbie, brabbie fraud.",
+        "text_normalized": "RABBIE BRABBIE FRAUD",
+        "segments": [
+            {
+                "text": "Rabbie, brabbie fraud.",
+                "text_normalized": "RABBIE BRABBIE FRAUD",
+                "start": 0.0,
+                "duration": 2.1300000000000003,
+                "temperature": false,
+                "avg_logprob": -0.8860792318979899,
+                "compression_ratio": 0.8461538461538461,
+                "no_speech_prob": 0.008463841862976551,
+                "words": [
+                    {
+                        "word": "Rabbie,",
+                        "word_normalized": "RABBIE",
+                        "start": 0.0,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 0.3,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.1710993473728498
+                    },
+                    {
+                        "word": " brabbie",
+                        "word_normalized": "BRABBIE",
+                        "start": 0.3,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.3,
+                                "duration": 0.36,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.6553476601839066
+                    },
+                    {
+                        "word": " fraud.",
+                        "word_normalized": "FRAUD",
+                        "start": 0.66,
+                        "duration": 1.4700000000000002,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.66,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.75,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.78,
+                                "duration": 1.29,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.07,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.1,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7849895358085632
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 115.6645,
+            "a1": 18.7932,
+            "a2": 57.2664,
+            "b1": 58.9386,
+            "b2": 88.9201,
+            "c": 56.1048
+        }
+    }
+}

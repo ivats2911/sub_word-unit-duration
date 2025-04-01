@@ -1,0 +1,164 @@
+{
+    "task_id": "anonymous-20100723-kcs_a0484",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/anonymous-20100723-kcs/wav/a0484.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/anonymous-20100723-kcs_a0484/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0187785625457764,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.15918358013284264,
+        "noise": -1.0,
+        "duration": 3.125,
+        "snr": 17.394008391122423,
+        "zcr": 0.05886280293367347,
+        "speech_energy": 46.21886359320747,
+        "noise_energy": 0.8422061800956726
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8395352363586426
+        },
+        "language": "en",
+        "text": "No, sorry E.",
+        "text_normalized": "NO SORRY E",
+        "segments": [
+            {
+                "text": "No, sorry E.",
+                "text_normalized": "NO SORRY E",
+                "start": 0.0,
+                "duration": 1.83,
+                "temperature": false,
+                "avg_logprob": -0.4415183961391449,
+                "compression_ratio": 0.6,
+                "no_speech_prob": 0.01724768616259098,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.45,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "No,",
+                        "word_normalized": "NO",
+                        "start": 0.45,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.45,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.63,
+                                "duration": 0.3,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7193018198013306
+                    },
+                    {
+                        "word": " sorry",
+                        "word_normalized": "SORRY",
+                        "start": 0.93,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.93,
+                                "duration": 0.24,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.17,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.35,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.38,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.906022846698761
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.5,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.5,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " E.",
+                        "word_normalized": "E",
+                        "start": 1.53,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "e",
+                                "start": 1.53,
+                                "duration": 0.3,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.36315515637397766
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 468.9213,
+            "a1": 452.1944,
+            "a2": 773.5707,
+            "b1": 501.1585,
+            "b2": 473.5874,
+            "c": 1762.8893
+        }
+    }
+}

@@ -1,0 +1,228 @@
+{
+    "task_id": "indy-20081103-pot_a0102",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/indy-20081103-pot/wav/a0102.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/indy-20081103-pot_a0102/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.209787130355835,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.125,
+        "snr": 29.527516683175495,
+        "zcr": 0.11529996501865672,
+        "speech_energy": 4866.025300728258,
+        "noise_energy": 5.425286711307995
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.7220480442047119
+        },
+        "language": "en",
+        "text": "It will follow us soon.",
+        "text_normalized": "IT WILL FOLLOW US SOON",
+        "segments": [
+            {
+                "text": "It will follow us soon.",
+                "text_normalized": "IT WILL FOLLOW US SOON",
+                "start": 0.0,
+                "duration": 1.8599999999999999,
+                "temperature": false,
+                "avg_logprob": -0.20096688800387913,
+                "compression_ratio": 0.7419354838709677,
+                "no_speech_prob": 0.00490062590688467,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.57,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It",
+                        "word_normalized": "IT",
+                        "start": 0.57,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.57,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.69,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7122477293014526
+                    },
+                    {
+                        "word": " will",
+                        "word_normalized": "WILL",
+                        "start": 0.72,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.72,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.81,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.84,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9345712661743164
+                    },
+                    {
+                        "word": " follow",
+                        "word_normalized": "FOLLOW",
+                        "start": 0.87,
+                        "duration": 0.39000000000000007,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.87,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.99,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.14,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 1.2,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6949125528335571
+                    },
+                    {
+                        "word": " us",
+                        "word_normalized": "US",
+                        "start": 1.26,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "u",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.35,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8145145773887634
+                    },
+                    {
+                        "word": " soon.",
+                        "word_normalized": "SOON",
+                        "start": 1.47,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 1.47,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.56,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.74,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9987905621528625
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 300.2157,
+            "a1": 462.8249,
+            "a2": 485.9967,
+            "b1": 310.6347,
+            "b2": 392.2835,
+            "c": 358.1102
+        }
+    }
+}

@@ -1,0 +1,200 @@
+{
+    "task_id": "anonymous-20081110-rvw_b0166",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20081110-rvw/wav/b0166.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20081110-rvw_b0166/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.8391525745391846,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.23782323137549297,
+        "noise": -1.0,
+        "duration": 3.125,
+        "snr": 7.495554748638363,
+        "zcr": 0.1627620774872449,
+        "speech_energy": 0.4666283804302415,
+        "noise_energy": 0.0830645418979905
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.5637507438659668
+        },
+        "language": "en",
+        "text": "Fast button door.",
+        "text_normalized": "FAST BUTTON DOOR",
+        "segments": [
+            {
+                "text": "Fast button door.",
+                "text_normalized": "FAST BUTTON DOOR",
+                "start": 0.0,
+                "duration": 2.28,
+                "temperature": false,
+                "avg_logprob": -0.6530370031084333,
+                "compression_ratio": 0.68,
+                "no_speech_prob": 0.026078056544065475,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.17,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.17,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Fast",
+                        "word_normalized": "FAST",
+                        "start": 1.17,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.23,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.35,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.2025558203458786
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.5,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.5,
+                                "duration": 0.15,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " button",
+                        "word_normalized": "BUTTON",
+                        "start": 1.65,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.74,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.8,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.83,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.86,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.89,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.21176782250404358
+                    },
+                    {
+                        "word": " door.",
+                        "word_normalized": "DOOR",
+                        "start": 1.95,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 1.95,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.01,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.13,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.19,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9234331250190735
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 5322.9222,
+            "a1": 5594.9974,
+            "a2": 6052.3647,
+            "b1": 6014.8556,
+            "b2": 7200.2918,
+            "c": 11850.8638
+        }
+    }
+}

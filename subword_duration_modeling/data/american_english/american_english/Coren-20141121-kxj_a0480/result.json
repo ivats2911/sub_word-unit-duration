@@ -1,0 +1,234 @@
+{
+    "task_id": "Coren-20141121-kxj_a0480",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Coren-20141121-kxj/wav/a0480.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Coren-20141121-kxj_a0480/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1482291221618652,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.025046502835538772,
+        "noise": -1.0,
+        "duration": 3.375,
+        "snr": 17.662792184454023,
+        "zcr": 0.09326171875,
+        "speech_energy": 3.035015796051651,
+        "noise_energy": 0.05198544157402856
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.2148520946502686
+        },
+        "language": "en",
+        "text": " Tom's pink has a harpoon.",
+        "text_normalized": "TOM'S PINK HAS A HARPOON",
+        "segments": [
+            {
+                "text": " Tom's pink has a harpoon.",
+                "text_normalized": "TOM'S PINK HAS A HARPOON",
+                "start": 0.0,
+                "duration": 2.25,
+                "temperature": false,
+                "avg_logprob": -0.5663579305013021,
+                "compression_ratio": 0.8064516129032258,
+                "no_speech_prob": 0.003222074592486024,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.42,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Tom's",
+                        "word_normalized": "TOM'S",
+                        "start": 0.42,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.42,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.54,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m;A",
+                                "start": 0.63,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.69,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.19843032211065292
+                    },
+                    {
+                        "word": " pink",
+                        "word_normalized": "PINK",
+                        "start": 0.87,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 0.87,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.93,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.05,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "k",
+                                "start": 1.08,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4187965393066406
+                    },
+                    {
+                        "word": " has",
+                        "word_normalized": "HAS",
+                        "start": 1.23,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.35,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9605498909950256
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 1.44,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.44,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9926469326019287
+                    },
+                    {
+                        "word": " harpoon.",
+                        "word_normalized": "HARPOON",
+                        "start": 1.53,
+                        "duration": 0.7199999999999999,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 1.53,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.62,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.68,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "p",
+                                "start": 1.71,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.86,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.95,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.13,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7665558258692423
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 33949.498,
+            "a1": 23172.1707,
+            "a2": 28360.6885,
+            "b1": 30773.9606,
+            "b2": 31969.3263,
+            "c": 25238.6754
+        }
+    }
+}

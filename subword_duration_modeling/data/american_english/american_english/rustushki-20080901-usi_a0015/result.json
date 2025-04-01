@@ -1,0 +1,190 @@
+{
+    "task_id": "rustushki-20080901-usi_a0015",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/rustushki-20080901-usi/wav/a0015.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/rustushki-20080901-usi_a0015/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1704294681549072,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.816,
+        "snr": 4.988297799198936,
+        "zcr": 0.12627282303370788,
+        "speech_energy": 7.429873341418528,
+        "noise_energy": 2.355871673811365
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 2.3325836658477783
+        },
+        "language": "en",
+        "text": "It's the Arora Poryales.",
+        "text_normalized": "IT'S THE ARORA PORYALES",
+        "segments": [
+            {
+                "text": "It's the Arora Poryales.",
+                "text_normalized": "IT'S THE ARORA PORYALES",
+                "start": 0.0,
+                "duration": 2.4299999999999997,
+                "temperature": false,
+                "avg_logprob": -0.6934192975362142,
+                "compression_ratio": 0.75,
+                "no_speech_prob": 0.003987816162407398,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.45,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It's",
+                        "word_normalized": "IT'S",
+                        "start": 0.45,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.45,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t;A",
+                                "start": 0.57,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.66,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9191328585147858
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 0.75,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.81,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.84,
+                                "duration": 0.24,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9645459651947021
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.08,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.08,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Arora",
+                        "word_normalized": "ARORA",
+                        "start": 1.11,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.11,
+                                "duration": 0.42,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.33143892139196396
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.53,
+                        "duration": 0.87,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.53,
+                                "duration": 0.87,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Poryales.",
+                        "word_normalized": "PORYALES",
+                        "start": 2.4,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.4,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.3379550526539485
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 56.0273,
+            "a1": 96.2942,
+            "a2": 70.5342,
+            "b1": 60.9256,
+            "b2": 52.2516,
+            "c": 55.7443
+        }
+    }
+}

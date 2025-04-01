@@ -1,0 +1,170 @@
+{
+    "task_id": "anonymous-20090720-lcc_a0389",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20090720-lcc/wav/a0389.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20090720-lcc_a0389/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0580410957336426,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.375,
+        "snr": 17.354648140113135,
+        "zcr": 0.09439453125,
+        "speech_energy": 37.6427837383048,
+        "noise_energy": 0.6921766085490104
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8677585124969482
+        },
+        "language": "en",
+        "text": "May be good.",
+        "text_normalized": "MAY BE GOOD",
+        "segments": [
+            {
+                "text": "May be good.",
+                "text_normalized": "MAY BE GOOD",
+                "start": 0.0,
+                "duration": 1.74,
+                "temperature": false,
+                "avg_logprob": -0.48318328176225933,
+                "compression_ratio": 0.6,
+                "no_speech_prob": 0.016080103814601898,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.57,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "May",
+                        "word_normalized": "MAY",
+                        "start": 0.57,
+                        "duration": 0.44999999999999996,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.57,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.69,
+                                "duration": 0.24,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.93,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.2063533365726471
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.02,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.02,
+                                "duration": 0.36,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " be",
+                        "word_normalized": "BE",
+                        "start": 1.38,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 1.38,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3559325039386749
+                    },
+                    {
+                        "word": " good.",
+                        "word_normalized": "GOOD",
+                        "start": 1.44,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "g",
+                                "start": 1.44,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.47,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.5,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.68,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9383111596107483
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 58.0464,
+            "a1": 61.6063,
+            "a2": 50.4371,
+            "b1": 52.7655,
+            "b2": 65.3206,
+            "c": 91.3219
+        }
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "task_id": "anonymous-20140330-iuh_b0228",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20140330-iuh/wav/b0228.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20140330-iuh_b0228/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.182204246520996,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.12472692039890834,
+        "noise": -1.0,
+        "duration": 3.75,
+        "snr": 4.952918413951565,
+        "zcr": 0.012314618644067797,
+        "speech_energy": 18.716921322587606,
+        "noise_energy": 5.983324725218494
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8374423980712891
+        },
+        "language": "en",
+        "text": "You're engaged.",
+        "text_normalized": "YOU'RE ENGAGED",
+        "segments": [
+            {
+                "text": "You're engaged.",
+                "text_normalized": "YOU'RE ENGAGED",
+                "start": 0.0,
+                "duration": 2.37,
+                "temperature": false,
+                "avg_logprob": -0.3520384856632778,
+                "compression_ratio": 0.6521739130434783,
+                "no_speech_prob": 0.013825618661940098,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.99,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.99,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "You're",
+                        "word_normalized": "YOU'RE",
+                        "start": 0.99,
+                        "duration": 0.42000000000000004,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 0.99,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u;A",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.26,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.32,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6177610754966736
+                    },
+                    {
+                        "word": " engaged.",
+                        "word_normalized": "ENGAGED",
+                        "start": 1.41,
+                        "duration": 0.9600000000000001,
+                        "phones": [
+                            {
+                                "phone": "e",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.44,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.56,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.59,
+                                "duration": 0.36,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.95,
+                                "duration": 0.27,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.22,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.28,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6869987845420837
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 7082.1778,
+            "a1": 7262.1791,
+            "a2": 5287.6995,
+            "b1": 6917.2485,
+            "b2": 7339.503,
+            "c": 7074.028
+        }
+    }
+}

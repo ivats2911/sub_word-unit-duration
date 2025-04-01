@@ -1,0 +1,98 @@
+{
+    "task_id": "Joel-20080716-qoz_b0080",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Joel-20080716-qoz/wav/b0080.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Joel-20080716-qoz_b0080/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.583543300628662,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.24999999999999994,
+        "noise": -1.0,
+        "duration": 6.5,
+        "snr": 0.2757761820482326,
+        "zcr": 0.04036937040441176,
+        "speech_energy": 3.119930624961853e-05,
+        "noise_energy": 2.9279746943049962e-05
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.7162704467773438
+        },
+        "language": "en",
+        "text": "You",
+        "text_normalized": "YOU",
+        "segments": [
+            {
+                "text": "You",
+                "text_normalized": "YOU",
+                "start": 0.0,
+                "duration": 0.27,
+                "temperature": false,
+                "avg_logprob": -0.5166996121406555,
+                "compression_ratio": 0.2727272727272727,
+                "no_speech_prob": 0.4261219799518585,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.18,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "You",
+                        "word_normalized": "YOU",
+                        "start": 0.18,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 0.18,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.21,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.24,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4795900285243988
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 96.8613,
+            "a1": 59.8274,
+            "a2": 57.6103,
+            "b1": 83.4161,
+            "b2": 110.1159,
+            "c": 148.1153
+        }
+    }
+}

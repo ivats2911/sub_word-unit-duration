@@ -1,0 +1,234 @@
+{
+    "task_id": "anonymous-20100728-wrt_b0336",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20100728-wrt/wav/b0336.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20100728-wrt_b0336/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.104722499847412,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.009111300001231644,
+        "noise": 63.10923317536357,
+        "duration": 3.584,
+        "snr": -0.3167242787686563,
+        "zcr": 0.0022123893805309734,
+        "speech_energy": 12833.856244459219,
+        "noise_energy": 13804.783442982458
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8100261688232422
+        },
+        "language": "en",
+        "text": "How long are you mother?",
+        "text_normalized": "HOW LONG ARE YOU MOTHER",
+        "segments": [
+            {
+                "text": "How long are you mother?",
+                "text_normalized": "HOW LONG ARE YOU MOTHER",
+                "start": 0.0,
+                "duration": 1.98,
+                "temperature": false,
+                "avg_logprob": -0.31943313280741376,
+                "compression_ratio": 0.75,
+                "no_speech_prob": 0.012778167612850666,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.57,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "How",
+                        "word_normalized": "HOW",
+                        "start": 0.57,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.57,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.72,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 0.84,
+                                "duration": 0.21,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7131997346878052
+                    },
+                    {
+                        "word": " long",
+                        "word_normalized": "LONG",
+                        "start": 1.05,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "l",
+                                "start": 1.05,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.14,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5219787955284119
+                    },
+                    {
+                        "word": " are",
+                        "word_normalized": "ARE",
+                        "start": 1.2,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.26,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7901560664176941
+                    },
+                    {
+                        "word": " you",
+                        "word_normalized": "YOU",
+                        "start": 1.32,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 1.32,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.41,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.5,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9817573428153992
+                    },
+                    {
+                        "word": " mother?",
+                        "word_normalized": "MOTHER",
+                        "start": 1.56,
+                        "duration": 0.42000000000000004,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 1.56,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.74,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.77,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.83,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.86,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6196908354759216
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 359.0321,
+            "a1": 255.7605,
+            "a2": 265.8378,
+            "b1": 356.4922,
+            "b2": 379.9269,
+            "c": 331.8054
+        }
+    }
+}

@@ -1,0 +1,186 @@
+{
+    "task_id": "AndreyBarrientosCostaRica-20130710-tpy_b0213",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/AndreyBarrientosCostaRica-20130710-tpy/wav/b0213.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/AndreyBarrientosCostaRica-20130710-tpy_b0213/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0747995376586914,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.08256467597227803,
+        "noise": 79.7897559465073,
+        "duration": 4.875,
+        "snr": 6.663268044586129,
+        "zcr": 0.0541226256127451,
+        "speech_energy": 80.63656174219572,
+        "noise_energy": 17.386221057838863
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.5338728427886963
+        },
+        "language": "en",
+        "text": "Someboy she loved Acquicences.",
+        "text_normalized": "SOMEBOY SHE LOVED ACQUICENCES",
+        "segments": [
+            {
+                "text": "Someboy she loved Acquicences.",
+                "text_normalized": "SOMEBOY SHE LOVED ACQUICENCES",
+                "start": 0.0,
+                "duration": 2.8499999999999996,
+                "temperature": false,
+                "avg_logprob": -0.5618268359791149,
+                "compression_ratio": 0.7894736842105263,
+                "no_speech_prob": 0.0013210107572376728,
+                "words": [
+                    {
+                        "word": "Someboy",
+                        "word_normalized": "SOMEBOY",
+                        "start": 0.0,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 0.3,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.5233291536569595
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.3,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.3,
+                                "duration": 0.24,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " she",
+                        "word_normalized": "SHE",
+                        "start": 0.54,
+                        "duration": 1.05,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.54,
+                                "duration": 0.27,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.81,
+                                "duration": 0.75,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.56,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.41267189383506775
+                    },
+                    {
+                        "word": " loved",
+                        "word_normalized": "LOVED",
+                        "start": 1.59,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "l",
+                                "start": 1.59,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.71,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 1.92,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.98,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.04,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9431999325752258
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.16,
+                        "duration": 0.66,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.16,
+                                "duration": 0.66,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Acquicences.",
+                        "word_normalized": "ACQUICENCES",
+                        "start": 2.82,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.82,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.6097268064816793
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1234.5256,
+            "a1": 22646.4548,
+            "a2": 19669.8024,
+            "b1": 984.6909,
+            "b2": 1991.5903,
+            "c": 17266.3292
+        }
+    }
+}

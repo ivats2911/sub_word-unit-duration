@@ -1,0 +1,168 @@
+{
+    "task_id": "dgd-20100408-vik_a0028",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/dgd-20100408-vik/wav/a0028.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/dgd-20100408-vik_a0028/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.5744636058807373,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.028960085546136556,
+        "noise": 2.577032962814016,
+        "duration": 5.0,
+        "snr": -13.15670882381189,
+        "zcr": 0.03641893909235669,
+        "speech_energy": 17.952674579998803,
+        "noise_energy": 371.36420531819266
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.2789223194122314
+        },
+        "language": "en",
+        "text": "Ravari, Pravari from.",
+        "text_normalized": "RAVARI PRAVARI FROM",
+        "segments": [
+            {
+                "text": "Ravari, Pravari from.",
+                "text_normalized": "RAVARI PRAVARI FROM",
+                "start": 0.0,
+                "duration": 2.4299999999999997,
+                "temperature": false,
+                "avg_logprob": -1.0929128328959148,
+                "compression_ratio": 0.84,
+                "no_speech_prob": 0.011152170598506927,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.29,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.29,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Ravari,",
+                        "word_normalized": "RAVARI",
+                        "start": 1.29,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.29,
+                                "duration": 0.21,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.24394883712132773
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.5,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.5,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Pravari",
+                        "word_normalized": "PRAVARI",
+                        "start": 1.53,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.53,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.4361143310864766
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.59,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.59,
+                                "duration": 0.48,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " from.",
+                        "word_normalized": "FROM",
+                        "start": 2.07,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 2.07,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.1,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.13,
+                                "duration": 0.27,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 2.4,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4258463680744171
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 39.0481,
+            "a1": 19.3642,
+            "a2": 17.7337,
+            "b1": 29.6961,
+            "b2": 52.9541,
+            "c": 69.0081
+        }
+    }
+}

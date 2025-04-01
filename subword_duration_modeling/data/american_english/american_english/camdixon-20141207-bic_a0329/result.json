@@ -1,0 +1,136 @@
+{
+    "task_id": "camdixon-20141207-bic_a0329",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/camdixon-20141207-bic/wav/a0329.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/camdixon-20141207-bic_a0329/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.227403163909912,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.08943256164842589,
+        "noise": -1.0,
+        "duration": 3.125,
+        "snr": -5.781173351819804,
+        "zcr": 0.11031170280612244,
+        "speech_energy": 1.5385466345557657,
+        "noise_energy": 5.824088957160711
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.2723031044006348
+        },
+        "language": "en",
+        "text": "I need.",
+        "text_normalized": "I NEED",
+        "segments": [
+            {
+                "text": "I need.",
+                "text_normalized": "I NEED",
+                "start": 0.0,
+                "duration": 1.29,
+                "temperature": false,
+                "avg_logprob": -0.6348422368367513,
+                "compression_ratio": 0.4666666666666667,
+                "no_speech_prob": 0.03562922403216362,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.24,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I",
+                        "word_normalized": "I",
+                        "start": 0.24,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.24,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.38229435682296753
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.27,
+                        "duration": 0.72,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.27,
+                                "duration": 0.72,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " need.",
+                        "word_normalized": "NEED",
+                        "start": 0.99,
+                        "duration": 0.30000000000000004,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.05,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3803376853466034
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 31.7541,
+            "a1": 18.4643,
+            "a2": 24.4512,
+            "b1": 29.2213,
+            "b2": 33.6512,
+            "c": 43.9002
+        }
+    }
+}

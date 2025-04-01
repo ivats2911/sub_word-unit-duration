@@ -1,0 +1,180 @@
+{
+    "task_id": "JGatlin-20100328-dzt_b0152",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/JGatlin-20100328-dzt/wav/b0152.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/JGatlin-20100328-dzt_b0152/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.065803050994873,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.8585625,
+        "snr": 1.3950134381073256,
+        "zcr": 0.02858615451388889,
+        "speech_energy": 2.776949222953547,
+        "noise_energy": 2.0140330586582422
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0719962120056152
+        },
+        "language": "en",
+        "text": "A- a wild dog.",
+        "text_normalized": "A_%partial% A WILD DOG",
+        "segments": [
+            {
+                "text": "A- a wild dog.",
+                "text_normalized": "A_%partial% A WILD DOG",
+                "start": 0.0,
+                "duration": 2.04,
+                "temperature": false,
+                "avg_logprob": -0.7457932366265191,
+                "compression_ratio": 0.6363636363636364,
+                "no_speech_prob": 0.025337230414152145,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.17,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.17,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "A-",
+                        "word_normalized": "A_%partial%",
+                        "start": 1.17,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "a;P",
+                                "start": 1.17,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.270058736205101
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 1.23,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7690650224685669
+                    },
+                    {
+                        "word": " wild",
+                        "word_normalized": "WILD",
+                        "start": 1.26,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.35,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.53,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.59,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6245902180671692
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.62,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.62,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " dog.",
+                        "word_normalized": "DOG",
+                        "start": 1.65,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.74,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.95,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8723503947257996
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 6676.9795,
+            "a1": 10747.3166,
+            "a2": 11168.1173,
+            "b1": 8885.4597,
+            "b2": 6100.4261,
+            "c": 9011.9761
+        }
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "task_id": "LukasFT-20121020-wqd_b0088",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/LukasFT-20121020-wqd/wav/b0088.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/LukasFT-20121020-wqd_b0088/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 0.9721407890319824,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 1.75,
+        "snr": 31.702776858226503,
+        "zcr": 0.1553622159090909,
+        "speech_energy": 129.5529538934881,
+        "noise_energy": 0.08753256074019841
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.7026145458221436
+        },
+        "language": "en",
+        "text": "Until I die here.",
+        "text_normalized": "UNTIL I DIE HERE",
+        "segments": [
+            {
+                "text": "Until I die here.",
+                "text_normalized": "UNTIL I DIE HERE",
+                "start": 0.0,
+                "duration": 1.74,
+                "temperature": false,
+                "avg_logprob": -0.33418697118759155,
+                "compression_ratio": 0.68,
+                "no_speech_prob": 0.0066034672781825066,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.36,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Until",
+                        "word_normalized": "UNTIL",
+                        "start": 0.36,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "u",
+                                "start": 0.36,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.45,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.57,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.63,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.69,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.39770445227622986
+                    },
+                    {
+                        "word": " I",
+                        "word_normalized": "I",
+                        "start": 0.84,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.84,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9714139103889465
+                    },
+                    {
+                        "word": " die",
+                        "word_normalized": "DIE",
+                        "start": 0.99,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.99,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.11,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.32,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9759904742240906
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.47,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.47,
+                                "duration": 0.06,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " here.",
+                        "word_normalized": "HERE",
+                        "start": 1.53,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 1.53,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.62,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.68,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.71,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.41272640228271484
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1630.5722,
+            "a1": 1364.5833,
+            "a2": 939.2911,
+            "b1": 1676.023,
+            "b2": 1590.1568,
+            "c": 2538.1662
+        }
+    }
+}

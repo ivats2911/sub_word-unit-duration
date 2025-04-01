@@ -1,0 +1,210 @@
+{
+    "task_id": "spoonm-20150128-ikg_a0346",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/spoonm-20150128-ikg/wav/a0346.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/spoonm-20150128-ikg_a0346/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.043762445449829,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.09910213586597431,
+        "noise": -1.0,
+        "duration": 3.75,
+        "snr": 20.90525847989646,
+        "zcr": 0.03840042372881356,
+        "speech_energy": 29.50446695992441,
+        "noise_energy": 0.23953110882730194
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9957573413848877
+        },
+        "language": "en",
+        "text": "Get down and dig in.",
+        "text_normalized": "GET DOWN AND DIG IN",
+        "segments": [
+            {
+                "text": "Get down and dig in.",
+                "text_normalized": "GET DOWN AND DIG IN",
+                "start": 0.0,
+                "duration": 2.31,
+                "temperature": false,
+                "avg_logprob": -0.32302901479933,
+                "compression_ratio": 0.7142857142857143,
+                "no_speech_prob": 0.012045911513268948,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.99,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.99,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Get",
+                        "word_normalized": "GET",
+                        "start": 0.99,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "g",
+                                "start": 0.99,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.23,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8610372543334961
+                    },
+                    {
+                        "word": " down",
+                        "word_normalized": "DOWN",
+                        "start": 1.29,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 1.29,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.32,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 1.47,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.53,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.944625735282898
+                    },
+                    {
+                        "word": " and",
+                        "word_normalized": "AND",
+                        "start": 1.59,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.59,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.74,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8981415629386902
+                    },
+                    {
+                        "word": " dig",
+                        "word_normalized": "DIG",
+                        "start": 1.8,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 1.8,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.83,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.92,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.301383376121521
+                    },
+                    {
+                        "word": " in.",
+                        "word_normalized": "IN",
+                        "start": 2.04,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 2.04,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.13,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.975177526473999
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1576.4617,
+            "a1": 1127.1975,
+            "a2": 1647.5934,
+            "b1": 1773.1684,
+            "b2": 1610.8309,
+            "c": 1574.5874
+        }
+    }
+}

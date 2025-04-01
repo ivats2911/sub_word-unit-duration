@@ -1,0 +1,204 @@
+{
+    "task_id": "anonymous-20100202-tdb_a0192",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20100202-tdb/wav/a0192.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20100202-tdb_a0192/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4239609241485596,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.15249880121476883,
+        "noise": -1.0,
+        "duration": 3.25,
+        "snr": 28.03212925939021,
+        "zcr": 0.06311274509803921,
+        "speech_energy": 56.35008584885371,
+        "noise_energy": 0.08865059525878341
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9552505016326904
+        },
+        "language": "en",
+        "text": "He did not rush in.",
+        "text_normalized": "HE DID NOT RUSH IN",
+        "segments": [
+            {
+                "text": "He did not rush in.",
+                "text_normalized": "HE DID NOT RUSH IN",
+                "start": 0.0,
+                "duration": 1.59,
+                "temperature": false,
+                "avg_logprob": -0.3687173260582818,
+                "compression_ratio": 0.7037037037037037,
+                "no_speech_prob": 0.004215498920530081,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.54,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "He",
+                        "word_normalized": "HE",
+                        "start": 0.54,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.54,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.63,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8415143489837646
+                    },
+                    {
+                        "word": " did",
+                        "word_normalized": "DID",
+                        "start": 0.72,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.72,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.75,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 0.78,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9780001044273376
+                    },
+                    {
+                        "word": " not",
+                        "word_normalized": "NOT",
+                        "start": 0.87,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.87,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.9,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.99,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9975946545600891
+                    },
+                    {
+                        "word": " rush",
+                        "word_normalized": "RUSH",
+                        "start": 1.08,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "r",
+                                "start": 1.08,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.11,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.35820168256759644
+                    },
+                    {
+                        "word": " in.",
+                        "word_normalized": "IN",
+                        "start": 1.35,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.35,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.44,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9923012256622314
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 446.4437,
+            "a1": 597.1498,
+            "a2": 375.0306,
+            "b1": 454.3599,
+            "b2": 424.2286,
+            "c": 337.4297
+        }
+    }
+}

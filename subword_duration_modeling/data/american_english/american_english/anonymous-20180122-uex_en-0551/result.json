@@ -1,0 +1,204 @@
+{
+    "task_id": "anonymous-20180122-uex_en-0551",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20180122-uex/wav/en-0551.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20180122-uex_en-0551/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.7095110416412354,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.04253211900691076,
+        "noise": -1.0,
+        "duration": 5.5,
+        "snr": 18.005308392317147,
+        "zcr": 0.028178370276162792,
+        "speech_energy": 110.7735141875252,
+        "noise_energy": 1.7534972708902241
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.5339112281799316
+        },
+        "language": "en",
+        "text": "All is well here.",
+        "text_normalized": "ALL IS WELL HERE",
+        "segments": [
+            {
+                "text": "All is well here.",
+                "text_normalized": "ALL IS WELL HERE",
+                "start": 0.0,
+                "duration": 2.88,
+                "temperature": false,
+                "avg_logprob": -0.41007161140441895,
+                "compression_ratio": 0.7391304347826086,
+                "no_speech_prob": 0.0132584348320961,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.59,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.59,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "All",
+                        "word_normalized": "ALL",
+                        "start": 1.59,
+                        "duration": 0.30000000000000004,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.59,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.71,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.86,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.647174060344696
+                    },
+                    {
+                        "word": " is",
+                        "word_normalized": "IS",
+                        "start": 1.89,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.89,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.98,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9958561062812805
+                    },
+                    {
+                        "word": " well",
+                        "word_normalized": "WELL",
+                        "start": 2.07,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 2.07,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.16,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.25,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.31,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9927256107330322
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.37,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.37,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " here.",
+                        "word_normalized": "HERE",
+                        "start": 2.4,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 2.4,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.49,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.64,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.7,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9441704750061035
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 235.9066,
+            "a1": 182.8269,
+            "a2": 345.112,
+            "b1": 273.2373,
+            "b2": 246.638,
+            "c": 193.7582
+        }
+    }
+}

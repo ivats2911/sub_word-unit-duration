@@ -1,0 +1,122 @@
+{
+    "task_id": "uklebot-20090813-zxl_a0236",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/uklebot-20090813-zxl/wav/a0236.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/uklebot-20090813-zxl_a0236/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 0.9677226543426514,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 1.0641875,
+        "snr": Infinity,
+        "zcr": 0.12788660386029413,
+        "speech_energy": Infinity,
+        "noise_energy": Infinity
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0218884944915771
+        },
+        "language": "en",
+        "text": "Yeah, here.",
+        "text_normalized": "YEAH HERE",
+        "segments": [
+            {
+                "text": "Yeah, here.",
+                "text_normalized": "YEAH HERE",
+                "start": 0.0,
+                "duration": 0.78,
+                "temperature": false,
+                "avg_logprob": -0.6568919590541294,
+                "compression_ratio": 0.5789473684210527,
+                "no_speech_prob": 0.013674087822437286,
+                "words": [
+                    {
+                        "word": "Yeah,",
+                        "word_normalized": "YEAH",
+                        "start": 0.0,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 0.0,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.15,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.18,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.24,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3027687966823578
+                    },
+                    {
+                        "word": " here.",
+                        "word_normalized": "HERE",
+                        "start": 0.36,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.36,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.39,
+                                "duration": 0.3,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.69,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.72,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.23130732774734497
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 187.2693,
+            "a1": 282.1413,
+            "a2": 202.6283,
+            "b1": 202.8306,
+            "b2": 184.1479,
+            "c": 311.9369
+        }
+    }
+}

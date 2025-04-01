@@ -1,0 +1,204 @@
+{
+    "task_id": "Krellis-20090609-nha_a0287",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Krellis-20090609-nha/wav/a0287.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Krellis-20090609-nha_a0287/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.3450896739959717,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.005849569713966044,
+        "noise": 65.06842138632548,
+        "duration": 3.25,
+        "snr": 14.423768499929013,
+        "zcr": 0.032671760110294115,
+        "speech_energy": 375.30836844229486,
+        "noise_energy": 13.552249802483452
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8949253559112549
+        },
+        "language": "en",
+        "text": "Keep an eye on him.",
+        "text_normalized": "KEEP AN EYE ON HIM",
+        "segments": [
+            {
+                "text": "Keep an eye on him.",
+                "text_normalized": "KEEP AN EYE ON HIM",
+                "start": 0.0,
+                "duration": 2.19,
+                "temperature": false,
+                "avg_logprob": -0.2960096730126275,
+                "compression_ratio": 0.7037037037037037,
+                "no_speech_prob": 0.01592477224767208,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.08,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.08,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Keep",
+                        "word_normalized": "KEEP",
+                        "start": 1.08,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "k",
+                                "start": 1.08,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.2,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "p",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5480900406837463
+                    },
+                    {
+                        "word": " an",
+                        "word_normalized": "AN",
+                        "start": 1.35,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.35,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.38,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9956902861595154
+                    },
+                    {
+                        "word": " eye",
+                        "word_normalized": "EYE",
+                        "start": 1.44,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "e",
+                                "start": 1.44,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.47,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.56,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9946606755256653
+                    },
+                    {
+                        "word": " on",
+                        "word_normalized": "ON",
+                        "start": 1.68,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 1.68,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.74,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9944038391113281
+                    },
+                    {
+                        "word": " him.",
+                        "word_normalized": "HIM",
+                        "start": 1.83,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 1.83,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.86,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 1.98,
+                                "duration": 0.21,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9946724772453308
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 519.0192,
+            "a1": 1268.1386,
+            "a2": 1067.0466,
+            "b1": 479.5678,
+            "b2": 735.1344,
+            "c": 911.3463
+        }
+    }
+}

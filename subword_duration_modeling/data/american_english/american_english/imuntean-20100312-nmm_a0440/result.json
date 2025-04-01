@@ -1,0 +1,206 @@
+{
+    "task_id": "imuntean-20100312-nmm_a0440",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/imuntean-20100312-nmm/wav/a0440.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/imuntean-20100312-nmm_a0440/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.5189793109893799,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.16020765734349968,
+        "noise": -1.0,
+        "duration": 3.75,
+        "snr": 16.40140292710599,
+        "zcr": 0.05481163930084746,
+        "speech_energy": 26.0520983964969,
+        "noise_energy": 0.5966263321729807
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8590919971466064
+        },
+        "language": "en",
+        "text": "Yes, sir, I collected.",
+        "text_normalized": "YES SIR I COLLECTED",
+        "segments": [
+            {
+                "text": "Yes, sir, I collected.",
+                "text_normalized": "YES SIR I COLLECTED",
+                "start": 0.0,
+                "duration": 1.9499999999999997,
+                "temperature": false,
+                "avg_logprob": -0.3547307729721069,
+                "compression_ratio": 0.7333333333333333,
+                "no_speech_prob": 0.0017708070809021592,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.39,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Yes,",
+                        "word_normalized": "YES",
+                        "start": 0.39,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 0.39,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.51,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.63,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8265222311019897
+                    },
+                    {
+                        "word": " sir,",
+                        "word_normalized": "SIR",
+                        "start": 0.75,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.81,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.9,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6437848210334778
+                    },
+                    {
+                        "word": " I",
+                        "word_normalized": "I",
+                        "start": 1.05,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.05,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9855406880378723
+                    },
+                    {
+                        "word": " collected.",
+                        "word_normalized": "COLLECTED",
+                        "start": 1.17,
+                        "duration": 0.7799999999999999,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 1.17,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.32,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.38,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.44,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.47,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 1.56,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.74,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.83,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8907844424247742
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 2177.1088,
+            "a1": 1182.7692,
+            "a2": 1180.4837,
+            "b1": 3382.0506,
+            "b2": 4971.6442,
+            "c": 4866.762
+        }
+    }
+}

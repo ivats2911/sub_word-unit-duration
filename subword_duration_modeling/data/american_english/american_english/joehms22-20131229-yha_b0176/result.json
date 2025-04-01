@@ -1,0 +1,204 @@
+{
+    "task_id": "joehms22-20131229-yha_b0176",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/joehms22-20131229-yha/wav/b0176.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/joehms22-20131229-yha_b0176/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.109215259552002,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.02816615000314851,
+        "noise": -1.0,
+        "duration": 4.125,
+        "snr": 7.880366264014553,
+        "zcr": 0.02113235828488372,
+        "speech_energy": 32.98632522424062,
+        "noise_energy": 5.373995644705636
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.5476317405700684
+        },
+        "language": "en",
+        "text": "I'll see it for Hui.",
+        "text_normalized": "I'LL SEE IT FOR HUI",
+        "segments": [
+            {
+                "text": "I'll see it for Hui.",
+                "text_normalized": "I'LL SEE IT FOR HUI",
+                "start": 0.0,
+                "duration": 2.46,
+                "temperature": false,
+                "avg_logprob": -0.6396460099653765,
+                "compression_ratio": 0.7142857142857143,
+                "no_speech_prob": 0.011862440966069698,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.26,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.26,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I'll",
+                        "word_normalized": "I'LL",
+                        "start": 1.26,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "i;A",
+                                "start": 1.26,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.32,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.35,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5524888783693314
+                    },
+                    {
+                        "word": " see",
+                        "word_normalized": "SEE",
+                        "start": 1.38,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 1.38,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.5,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.59,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5782753825187683
+                    },
+                    {
+                        "word": " it",
+                        "word_normalized": "IT",
+                        "start": 1.62,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.62,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6835812926292419
+                    },
+                    {
+                        "word": " for",
+                        "word_normalized": "FOR",
+                        "start": 1.74,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 1.74,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.8,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.92,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9363754987716675
+                    },
+                    {
+                        "word": " Hui.",
+                        "word_normalized": "HUI",
+                        "start": 1.98,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 1.98,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.07,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.22,
+                                "duration": 0.24,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.28076186031103134
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 2156.0068,
+            "a1": 1550.1845,
+            "a2": 2428.8466,
+            "b1": 2464.5265,
+            "b2": 2055.8913,
+            "c": 2484.2772
+        }
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "task_id": "frankx-20120105-qcy_a0329",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/frankx-20120105-qcy/wav/a0329.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/frankx-20120105-qcy_a0329/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.092792272567749,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.05066652142536185,
+        "noise": -1.0,
+        "duration": 4.0364375,
+        "snr": 33.408161678194354,
+        "zcr": 0.0634534940944882,
+        "speech_energy": 160.37846247355145,
+        "noise_energy": 0.07316946470435115
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.6509790420532227
+        },
+        "language": "en",
+        "text": "Are indeed.",
+        "text_normalized": "ARE INDEED",
+        "segments": [
+            {
+                "text": "Are indeed.",
+                "text_normalized": "ARE INDEED",
+                "start": 0.0,
+                "duration": 1.8900000000000001,
+                "temperature": false,
+                "avg_logprob": -0.6546454429626465,
+                "compression_ratio": 0.5789473684210527,
+                "no_speech_prob": 0.003952864091843367,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.63,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Are",
+                        "word_normalized": "ARE",
+                        "start": 0.63,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 0.63,
+                                "duration": 0.24,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.87,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.10940265655517578
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.02,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.02,
+                                "duration": 0.06,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " indeed.",
+                        "word_normalized": "INDEED",
+                        "start": 1.08,
+                        "duration": 0.8099999999999999,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.08,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.2,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.35,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.56,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.65,
+                                "duration": 0.24,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.918872058391571
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1339.9856,
+            "a1": 1359.0434,
+            "a2": 1344.8273,
+            "b1": 2031.7333,
+            "b2": 1361.1319,
+            "c": 1872.1188
+        }
+    }
+}

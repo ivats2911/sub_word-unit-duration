@@ -1,0 +1,276 @@
+{
+    "task_id": "sbl-20151123-grn_a0390",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/sbl-20151123-grn/wav/a0390.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/sbl-20151123-grn_a0390/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1871404647827148,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.020246796895718667,
+        "noise": -1.0,
+        "duration": 7.125,
+        "snr": 24.901914940646503,
+        "zcr": 0.05823027606502242,
+        "speech_energy": 183.2293930874076,
+        "noise_energy": 0.5926573148337744
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 2.921264410018921
+        },
+        "language": "en",
+        "text": "I'll go over tomorrow afternoon.",
+        "text_normalized": "I'LL GO OVER TOMORROW AFTERNOON",
+        "segments": [
+            {
+                "text": "I'll go over tomorrow afternoon.",
+                "text_normalized": "I'LL GO OVER TOMORROW AFTERNOON",
+                "start": 0.0,
+                "duration": 4.65,
+                "temperature": false,
+                "avg_logprob": -0.2612020492553711,
+                "compression_ratio": 0.8,
+                "no_speech_prob": 0.015462198294699192,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 2.79,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 2.79,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I'll",
+                        "word_normalized": "I'LL",
+                        "start": 2.79,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "i;A",
+                                "start": 2.79,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.85,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.94,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9341688752174377
+                    },
+                    {
+                        "word": " go",
+                        "word_normalized": "GO",
+                        "start": 2.97,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "g",
+                                "start": 2.97,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 3.03,
+                                "duration": 0.21,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9974291920661926
+                    },
+                    {
+                        "word": " over",
+                        "word_normalized": "OVER",
+                        "start": 3.24,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 3.24,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 3.33,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 3.45,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 3.48,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9274636507034302
+                    },
+                    {
+                        "word": " tomorrow",
+                        "word_normalized": "TOMORROW",
+                        "start": 3.54,
+                        "duration": 0.44999999999999996,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 3.54,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 3.63,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 3.66,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 3.69,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 3.84,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 3.87,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 3.93,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 3.96,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9277809262275696
+                    },
+                    {
+                        "word": " afternoon.",
+                        "word_normalized": "AFTERNOON",
+                        "start": 3.99,
+                        "duration": 0.66,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 3.99,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 4.05,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 4.14,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 4.2,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 4.23,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 4.26,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 4.32,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 4.47,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 4.5,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9838359951972961
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1074.0309,
+            "a1": 2881.3769,
+            "a2": 1454.5098,
+            "b1": 1570.8453,
+            "b2": 1156.4672,
+            "c": 984.9179
+        }
+    }
+}

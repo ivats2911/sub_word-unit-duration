@@ -1,0 +1,198 @@
+{
+    "task_id": "anonymous-20100602-ivg_a0579",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20100602-ivg/wav/a0579.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20100602-ivg_a0579/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.6799697875976562,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.005530345349775911,
+        "noise": -1.0,
+        "duration": 4.375,
+        "snr": 2.224321910578935,
+        "zcr": 0.09401017906021898,
+        "speech_energy": 135.88588006794453,
+        "noise_energy": 81.42207020521164
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.6817958354949951
+        },
+        "language": "en",
+        "text": "There was the Amaluisa.",
+        "text_normalized": "THERE WAS THE AMALUISA",
+        "segments": [
+            {
+                "text": "There was the Amaluisa.",
+                "text_normalized": "THERE WAS THE AMALUISA",
+                "start": 0.0,
+                "duration": 2.6999999999999997,
+                "temperature": false,
+                "avg_logprob": -0.526361118663441,
+                "compression_ratio": 0.7419354838709677,
+                "no_speech_prob": 0.002813825849443674,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.9,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.9,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "There",
+                        "word_normalized": "THERE",
+                        "start": 0.9,
+                        "duration": 0.30000000000000004,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.9,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.05,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.11,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8466908931732178
+                    },
+                    {
+                        "word": " was",
+                        "word_normalized": "WAS",
+                        "start": 1.2,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 1.2,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.32,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.41,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9961131811141968
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.53,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.53,
+                                "duration": 0.6,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 2.13,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 2.13,
+                                "duration": 0.36,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 2.49,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.55,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9801157712936401
+                    },
+                    {
+                        "word": " Amaluisa.",
+                        "word_normalized": "AMALUISA",
+                        "start": 2.67,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.67,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.44639723002910614
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 54.8403,
+            "a1": 64.3724,
+            "a2": 57.1259,
+            "b1": 53.6826,
+            "b2": 54.8614,
+            "c": 55.4924
+        }
+    }
+}

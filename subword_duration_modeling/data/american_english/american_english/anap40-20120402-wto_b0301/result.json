@@ -1,0 +1,254 @@
+{
+    "task_id": "anap40-20120402-wto_b0301",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anap40-20120402-wto/wav/b0301.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anap40-20120402-wto_b0301/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.6626801490783691,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.25000000000000083,
+        "noise": -1.0,
+        "duration": 3.75,
+        "snr": -0.09096253667599445,
+        "zcr": 0.025684421345338982,
+        "speech_energy": 0.04676146199926733,
+        "noise_energy": 0.04775120490571347
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.1550092697143555
+        },
+        "language": "en",
+        "text": "A flying aeropas between us.",
+        "text_normalized": "A FLYING AEROPAS BETWEEN US",
+        "segments": [
+            {
+                "text": "A flying aeropas between us.",
+                "text_normalized": "A FLYING AEROPAS BETWEEN US",
+                "start": 0.0,
+                "duration": 2.9099999999999997,
+                "temperature": false,
+                "avg_logprob": -0.4923873381181197,
+                "compression_ratio": 0.7777777777777778,
+                "no_speech_prob": 0.008396380580961704,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.81,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.81,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "A",
+                        "word_normalized": "A",
+                        "start": 0.81,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 0.81,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.49216657876968384
+                    },
+                    {
+                        "word": " flying",
+                        "word_normalized": "FLYING",
+                        "start": 0.87,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.87,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.99,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.23,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.35,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9527092576026917
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.38,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.38,
+                                "duration": 0.39,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " aeropas",
+                        "word_normalized": "AEROPAS",
+                        "start": 1.77,
+                        "duration": 0.33,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.77,
+                                "duration": 0.33,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.4791543831427892
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.1,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.1,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " between",
+                        "word_normalized": "BETWEEN",
+                        "start": 2.13,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 2.13,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.19,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 2.25,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 2.31,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.4,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.46,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.49,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7415115833282471
+                    },
+                    {
+                        "word": " us.",
+                        "word_normalized": "US",
+                        "start": 2.55,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "u",
+                                "start": 2.55,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.61,
+                                "duration": 0.3,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.989316463470459
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 142.3968,
+            "a1": 593.7452,
+            "a2": 426.4568,
+            "b1": 229.6281,
+            "b2": 165.5103,
+            "c": 139.8058
+        }
+    }
+}

@@ -1,0 +1,224 @@
+{
+    "task_id": "anonymous-20090530-myu_a0400",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/anonymous-20090530-myu/wav/a0400.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/anonymous-20090530-myu_a0400/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 0.9743862152099609,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 1.625,
+        "snr": -0.021505335190366653,
+        "zcr": 0.0,
+        "speech_energy": 896.6002235116883,
+        "noise_energy": 901.051006895123
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9976377487182617
+        },
+        "language": "en",
+        "text": "And here's another idea.",
+        "text_normalized": "AND HERE'S ANOTHER IDEA",
+        "segments": [
+            {
+                "text": "And here's another idea.",
+                "text_normalized": "AND HERE'S ANOTHER IDEA",
+                "start": 0.0,
+                "duration": 1.62,
+                "temperature": false,
+                "avg_logprob": -0.2924445735083686,
+                "compression_ratio": 0.8,
+                "no_speech_prob": 0.02392454259097576,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.33,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.33,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "And",
+                        "word_normalized": "AND",
+                        "start": 0.33,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 0.33,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.45,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 0.51,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4380839169025421
+                    },
+                    {
+                        "word": " here's",
+                        "word_normalized": "HERE'S",
+                        "start": 0.6,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.6,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.66,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.75,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e;A",
+                                "start": 0.78,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.81,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8737373352050781
+                    },
+                    {
+                        "word": " another",
+                        "word_normalized": "ANOTHER",
+                        "start": 0.9,
+                        "duration": 0.36000000000000004,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 0.9,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.96,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.02,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.08,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.11,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.2,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9940033555030823
+                    },
+                    {
+                        "word": " idea.",
+                        "word_normalized": "IDEA",
+                        "start": 1.26,
+                        "duration": 0.36000000000000004,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.35,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.53,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.56,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9352182149887085
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1057.5482,
+            "a1": 1421.0849,
+            "a2": 1512.5861,
+            "b1": 1062.772,
+            "b2": 1147.3079,
+            "c": 1722.6618
+        }
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "task_id": "bugsysservant-20091103-vyn_a0158",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/bugsysservant-20091103-vyn/wav/a0158.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/bugsysservant-20091103-vyn_a0158/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.2006170749664307,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.75,
+        "snr": 23.41680595921702,
+        "zcr": 0.10861986736918605,
+        "speech_energy": 111.61094785810592,
+        "noise_energy": 0.5081901001551795
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0130643844604492
+        },
+        "language": "en",
+        "text": "Just that look good.",
+        "text_normalized": "JUST THAT LOOK GOOD",
+        "segments": [
+            {
+                "text": "Just that look good.",
+                "text_normalized": "JUST THAT LOOK GOOD",
+                "start": 0.0,
+                "duration": 1.7399999999999998,
+                "temperature": false,
+                "avg_logprob": -0.3767344057559967,
+                "compression_ratio": 0.7142857142857143,
+                "no_speech_prob": 0.0043366034515202045,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.63,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Just",
+                        "word_normalized": "JUST",
+                        "start": 0.63,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "j",
+                                "start": 0.63,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.72,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.78,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.81,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3312797546386719
+                    },
+                    {
+                        "word": " that",
+                        "word_normalized": "THAT",
+                        "start": 0.87,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.87,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.9,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.93,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.99,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9733460545539856
+                    },
+                    {
+                        "word": " look",
+                        "word_normalized": "LOOK",
+                        "start": 1.08,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "l",
+                                "start": 1.08,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.14,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "k",
+                                "start": 1.23,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8506240844726562
+                    },
+                    {
+                        "word": " good.",
+                        "word_normalized": "GOOD",
+                        "start": 1.38,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "g",
+                                "start": 1.38,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.44,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.56,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.989534318447113
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 358.2284,
+            "a1": 289.7077,
+            "a2": 317.8631,
+            "b1": 350.6874,
+            "b2": 422.7465,
+            "c": 582.7738
+        }
+    }
+}

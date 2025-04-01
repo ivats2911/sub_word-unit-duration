@@ -1,0 +1,288 @@
+{
+    "task_id": "Nadim-20100515-uum_b0372",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Nadim-20100515-uum/wav/b0372.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Nadim-20100515-uum_b0372/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.5301833152770996,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.1891083513160407,
+        "noise": -1.0,
+        "duration": 3.6693125,
+        "snr": 9.883096413406744,
+        "zcr": 0.053447690217391305,
+        "speech_energy": 40.784173352377756,
+        "noise_energy": 4.18969127866957
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.1771910190582275
+        },
+        "language": "en",
+        "text": "Mister McVay told me about him.",
+        "text_normalized": "MISTER MCVAY TOLD ME ABOUT HIM",
+        "segments": [
+            {
+                "text": "Mister McVay told me about him.",
+                "text_normalized": "MISTER MCVAY TOLD ME ABOUT HIM",
+                "start": 0.0,
+                "duration": 2.34,
+                "temperature": false,
+                "avg_logprob": -0.3636917701134315,
+                "compression_ratio": 0.7948717948717948,
+                "no_speech_prob": 0.005607792176306248,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.33,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.33,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Mister",
+                        "word_normalized": "MISTER",
+                        "start": 0.33,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.33,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.48,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.57,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.6,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.69,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.72,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5748813450336456
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.78,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.78,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " McVay",
+                        "word_normalized": "MCVAY",
+                        "start": 0.81,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.81,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.5797089437643687
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.9,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.9,
+                                "duration": 0.09,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " told",
+                        "word_normalized": "TOLD",
+                        "start": 0.99,
+                        "duration": 0.69,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.99,
+                                "duration": 0.48,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.47,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.59,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.65,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9871932864189148
+                    },
+                    {
+                        "word": " me",
+                        "word_normalized": "ME",
+                        "start": 1.68,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 1.68,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.71,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9980364441871643
+                    },
+                    {
+                        "word": " about",
+                        "word_normalized": "ABOUT",
+                        "start": 1.83,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.83,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "b",
+                                "start": 1.86,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.92,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.01,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 2.04,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.998729407787323
+                    },
+                    {
+                        "word": " him.",
+                        "word_normalized": "HIM",
+                        "start": 2.13,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 2.13,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.16,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 2.19,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9949148893356323
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 31.7366,
+            "a1": 93.4243,
+            "a2": 45.8416,
+            "b1": 30.9985,
+            "b2": 33.5089,
+            "c": 29.1206
+        }
+    }
+}

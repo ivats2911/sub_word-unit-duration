@@ -1,0 +1,258 @@
+{
+    "task_id": "rortiz-20100203-lge_a0557",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/rortiz-20100203-lge/wav/a0557.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/rortiz-20100203-lge_a0557/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.6616215705871582,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.034037998422014715,
+        "noise": -1.0,
+        "duration": 5.875,
+        "snr": 23.97525739212241,
+        "zcr": 0.16560695482336957,
+        "speech_energy": 4.065824548403422,
+        "noise_energy": 0.016278819003630252
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 2.4207727909088135
+        },
+        "language": "en",
+        "text": "The last refugee had passed.",
+        "text_normalized": "THE LAST REFUGEE HAD PASSED",
+        "segments": [
+            {
+                "text": "The last refugee had passed.",
+                "text_normalized": "THE LAST REFUGEE HAD PASSED",
+                "start": 0.0,
+                "duration": 2.79,
+                "temperature": false,
+                "avg_logprob": -0.3133245044284397,
+                "compression_ratio": 0.7777777777777778,
+                "no_speech_prob": 0.007256651297211647,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.84,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.84,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "The",
+                        "word_normalized": "THE",
+                        "start": 0.84,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.84,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.93,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.96,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8716302514076233
+                    },
+                    {
+                        "word": " last",
+                        "word_normalized": "LAST",
+                        "start": 1.02,
+                        "duration": 0.41999999999999993,
+                        "phones": [
+                            {
+                                "phone": "l",
+                                "start": 1.02,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.11,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.35,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9788329005241394
+                    },
+                    {
+                        "word": " refugee",
+                        "word_normalized": "REFUGEE",
+                        "start": 1.44,
+                        "duration": 0.5700000000000001,
+                        "phones": [
+                            {
+                                "phone": "r",
+                                "start": 1.44,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.5,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 1.59,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.65,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.8,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.86,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.95,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6562327146530151
+                    },
+                    {
+                        "word": " had",
+                        "word_normalized": "HAD",
+                        "start": 2.01,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 2.01,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.07,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.13,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9943056702613831
+                    },
+                    {
+                        "word": " passed.",
+                        "word_normalized": "PASSED",
+                        "start": 2.19,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 2.19,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.25,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.43,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.52,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.64,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.67,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9920152425765991
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 2255.1913,
+            "a1": 2618.6855,
+            "a2": 2824.3381,
+            "b1": 1787.7223,
+            "b2": 3664.376,
+            "c": 2702.9206
+        }
+    }
+}

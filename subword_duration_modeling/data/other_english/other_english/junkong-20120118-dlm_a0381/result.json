@@ -1,0 +1,164 @@
+{
+    "task_id": "junkong-20120118-dlm_a0381",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/junkong-20120118-dlm/wav/a0381.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/junkong-20120118-dlm_a0381/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0480833053588867,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.014834692589319545,
+        "noise": 38.53721065309357,
+        "duration": 3.90625,
+        "snr": 7.635508420247106,
+        "zcr": 0.08407170985772358,
+        "speech_energy": 91.66735339732398,
+        "noise_energy": 15.800246070413028
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.5137333869934082
+        },
+        "language": "en",
+        "text": "My name is Bugasans.",
+        "text_normalized": "MY NAME IS BUGASANS",
+        "segments": [
+            {
+                "text": "My name is Bugasans.",
+                "text_normalized": "MY NAME IS BUGASANS",
+                "start": 0.0,
+                "duration": 1.35,
+                "temperature": false,
+                "avg_logprob": -0.7686360836029053,
+                "compression_ratio": 0.7142857142857143,
+                "no_speech_prob": 0.01326705515384674,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.51,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "My",
+                        "word_normalized": "MY",
+                        "start": 0.51,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.51,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.63,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9015188813209534
+                    },
+                    {
+                        "word": " name",
+                        "word_normalized": "NAME",
+                        "start": 0.78,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.78,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.87,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 0.99,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.08,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6234450936317444
+                    },
+                    {
+                        "word": " is",
+                        "word_normalized": "IS",
+                        "start": 1.11,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.14,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7845021486282349
+                    },
+                    {
+                        "word": " Bugasans.",
+                        "word_normalized": "BUGASANS",
+                        "start": 1.32,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.32,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.1670569876829783
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 49.1285,
+            "a1": 43.3644,
+            "a2": 39.5367,
+            "b1": 44.4222,
+            "b2": 59.8963,
+            "c": 80.094
+        }
+    }
+}

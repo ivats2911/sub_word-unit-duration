@@ -1,0 +1,350 @@
+{
+    "task_id": "jlrice9673-20090625-len_b0121",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/jlrice9673-20090625-len/wav/b0121.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/jlrice9673-20090625-len_b0121/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1079316139221191,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.21290249772704822,
+        "noise": -1.0,
+        "duration": 3.25,
+        "snr": 14.045294825419155,
+        "zcr": 0.07240923713235294,
+        "speech_energy": 21.844184509030093,
+        "noise_energy": 0.8606099316643343
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0600483417510986
+        },
+        "language": "en",
+        "text": "I want my men to work by themselves.",
+        "text_normalized": "I WANT MY MEN TO WORK BY THEMSELVES",
+        "segments": [
+            {
+                "text": "I want my men to work by themselves.",
+                "text_normalized": "I WANT MY MEN TO WORK BY THEMSELVES",
+                "start": 0.0,
+                "duration": 2.88,
+                "temperature": false,
+                "avg_logprob": -0.16722963253657022,
+                "compression_ratio": 0.8181818181818182,
+                "no_speech_prob": 0.004134263377636671,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.66,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.66,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I",
+                        "word_normalized": "I",
+                        "start": 0.66,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.66,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9589356780052185
+                    },
+                    {
+                        "word": " want",
+                        "word_normalized": "WANT",
+                        "start": 0.81,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.81,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.93,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9851913452148438
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.05,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.05,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " my",
+                        "word_normalized": "MY",
+                        "start": 1.08,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 1.08,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.17,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9984715580940247
+                    },
+                    {
+                        "word": " men",
+                        "word_normalized": "MEN",
+                        "start": 1.26,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 1.26,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.38,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.47,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7647205591201782
+                    },
+                    {
+                        "word": " to",
+                        "word_normalized": "TO",
+                        "start": 1.59,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.59,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9989140033721924
+                    },
+                    {
+                        "word": " work",
+                        "word_normalized": "WORK",
+                        "start": 1.74,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 1.74,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.77,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.83,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "k",
+                                "start": 1.86,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9984073042869568
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.95,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.95,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " by",
+                        "word_normalized": "BY",
+                        "start": 1.98,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 1.98,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 2.01,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.998784601688385
+                    },
+                    {
+                        "word": " themselves.",
+                        "word_normalized": "THEMSELVES",
+                        "start": 2.13,
+                        "duration": 0.75,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 2.13,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 2.19,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.22,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 2.25,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.28,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.43,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.49,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 2.61,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.67,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.7,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9856805801391602
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 158.307,
+            "a1": 271.1509,
+            "a2": 243.7998,
+            "b1": 223.2315,
+            "b2": 168.4052,
+            "c": 201.7179
+        }
+    }
+}

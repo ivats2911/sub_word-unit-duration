@@ -1,0 +1,260 @@
+{
+    "task_id": "MS-20121113-rgm_b0339",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/MS-20121113-rgm/wav/b0339.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/MS-20121113-rgm_b0339/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0609452724456787,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.1373807600031506,
+        "noise": -1.0,
+        "duration": 3.875,
+        "snr": 7.80017120413937,
+        "zcr": 0.11693535476434426,
+        "speech_energy": 1168.7565115995187,
+        "noise_energy": 193.9576542671816
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.5902483463287354
+        },
+        "language": "en",
+        "text": "Well, I'll be plumb-gash darned.",
+        "text_normalized": "WELL I'LL BE PLUMB GASH DARNED",
+        "segments": [
+            {
+                "text": "Well, I'll be plumb-gash darned.",
+                "text_normalized": "WELL I'LL BE PLUMB GASH DARNED",
+                "start": 0.0,
+                "duration": 2.0999999999999996,
+                "temperature": false,
+                "avg_logprob": -0.7429731593412512,
+                "compression_ratio": 0.8,
+                "no_speech_prob": 0.00323645886965096,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.6,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Well,",
+                        "word_normalized": "WELL",
+                        "start": 0.6,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.6,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.69,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.72,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8652975559234619
+                    },
+                    {
+                        "word": " I'll",
+                        "word_normalized": "I'LL",
+                        "start": 0.81,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "i;A",
+                                "start": 0.81,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.9,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9018098711967468
+                    },
+                    {
+                        "word": " be",
+                        "word_normalized": "BE",
+                        "start": 1.02,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 1.02,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.08,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.997043788433075
+                    },
+                    {
+                        "word": " plumb-gash",
+                        "word_normalized": "PLUMB",
+                        "start": 1.17,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 1.17,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.35,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "b",
+                                "start": 1.44,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.49851386745770776
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "GASH",
+                        "start": 1.53,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "g",
+                                "start": 1.53,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.59,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.71,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.77,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.49851386745770776
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.86,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.86,
+                                "duration": 0.21,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " darned.",
+                        "word_normalized": "DARNED",
+                        "start": 2.07,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.07,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.39582308009266853
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 31952.1281,
+            "a1": 84726.6296,
+            "a2": 80241.6698,
+            "b1": 57242.666,
+            "b2": 30490.1694,
+            "c": 22360.4143
+        }
+    }
+}

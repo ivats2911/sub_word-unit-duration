@@ -1,0 +1,174 @@
+{
+    "task_id": "kmitch-20100603-ftd_a0028",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/kmitch-20100603-ftd/wav/a0028.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/kmitch-20100603-ftd_a0028/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.112337589263916,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.014102063437179556,
+        "noise": -1.0,
+        "duration": 4.75,
+        "snr": 3.4759448406211306,
+        "zcr": 0.07072868603187919,
+        "speech_energy": 191.11494639506324,
+        "noise_energy": 85.842067471456
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.859717607498169
+        },
+        "language": "en",
+        "text": "Rabri, Bribri fraud.",
+        "text_normalized": "RABRI BRIBRI FRAUD",
+        "segments": [
+            {
+                "text": "Rabri, Bribri fraud.",
+                "text_normalized": "RABRI BRIBRI FRAUD",
+                "start": 0.0,
+                "duration": 3.39,
+                "temperature": false,
+                "avg_logprob": -1.077233870824178,
+                "compression_ratio": 0.7692307692307693,
+                "no_speech_prob": 0.004656878300011158,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.62,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.62,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Rabri,",
+                        "word_normalized": "RABRI",
+                        "start": 1.62,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.62,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.1741792857646942
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.65,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.65,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Bribri",
+                        "word_normalized": "BRIBRI",
+                        "start": 1.68,
+                        "duration": 0.87,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.68,
+                                "duration": 0.87,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.4666953682899475
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.55,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.55,
+                                "duration": 0.18,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " fraud.",
+                        "word_normalized": "FRAUD",
+                        "start": 2.73,
+                        "duration": 0.66,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 2.73,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.88,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.97,
+                                "duration": 0.24,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 3.21,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 3.24,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.2753748297691345
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 115.6645,
+            "a1": 18.7932,
+            "a2": 57.2664,
+            "b1": 58.9386,
+            "b2": 88.9201,
+            "c": 56.1048
+        }
+    }
+}

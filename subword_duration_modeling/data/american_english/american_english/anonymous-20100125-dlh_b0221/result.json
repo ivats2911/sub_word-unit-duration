@@ -1,0 +1,224 @@
+{
+    "task_id": "anonymous-20100125-dlh_b0221",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20100125-dlh/wav/b0221.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20100125-dlh_b0221/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4026293754577637,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.05843517726554335,
+        "noise": 424.95022333641833,
+        "duration": 4.0,
+        "snr": 2.2412345247799923,
+        "zcr": 0.056582496279761904,
+        "speech_energy": 31.845231184233274,
+        "noise_energy": 19.007322939911063
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.1819844245910645
+        },
+        "language": "en",
+        "text": "It's a Ganki, John cry.",
+        "text_normalized": "IT'S A GANKI JOHN CRY",
+        "segments": [
+            {
+                "text": "It's a Ganki, John cry.",
+                "text_normalized": "IT'S A GANKI JOHN CRY",
+                "start": 0.0,
+                "duration": 2.31,
+                "temperature": false,
+                "avg_logprob": -0.7182482205904447,
+                "compression_ratio": 0.7419354838709677,
+                "no_speech_prob": 0.00988954957574606,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.48,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It's",
+                        "word_normalized": "IT'S",
+                        "start": 0.48,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.48,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t;A",
+                                "start": 0.54,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.63,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.844889223575592
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.66,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.66,
+                                "duration": 0.42,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 1.08,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.08,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7677343487739563
+                    },
+                    {
+                        "word": " Ganki,",
+                        "word_normalized": "GANKI",
+                        "start": 1.26,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.405837948123614
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.29,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.29,
+                                "duration": 0.15,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " John",
+                        "word_normalized": "JOHN",
+                        "start": 1.44,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "j",
+                                "start": 1.44,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.59,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.68,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.71,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.42307227849960327
+                    },
+                    {
+                        "word": " cry.",
+                        "word_normalized": "CRY",
+                        "start": 1.83,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 1.83,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.89,
+                                "duration": 0.24,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 2.13,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.22868697345256805
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 480.6457,
+            "a1": 740.1589,
+            "a2": 500.9854,
+            "b1": 431.6185,
+            "b2": 466.7131,
+            "c": 429.8085
+        }
+    }
+}

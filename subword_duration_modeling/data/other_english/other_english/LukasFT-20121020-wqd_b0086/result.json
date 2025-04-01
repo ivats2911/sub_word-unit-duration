@@ -1,0 +1,176 @@
+{
+    "task_id": "LukasFT-20121020-wqd_b0086",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/LukasFT-20121020-wqd/wav/b0086.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/LukasFT-20121020-wqd_b0086/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 0.9848470687866211,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.19078849385621424,
+        "noise": -1.0,
+        "duration": 3.0,
+        "snr": 16.18633469779063,
+        "zcr": 0.10125083111702128,
+        "speech_energy": 166.52922689178845,
+        "noise_energy": 4.007347424825032
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.3972508907318115
+        },
+        "language": "en",
+        "text": "You can kill.",
+        "text_normalized": "YOU CAN KILL",
+        "segments": [
+            {
+                "text": "You can kill.",
+                "text_normalized": "YOU CAN KILL",
+                "start": 0.0,
+                "duration": 1.65,
+                "temperature": false,
+                "avg_logprob": -0.6043295179094587,
+                "compression_ratio": 0.6190476190476191,
+                "no_speech_prob": 0.012068325653672218,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.81,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.81,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "You",
+                        "word_normalized": "YOU",
+                        "start": 0.81,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 0.81,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.93,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.96,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3486292064189911
+                    },
+                    {
+                        "word": " can",
+                        "word_normalized": "CAN",
+                        "start": 0.99,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.02,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.08,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7824171781539917
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.14,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.14,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " kill.",
+                        "word_normalized": "KILL",
+                        "start": 1.17,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "k",
+                                "start": 1.17,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.29,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.41,
+                                "duration": 0.24,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6855884194374084
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 332.6212,
+            "a1": 314.7386,
+            "a2": 182.0644,
+            "b1": 357.3758,
+            "b2": 486.6313,
+            "c": 453.9416
+        }
+    }
+}

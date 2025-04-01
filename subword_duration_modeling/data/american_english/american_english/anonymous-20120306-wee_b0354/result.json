@@ -1,0 +1,206 @@
+{
+    "task_id": "anonymous-20120306-wee_b0354",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20120306-wee/wav/b0354.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20120306-wee_b0354/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.3338630199432373,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.24779574918499653,
+        "noise": -1.0,
+        "duration": 3.0,
+        "snr": 41.06800067157459,
+        "zcr": 0.28521858377659576,
+        "speech_energy": 227.38247261391032,
+        "noise_energy": 0.017781030120594163
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0510728359222412
+        },
+        "language": "en",
+        "text": "It's that much drunk.",
+        "text_normalized": "IT'S THAT MUCH DRUNK",
+        "segments": [
+            {
+                "text": "It's that much drunk.",
+                "text_normalized": "IT'S THAT MUCH DRUNK",
+                "start": 0.0,
+                "duration": 1.5299999999999998,
+                "temperature": false,
+                "avg_logprob": -0.24021355311075845,
+                "compression_ratio": 0.7241379310344828,
+                "no_speech_prob": 0.003234257223084569,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.42,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It's",
+                        "word_normalized": "IT'S",
+                        "start": 0.42,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.42,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t;A",
+                                "start": 0.57,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.6,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9304397702217102
+                    },
+                    {
+                        "word": " that",
+                        "word_normalized": "THAT",
+                        "start": 0.69,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.69,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.75,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.78,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.84,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9897372126579285
+                    },
+                    {
+                        "word": " much",
+                        "word_normalized": "MUCH",
+                        "start": 0.9,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.9,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.93,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 1.02,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.08,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9971742630004883
+                    },
+                    {
+                        "word": " drunk.",
+                        "word_normalized": "DRUNK",
+                        "start": 1.17,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 1.17,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.23,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.32,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "k",
+                                "start": 1.44,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9270052909851074
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 696.1457,
+            "a1": 1067.4315,
+            "a2": 1427.3816,
+            "b1": 963.2968,
+            "b2": 606.4012,
+            "c": 710.1663
+        }
+    }
+}

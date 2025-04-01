@@ -1,0 +1,186 @@
+{
+    "task_id": "anonymous-20140729-bnk_a0205",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20140729-bnk/wav/a0205.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20140729-bnk_a0205/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.3650856018066406,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.1857595191860014,
+        "noise": -1.0,
+        "duration": 3.5,
+        "snr": 8.61806034288564,
+        "zcr": 0.20951704545454544,
+        "speech_energy": 247.36041403810182,
+        "noise_energy": 34.003542542688606
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.1283020973205566
+        },
+        "language": "en",
+        "text": "From now on repiles.",
+        "text_normalized": "FROM NOW ON REPILES",
+        "segments": [
+            {
+                "text": "From now on repiles.",
+                "text_normalized": "FROM NOW ON REPILES",
+                "start": 0.0,
+                "duration": 2.0399999999999996,
+                "temperature": false,
+                "avg_logprob": -0.444311433368259,
+                "compression_ratio": 0.7142857142857143,
+                "no_speech_prob": 0.004025934264063835,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.63,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "From",
+                        "word_normalized": "FROM",
+                        "start": 0.63,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.63,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.72,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.75,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 0.78,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.65451580286026
+                    },
+                    {
+                        "word": " now",
+                        "word_normalized": "NOW",
+                        "start": 0.84,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.84,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.87,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 1.05,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9553285241127014
+                    },
+                    {
+                        "word": " on",
+                        "word_normalized": "ON",
+                        "start": 1.08,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 1.08,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.23,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9930141568183899
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.35,
+                        "duration": 0.66,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.35,
+                                "duration": 0.66,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " repiles.",
+                        "word_normalized": "REPILES",
+                        "start": 2.01,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.01,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.335141584277153
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 295.6651,
+            "a1": 334.2976,
+            "a2": 291.5188,
+            "b1": 318.7376,
+            "b2": 302.5985,
+            "c": 327.3157
+        }
+    }
+}

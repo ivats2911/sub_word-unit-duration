@@ -1,0 +1,184 @@
+{
+    "task_id": "anonymous-20111115-uzp_a0562",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20111115-uzp/wav/a0562.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20111115-uzp_a0562/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4673676490783691,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.03913359969170064,
+        "noise": 38.800847367059184,
+        "duration": 4.5573125,
+        "snr": 10.565672025791224,
+        "zcr": 0.006706184440559441,
+        "speech_energy": 26.710542326881768,
+        "noise_energy": 2.3448523608121006
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.4825434684753418
+        },
+        "language": "en",
+        "text": "What do swimming?",
+        "text_normalized": "WHAT DO SWIMMING",
+        "segments": [
+            {
+                "text": "What do swimming?",
+                "text_normalized": "WHAT DO SWIMMING",
+                "start": 0.0,
+                "duration": 2.49,
+                "temperature": false,
+                "avg_logprob": -0.7217270987374442,
+                "compression_ratio": 0.68,
+                "no_speech_prob": 0.05173584818840027,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.65,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.65,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "What",
+                        "word_normalized": "WHAT",
+                        "start": 1.65,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 1.65,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.77,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.83,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.86,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8212343454360962
+                    },
+                    {
+                        "word": " do",
+                        "word_normalized": "DO",
+                        "start": 1.98,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 1.98,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.01,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.21250131726264954
+                    },
+                    {
+                        "word": " swimming?",
+                        "word_normalized": "SWIMMING",
+                        "start": 2.1,
+                        "duration": 0.3900000000000001,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 2.1,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 2.19,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.31,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 2.34,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 2.37,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.4,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.43,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 2.46,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.19576387107372284
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 191.7565,
+            "a1": 150.7388,
+            "a2": 125.8418,
+            "b1": 165.7964,
+            "b2": 288.5526,
+            "c": 371.2572
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "task_id": "anonymous-20171019-xvx_en-1172",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20171019-xvx/wav/en-1172.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20171019-xvx_en-1172/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.7646830081939697,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.1089138739369863,
+        "noise": 2.3288790692961583,
+        "duration": 3.3854375,
+        "snr": 9.454086670571987,
+        "zcr": 0.0298450397995283,
+        "speech_energy": 352.82930112352557,
+        "noise_energy": 40.008841620551216
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0792949199676514
+        },
+        "language": "en",
+        "text": "Just curious.",
+        "text_normalized": "JUST CURIOUS",
+        "segments": [
+            {
+                "text": "Just curious.",
+                "text_normalized": "JUST CURIOUS",
+                "start": 0.0,
+                "duration": 1.47,
+                "temperature": false,
+                "avg_logprob": -0.2967171271642049,
+                "compression_ratio": 0.6190476190476191,
+                "no_speech_prob": 0.015050418674945831,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.45,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Just",
+                        "word_normalized": "JUST",
+                        "start": 0.45,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "j",
+                                "start": 0.45,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.57,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.66,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.72,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4252265393733978
+                    },
+                    {
+                        "word": " curious.",
+                        "word_normalized": "CURIOUS",
+                        "start": 0.81,
+                        "duration": 0.6599999999999999,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 0.81,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.87,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.05,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.14,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.23,
+                                "duration": 0.24,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9945732951164246
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 3107.8972,
+            "a1": 1868.9604,
+            "a2": 2040.3283,
+            "b1": 3189.0895,
+            "b2": 2598.1653,
+            "c": 2703.3365
+        }
+    }
+}

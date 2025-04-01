@@ -1,0 +1,154 @@
+{
+    "task_id": "anonymous-20121027-pfx_a0028",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/anonymous-20121027-pfx/wav/a0028.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/anonymous-20121027-pfx_a0028/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0692980289459229,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.03342486034428458,
+        "noise": -1.0,
+        "duration": 4.625,
+        "snr": -2.8839796472837405,
+        "zcr": 0.12803744612068965,
+        "speech_energy": 259.07340731580183,
+        "noise_energy": 503.29289754231775
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.3634154796600342
+        },
+        "language": "en",
+        "text": "Rabri, Blabri, Florida.",
+        "text_normalized": "RABRI BLABRI FLORIDA",
+        "segments": [
+            {
+                "text": "Rabri, Blabri, Florida.",
+                "text_normalized": "RABRI BLABRI FLORIDA",
+                "start": 0.0,
+                "duration": 2.4899999999999998,
+                "temperature": false,
+                "avg_logprob": -0.8927168479332557,
+                "compression_ratio": 0.8846153846153846,
+                "no_speech_prob": 0.0046090115793049335,
+                "words": [
+                    {
+                        "word": "Rabri,",
+                        "word_normalized": "RABRI",
+                        "start": 0.0,
+                        "duration": 1.5,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 1.5,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.4145480766892433
+                    },
+                    {
+                        "word": " Blabri,",
+                        "word_normalized": "BLABRI",
+                        "start": 1.5,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.5,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.6560160766045252
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.53,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.53,
+                                "duration": 0.6,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Florida.",
+                        "word_normalized": "FLORIDA",
+                        "start": 2.13,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 2.13,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.16,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.19,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.22,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.25,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.43,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.46,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.20422273874282837
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 129.5985,
+            "a1": 18.6123,
+            "a2": 49.5907,
+            "b1": 88.2267,
+            "b2": 102.778,
+            "c": 102.4944
+        }
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "task_id": "Ertain-20100728-euy_a0028",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Ertain-20100728-euy/wav/a0028.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Ertain-20100728-euy_a0028/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1211378574371338,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.04087704414384499,
+        "noise": 6.872538618607995,
+        "duration": 4.1813125,
+        "snr": -0.7514985979348214,
+        "zcr": 5.963740458015267e-05,
+        "speech_energy": 1446.9212720183289,
+        "noise_energy": 1720.262654622396
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.2177305221557617
+        },
+        "language": "en",
+        "text": "Rabri Brabri fried.",
+        "text_normalized": "RABRI BRABRI FRIED",
+        "segments": [
+            {
+                "text": "Rabri Brabri fried.",
+                "text_normalized": "RABRI BRABRI FRIED",
+                "start": 0.0,
+                "duration": 1.5,
+                "temperature": false,
+                "avg_logprob": -0.9393561103127219,
+                "compression_ratio": 0.8260869565217391,
+                "no_speech_prob": 0.011712786741554737,
+                "words": [
+                    {
+                        "word": "Rabri",
+                        "word_normalized": "RABRI",
+                        "start": 0.0,
+                        "duration": 0.96,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 0.96,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.33388184507687885
+                    },
+                    {
+                        "word": " Brabri",
+                        "word_normalized": "BRABRI",
+                        "start": 0.96,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.96,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.6276754786570867
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.99,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " fried.",
+                        "word_normalized": "FRIED",
+                        "start": 1.02,
+                        "duration": 0.48000000000000004,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.05,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.08,
+                                "duration": 0.33,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.44,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.23612351715564728
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 145.613,
+            "a1": 18.9889,
+            "a2": 50.6174,
+            "b1": 79.6893,
+            "b2": 126.1828,
+            "c": 103.2049
+        }
+    }
+}

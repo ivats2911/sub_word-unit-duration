@@ -1,0 +1,228 @@
+{
+    "task_id": "nclm-20140911-kuo_a0385",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/nclm-20140911-kuo/wav/a0385.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/nclm-20140911-kuo_a0385/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.028183937072754,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.22729303182132973,
+        "noise": -1.0,
+        "duration": 3.5,
+        "snr": 0.022040516572009547,
+        "zcr": 0.0,
+        "speech_energy": 3932.3276234321856,
+        "noise_energy": 3912.4215504479785
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.066413402557373
+        },
+        "language": "en",
+        "text": "That's what Kanji did.",
+        "text_normalized": "THAT'S WHAT KANJI DID",
+        "segments": [
+            {
+                "text": "That's what Kanji did.",
+                "text_normalized": "THAT'S WHAT KANJI DID",
+                "start": 0.0,
+                "duration": 2.1,
+                "temperature": false,
+                "avg_logprob": -0.4942305564880371,
+                "compression_ratio": 0.7857142857142857,
+                "no_speech_prob": 0.010587426833808422,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.6,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "That's",
+                        "word_normalized": "THAT'S",
+                        "start": 0.6,
+                        "duration": 0.33,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.6,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.72,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t;A",
+                                "start": 0.81,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.87,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.894445538520813
+                    },
+                    {
+                        "word": " what",
+                        "word_normalized": "WHAT",
+                        "start": 0.93,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.93,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.99,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.08,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.11,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9846540093421936
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.2,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Kanji",
+                        "word_normalized": "KANJI",
+                        "start": 1.23,
+                        "duration": 0.42000000000000004,
+                        "phones": [
+                            {
+                                "phone": "k",
+                                "start": 1.23,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.35,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "j",
+                                "start": 1.5,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.56,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.2603550851345062
+                    },
+                    {
+                        "word": " did.",
+                        "word_normalized": "DID",
+                        "start": 1.65,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.74,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.92,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9964511394500732
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1825.7448,
+            "a1": 3622.7638,
+            "a2": 3195.3626,
+            "b1": 1697.9313,
+            "b2": 2750.6804,
+            "c": 2548.2385
+        }
+    }
+}

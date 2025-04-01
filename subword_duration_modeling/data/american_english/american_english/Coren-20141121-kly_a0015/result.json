@@ -1,0 +1,158 @@
+{
+    "task_id": "Coren-20141121-kly_a0015",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Coren-20141121-kly/wav/a0015.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Coren-20141121-kly_a0015/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.3235011100769043,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.09182736455463725,
+        "noise": -1.0,
+        "duration": 3.5,
+        "snr": 13.44306043047406,
+        "zcr": 0.12233664772727272,
+        "speech_energy": 6.934453815710349,
+        "noise_energy": 0.3138384982651355
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 2.233098030090332
+        },
+        "language": "en",
+        "text": "It's the Oroborialess.",
+        "text_normalized": "IT'S THE OROBORIALESS",
+        "segments": [
+            {
+                "text": "It's the Oroborialess.",
+                "text_normalized": "IT'S THE OROBORIALESS",
+                "start": 0.0,
+                "duration": 2.34,
+                "temperature": false,
+                "avg_logprob": -0.6151129404703776,
+                "compression_ratio": 0.7333333333333333,
+                "no_speech_prob": 0.004568198230117559,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.48,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It's",
+                        "word_normalized": "IT'S",
+                        "start": 0.48,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.48,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t;A",
+                                "start": 0.57,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.66,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8975411951541901
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 0.72,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.72,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.78,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.81,
+                                "duration": 0.24,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9572293758392334
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.05,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.05,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Oroborialess.",
+                        "word_normalized": "OROBORIALESS",
+                        "start": 1.08,
+                        "duration": 1.26,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.08,
+                                "duration": 1.26,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.32908492982387544
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 56.0273,
+            "a1": 96.2942,
+            "a2": 70.5342,
+            "b1": 60.9256,
+            "b2": 52.2516,
+            "c": 55.7443
+        }
+    }
+}

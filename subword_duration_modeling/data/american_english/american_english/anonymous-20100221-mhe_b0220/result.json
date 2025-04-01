@@ -1,0 +1,226 @@
+{
+    "task_id": "anonymous-20100221-mhe_b0220",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20100221-mhe/wav/b0220.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20100221-mhe_b0220/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.6456091403961182,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.24495657159846246,
+        "noise": -1.0,
+        "duration": 4.125,
+        "snr": 27.273801419730894,
+        "zcr": 0.05799191497093023,
+        "speech_energy": 50.64143635868246,
+        "noise_energy": 0.09486933869093356
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.5091960430145264
+        },
+        "language": "en",
+        "text": " Hey, Bankraft. They've lied.",
+        "text_normalized": "HEY BANKRAFT THEY'VE LIED",
+        "segments": [
+            {
+                "text": " Hey, Bankraft. They've lied.",
+                "text_normalized": "HEY BANKRAFT THEY'VE LIED",
+                "start": 0.0,
+                "duration": 2.52,
+                "temperature": false,
+                "avg_logprob": -0.7730982303619385,
+                "compression_ratio": 0.7777777777777778,
+                "no_speech_prob": 0.0023840093053877354,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.57,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Hey,",
+                        "word_normalized": "HEY",
+                        "start": 0.57,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.57,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.66,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.75,
+                                "duration": 0.33,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.22076724469661713
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.08,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.08,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Bankraft.",
+                        "word_normalized": "BANKRAFT",
+                        "start": 1.11,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.11,
+                                "duration": 0.39,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.2879355326294899
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.5,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.5,
+                                "duration": 0.39,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " They've",
+                        "word_normalized": "THEY'VE",
+                        "start": 1.89,
+                        "duration": 0.30000000000000004,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.89,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.95,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.98,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y;A",
+                                "start": 2.04,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 2.1,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.16,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7299487888813019
+                    },
+                    {
+                        "word": " lied.",
+                        "word_normalized": "LIED",
+                        "start": 2.19,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "l",
+                                "start": 2.19,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.25,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.37,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.4,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5077387690544128
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 12324.4255,
+            "a1": 16400.8633,
+            "a2": 12697.9412,
+            "b1": 19368.6798,
+            "b2": 10805.216,
+            "c": 8037.7278
+        }
+    }
+}

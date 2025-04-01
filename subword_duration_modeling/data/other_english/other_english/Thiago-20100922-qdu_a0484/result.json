@@ -1,0 +1,154 @@
+{
+    "task_id": "Thiago-20100922-qdu_a0484",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/Thiago-20100922-qdu/wav/a0484.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/Thiago-20100922-qdu_a0484/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 0.9963040351867676,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.20733588720437018,
+        "noise": -1.0,
+        "duration": 3.0,
+        "snr": 5.924117385839733,
+        "zcr": 0.15743434175531915,
+        "speech_energy": 27.42510523114886,
+        "noise_energy": 7.010299361300194
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8117680549621582
+        },
+        "language": "en",
+        "text": "No theory.",
+        "text_normalized": "NO THEORY",
+        "segments": [
+            {
+                "text": "No theory.",
+                "text_normalized": "NO THEORY",
+                "start": 0.0,
+                "duration": 1.71,
+                "temperature": false,
+                "avg_logprob": -0.5242690642674764,
+                "compression_ratio": 0.5555555555555556,
+                "no_speech_prob": 0.014863656833767891,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.78,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.78,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "No",
+                        "word_normalized": "NO",
+                        "start": 0.78,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.78,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.93,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7855496406555176
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.11,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.11,
+                                "duration": 0.09,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " theory.",
+                        "word_normalized": "THEORY",
+                        "start": 1.2,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.29,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.41,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.47,
+                                "duration": 0.24,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.2074567675590515
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1326.7838,
+            "a1": 967.9809,
+            "a2": 909.215,
+            "b1": 1752.2663,
+            "b2": 1471.4092,
+            "c": 1171.1162
+        }
+    }
+}

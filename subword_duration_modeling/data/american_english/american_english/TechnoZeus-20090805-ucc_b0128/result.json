@@ -1,0 +1,226 @@
+{
+    "task_id": "TechnoZeus-20090805-ucc_b0128",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/TechnoZeus-20090805-ucc/wav/b0128.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/TechnoZeus-20090805-ucc_b0128/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.3385741710662842,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.15619570549761752,
+        "noise": -1.0,
+        "duration": 3.25,
+        "snr": 1.3924759251751795,
+        "zcr": 0.014590992647058824,
+        "speech_energy": 143.82828656170105,
+        "noise_energy": 104.37505424022675
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.7686700820922852
+        },
+        "language": "en",
+        "text": "Pilip Ben low over peer.",
+        "text_normalized": "PILIP BEN LOW OVER PEER",
+        "segments": [
+            {
+                "text": "Pilip Ben low over peer.",
+                "text_normalized": "PILIP BEN LOW OVER PEER",
+                "start": 0.0,
+                "duration": 2.64,
+                "temperature": false,
+                "avg_logprob": -0.9471791007302024,
+                "compression_ratio": 0.75,
+                "no_speech_prob": 0.004471795167773962,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.17,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.17,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Pilip",
+                        "word_normalized": "PILIP",
+                        "start": 1.17,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.2713776429494222
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.2,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Ben",
+                        "word_normalized": "BEN",
+                        "start": 1.23,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 1.23,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.35,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.44,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3734050989151001
+                    },
+                    {
+                        "word": " low",
+                        "word_normalized": "LOW",
+                        "start": 1.53,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "l",
+                                "start": 1.53,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.59,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 1.77,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.35095396637916565
+                    },
+                    {
+                        "word": " over",
+                        "word_normalized": "OVER",
+                        "start": 1.86,
+                        "duration": 0.30000000000000004,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 1.86,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 1.98,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.1,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.13,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8774394392967224
+                    },
+                    {
+                        "word": " peer.",
+                        "word_normalized": "PEER",
+                        "start": 2.16,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 2.16,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.25,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.37,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.49,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.1980486512184143
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 5782.2936,
+            "a1": 4579.8378,
+            "a2": 4939.9783,
+            "b1": 4528.1933,
+            "b2": 5366.9207,
+            "c": 5782.2936
+        }
+    }
+}

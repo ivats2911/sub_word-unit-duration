@@ -1,0 +1,194 @@
+{
+    "task_id": "anonymous-20100711-sic_b0093",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20100711-sic/wav/b0093.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20100711-sic_b0093/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.068112850189209,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.07731233697343162,
+        "noise": 161.51194755540942,
+        "duration": 3.375,
+        "snr": Infinity,
+        "zcr": 0.031770526238207544,
+        "speech_energy": Infinity,
+        "noise_energy": Infinity
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.1439778804779053
+        },
+        "language": "en",
+        "text": "Dartan city I'm from June.",
+        "text_normalized": "DARTAN CITY I'M FROM JUNE",
+        "segments": [
+            {
+                "text": "Dartan city I'm from June.",
+                "text_normalized": "DARTAN CITY I'M FROM JUNE",
+                "start": 0.0,
+                "duration": 1.92,
+                "temperature": false,
+                "avg_logprob": -0.6319147745768229,
+                "compression_ratio": 0.7647058823529411,
+                "no_speech_prob": 0.0072759645991027355,
+                "words": [
+                    {
+                        "word": "Dartan",
+                        "word_normalized": "DARTAN",
+                        "start": 0.0,
+                        "duration": 1.02,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 1.02,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.3459137777487437
+                    },
+                    {
+                        "word": " city",
+                        "word_normalized": "CITY",
+                        "start": 1.02,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 1.02,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.08,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.17,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.23,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4849472641944885
+                    },
+                    {
+                        "word": " I'm",
+                        "word_normalized": "I'M",
+                        "start": 1.29,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "i;A",
+                                "start": 1.29,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 1.32,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6260673105716705
+                    },
+                    {
+                        "word": " from",
+                        "word_normalized": "FROM",
+                        "start": 1.41,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.44,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.5,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 1.53,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9851726293563843
+                    },
+                    {
+                        "word": " June.",
+                        "word_normalized": "JUNE",
+                        "start": 1.56,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "j",
+                                "start": 1.56,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.59,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.74,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.8,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.46774014830589294
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 151.8885,
+            "a1": 285.4138,
+            "a2": 128.4177,
+            "b1": 222.8948,
+            "b2": 165.0821,
+            "c": 177.746
+        }
+    }
+}

@@ -1,0 +1,256 @@
+{
+    "task_id": "jade-20100109-eqe_a0036",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/jade-20100109-eqe/wav/a0036.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/jade-20100109-eqe_a0036/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4066522121429443,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.1523545496070584,
+        "noise": 146.35275744864884,
+        "duration": 3.625,
+        "snr": 9.628469851051038,
+        "zcr": 0.04206500137061404,
+        "speech_energy": 2.87782759940038,
+        "noise_energy": 0.313485738558647
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.952660322189331
+        },
+        "language": "en",
+        "text": "She turned in at the hotel.",
+        "text_normalized": "SHE TURNED IN AT THE HOTEL",
+        "segments": [
+            {
+                "text": "She turned in at the hotel.",
+                "text_normalized": "SHE TURNED IN AT THE HOTEL",
+                "start": 0.0,
+                "duration": 2.2199999999999998,
+                "temperature": false,
+                "avg_logprob": -0.1989842653274536,
+                "compression_ratio": 0.7941176470588235,
+                "no_speech_prob": 0.003912000451236963,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.39,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "She",
+                        "word_normalized": "SHE",
+                        "start": 0.39,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.39,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.48,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.6,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.808566153049469
+                    },
+                    {
+                        "word": " turned",
+                        "word_normalized": "TURNED",
+                        "start": 0.63,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.63,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.72,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.81,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.84,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.9,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 0.96,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9403776526451111
+                    },
+                    {
+                        "word": " in",
+                        "word_normalized": "IN",
+                        "start": 0.99,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.99,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.14,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.971639096736908
+                    },
+                    {
+                        "word": " at",
+                        "word_normalized": "AT",
+                        "start": 1.29,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.29,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.38,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9976254105567932
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 1.53,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.53,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.56,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.59,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9984248876571655
+                    },
+                    {
+                        "word": " hotel.",
+                        "word_normalized": "HOTEL",
+                        "start": 1.65,
+                        "duration": 0.5700000000000001,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 1.65,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.68,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.77,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.92,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.04,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9712953567504883
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 273.6799,
+            "a1": 305.653,
+            "a2": 281.0236,
+            "b1": 294.055,
+            "b2": 362.72,
+            "c": 209.0465
+        }
+    }
+}

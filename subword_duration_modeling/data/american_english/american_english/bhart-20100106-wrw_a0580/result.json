@@ -1,0 +1,220 @@
+{
+    "task_id": "bhart-20100106-wrw_a0580",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/bhart-20100106-wrw/wav/a0580.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/bhart-20100106-wrw_a0580/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.6065387725830078,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.0750970784023669,
+        "noise": 146.09745385077025,
+        "duration": 3.125,
+        "snr": 5.206566048472297,
+        "zcr": 0.028509646045918366,
+        "speech_energy": 5.297742111653816,
+        "noise_energy": 1.5974755088488262
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9833817481994629
+        },
+        "language": "en",
+        "text": "This is my fifth boyage.",
+        "text_normalized": "THIS IS MY FIFTH BOYAGE",
+        "segments": [
+            {
+                "text": "This is my fifth boyage.",
+                "text_normalized": "THIS IS MY FIFTH BOYAGE",
+                "start": 0.0,
+                "duration": 1.3800000000000001,
+                "temperature": false,
+                "avg_logprob": -0.3845468521118164,
+                "compression_ratio": 0.8,
+                "no_speech_prob": 0.0017870591254904866,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.12,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "This",
+                        "word_normalized": "THIS",
+                        "start": 0.12,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.12,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.18,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.21,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.24,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.572550356388092
+                    },
+                    {
+                        "word": " is",
+                        "word_normalized": "IS",
+                        "start": 0.33,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.33,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.39,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9866405129432678
+                    },
+                    {
+                        "word": " my",
+                        "word_normalized": "MY",
+                        "start": 0.45,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.45,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.51,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9957454800605774
+                    },
+                    {
+                        "word": " fifth",
+                        "word_normalized": "FIFTH",
+                        "start": 0.63,
+                        "duration": 0.69,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.63,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.69,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.81,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.99,
+                                "duration": 0.33,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9222949147224426
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.32,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.32,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " boyage.",
+                        "word_normalized": "BOYAGE",
+                        "start": 1.35,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.35,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.355035662651062
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 341.7237,
+            "a1": 331.99,
+            "a2": 382.7807,
+            "b1": 438.859,
+            "b2": 316.4099,
+            "c": 374.7356
+        }
+    }
+}

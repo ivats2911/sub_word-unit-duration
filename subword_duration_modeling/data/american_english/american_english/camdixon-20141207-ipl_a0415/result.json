@@ -1,0 +1,292 @@
+{
+    "task_id": "camdixon-20141207-ipl_a0415",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/camdixon-20141207-ipl/wav/a0415.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/camdixon-20141207-ipl_a0415/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.8353731632232666,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.1278155118258209,
+        "noise": -1.0,
+        "duration": 3.875,
+        "snr": 17.648167908061442,
+        "zcr": 0.21620853611680327,
+        "speech_energy": 10.428579167152444,
+        "noise_energy": 0.17922902884690659
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 2.20721173286438
+        },
+        "language": "en",
+        "text": "I lasted as a deterr for two days.",
+        "text_normalized": "I LASTED AS A DETERR FOR TWO DAYS",
+        "segments": [
+            {
+                "text": "I lasted as a deterr for two days.",
+                "text_normalized": "I LASTED AS A DETERR FOR TWO DAYS",
+                "start": 0.0,
+                "duration": 2.7299999999999995,
+                "temperature": false,
+                "avg_logprob": -0.415257087120643,
+                "compression_ratio": 0.8095238095238095,
+                "no_speech_prob": 0.004338466562330723,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.27,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I",
+                        "word_normalized": "I",
+                        "start": 0.27,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.27,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3806416392326355
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.3,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.3,
+                                "duration": 0.42,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " lasted",
+                        "word_normalized": "LASTED",
+                        "start": 0.72,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "l",
+                                "start": 0.72,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.84,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.96,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.05,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.11,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.17,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4896303713321686
+                    },
+                    {
+                        "word": " as",
+                        "word_normalized": "AS",
+                        "start": 1.23,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.23,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.32,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9884648323059082
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 1.44,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.44,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9886561632156372
+                    },
+                    {
+                        "word": " deterr",
+                        "word_normalized": "DETERR",
+                        "start": 1.5,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.5,
+                                "duration": 0.45,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.4227348789572716
+                    },
+                    {
+                        "word": " for",
+                        "word_normalized": "FOR",
+                        "start": 1.95,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 1.95,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.98,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.04,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9266075491905212
+                    },
+                    {
+                        "word": " two",
+                        "word_normalized": "TWO",
+                        "start": 2.07,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 2.07,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 2.16,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.19,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9783619046211243
+                    },
+                    {
+                        "word": " days.",
+                        "word_normalized": "DAYS",
+                        "start": 2.28,
+                        "duration": 0.44999999999999996,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 2.28,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.34,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 2.46,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.52,
+                                "duration": 0.21,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9992721676826477
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 157.5071,
+            "a1": 232.0141,
+            "a2": 182.4556,
+            "b1": 150.008,
+            "b2": 182.1917,
+            "c": 236.5998
+        }
+    }
+}

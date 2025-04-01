@@ -1,0 +1,216 @@
+{
+    "task_id": "Q-20150512-gqm_a0192",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Q-20150512-gqm/wav/a0192.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Q-20150512-gqm_a0192/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0861408710479736,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.18232144255619065,
+        "noise": -1.0,
+        "duration": 3.5,
+        "snr": 24.7449555292042,
+        "zcr": 0.08070401278409091,
+        "speech_energy": 1.8891389286795328,
+        "noise_energy": 0.006335316912124032
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.5360174179077148
+        },
+        "language": "en",
+        "text": "It did not wash them.",
+        "text_normalized": "IT DID NOT WASH THEM",
+        "segments": [
+            {
+                "text": "It did not wash them.",
+                "text_normalized": "IT DID NOT WASH THEM",
+                "start": 0.0,
+                "duration": 1.8599999999999999,
+                "temperature": false,
+                "avg_logprob": -0.6191147168477377,
+                "compression_ratio": 0.7241379310344828,
+                "no_speech_prob": 0.006321281660348177,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.57,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It",
+                        "word_normalized": "IT",
+                        "start": 0.57,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.57,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.72,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3214084506034851
+                    },
+                    {
+                        "word": " did",
+                        "word_normalized": "DID",
+                        "start": 0.78,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.78,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.81,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 0.87,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7959378361701965
+                    },
+                    {
+                        "word": " not",
+                        "word_normalized": "NOT",
+                        "start": 0.93,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.93,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.99,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.14,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9989359974861145
+                    },
+                    {
+                        "word": " wash",
+                        "word_normalized": "WASH",
+                        "start": 1.2,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 1.2,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.35,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.38,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.2807648181915283
+                    },
+                    {
+                        "word": " them.",
+                        "word_normalized": "THEM",
+                        "start": 1.5,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.5,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.53,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.56,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 1.59,
+                                "duration": 0.27,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.22598141431808472
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 427.2185,
+            "a1": 548.0035,
+            "a2": 317.1758,
+            "b1": 442.6564,
+            "b2": 426.1869,
+            "c": 598.0444
+        }
+    }
+}

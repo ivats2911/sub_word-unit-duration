@@ -1,0 +1,206 @@
+{
+    "task_id": "Joshua-20110325-yze_a0381",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/Joshua-20110325-yze/wav/a0381.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/Joshua-20110325-yze_a0381/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1083884239196777,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.11808553513051194,
+        "noise": 89.71474529090005,
+        "duration": 5.75,
+        "snr": 12.798857515588612,
+        "zcr": 0.04154730902777778,
+        "speech_energy": 25.653042034669358,
+        "noise_energy": 1.3466449947291632
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8787975311279297
+        },
+        "language": "en",
+        "text": "My name is Ferguson.",
+        "text_normalized": "MY NAME IS FERGUSON",
+        "segments": [
+            {
+                "text": "My name is Ferguson.",
+                "text_normalized": "MY NAME IS FERGUSON",
+                "start": 0.0,
+                "duration": 4.2299999999999995,
+                "temperature": false,
+                "avg_logprob": -0.538971483707428,
+                "compression_ratio": 0.7142857142857143,
+                "no_speech_prob": 0.03318936750292778,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 2.91,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 2.91,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "My",
+                        "word_normalized": "MY",
+                        "start": 2.91,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 2.91,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 3.09,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7705816626548767
+                    },
+                    {
+                        "word": " name",
+                        "word_normalized": "NAME",
+                        "start": 3.24,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 3.24,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 3.3,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 3.42,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 3.45,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.857600212097168
+                    },
+                    {
+                        "word": " is",
+                        "word_normalized": "IS",
+                        "start": 3.48,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 3.48,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 3.51,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5768421292304993
+                    },
+                    {
+                        "word": " Ferguson.",
+                        "word_normalized": "FERGUSON",
+                        "start": 3.57,
+                        "duration": 0.6599999999999999,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 3.57,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 3.69,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 3.78,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 3.81,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 3.9,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 3.96,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 4.02,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 4.11,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5600764155387878
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 955.5647,
+            "a1": 507.1076,
+            "a2": 656.0244,
+            "b1": 826.2284,
+            "b2": 1019.9061,
+            "c": 1107.7458
+        }
+    }
+}

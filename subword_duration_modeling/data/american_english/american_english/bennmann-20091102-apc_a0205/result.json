@@ -1,0 +1,228 @@
+{
+    "task_id": "bennmann-20091102-apc_a0205",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/bennmann-20091102-apc/wav/a0205.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/bennmann-20091102-apc_a0205/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.2090270519256592,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.2441344644756465,
+        "noise": -1.0,
+        "duration": 3.875,
+        "snr": 35.02558096764106,
+        "zcr": 0.0836121606045082,
+        "speech_energy": 16.09194595077934,
+        "noise_energy": 0.005058834462293557
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.133178472518921
+        },
+        "language": "en",
+        "text": "From now on we're proud.",
+        "text_normalized": "FROM NOW ON WE'RE PROUD",
+        "segments": [
+            {
+                "text": "From now on we're proud.",
+                "text_normalized": "FROM NOW ON WE'RE PROUD",
+                "start": 0.0,
+                "duration": 2.13,
+                "temperature": false,
+                "avg_logprob": -0.44260125160217284,
+                "compression_ratio": 0.75,
+                "no_speech_prob": 0.01055590994656086,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.84,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.84,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "From",
+                        "word_normalized": "FROM",
+                        "start": 0.84,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.84,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.96,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 1.02,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6563117504119873
+                    },
+                    {
+                        "word": " now",
+                        "word_normalized": "NOW",
+                        "start": 1.17,
+                        "duration": 0.30000000000000004,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.2,
+                                "duration": 0.24,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 1.44,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.966068685054779
+                    },
+                    {
+                        "word": " on",
+                        "word_normalized": "ON",
+                        "start": 1.47,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 1.47,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.59,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9893380403518677
+                    },
+                    {
+                        "word": " we're",
+                        "word_normalized": "WE'RE",
+                        "start": 1.71,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 1.71,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e;A",
+                                "start": 1.77,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.8,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.83,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7574379146099091
+                    },
+                    {
+                        "word": " proud.",
+                        "word_normalized": "PROUD",
+                        "start": 1.86,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 1.86,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.92,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.01,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.07,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.1,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.15734797716140747
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1333.0611,
+            "a1": 1106.5388,
+            "a2": 1116.4774,
+            "b1": 1488.2185,
+            "b2": 1529.3842,
+            "c": 891.2854
+        }
+    }
+}

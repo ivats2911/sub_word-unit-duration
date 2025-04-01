@@ -1,0 +1,296 @@
+{
+    "task_id": "anonymous-20080603-vhl_b0319",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20080603-vhl/wav/b0319.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20080603-vhl_b0319/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4495105743408203,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.011785818035926116,
+        "noise": -1.0,
+        "duration": 3.413375,
+        "snr": -0.588096881999498,
+        "zcr": 0.057142596378504676,
+        "speech_energy": 397.8102618455887,
+        "noise_energy": 455.49715643837334
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.4910435676574707
+        },
+        "language": "en",
+        "text": "Daylife was tired, profoundly tired.",
+        "text_normalized": "DAYLIFE WAS TIRED PROFOUNDLY TIRED",
+        "segments": [
+            {
+                "text": "Daylife was tired, profoundly tired.",
+                "text_normalized": "DAYLIFE WAS TIRED PROFOUNDLY TIRED",
+                "start": 0.0,
+                "duration": 3.2399999999999998,
+                "temperature": false,
+                "avg_logprob": -0.5036138187755238,
+                "compression_ratio": 0.9,
+                "no_speech_prob": 0.0031961826607584953,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.78,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.78,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Daylife",
+                        "word_normalized": "DAYLIFE",
+                        "start": 0.78,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.78,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.2597452700138092
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.81,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.81,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " was",
+                        "word_normalized": "WAS",
+                        "start": 0.84,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.84,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.9,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.96,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.990815281867981
+                    },
+                    {
+                        "word": " tired,",
+                        "word_normalized": "TIRED",
+                        "start": 1.05,
+                        "duration": 0.7500000000000001,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.05,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.17,
+                                "duration": 0.24,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.41,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.59,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.65,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9695919752120972
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.8,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.8,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " profoundly",
+                        "word_normalized": "PROFOUNDLY",
+                        "start": 1.83,
+                        "duration": 0.84,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 1.83,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.92,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.98,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 2.01,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.16,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.28,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.34,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.4,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.49,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 2.55,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9626867771148682
+                    },
+                    {
+                        "word": " tired.",
+                        "word_normalized": "TIRED",
+                        "start": 2.67,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 2.67,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.76,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.97,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 3.12,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 3.15,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.99504154920578
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 4766.231,
+            "a1": 6969.874,
+            "a2": 8893.0349,
+            "b1": 5619.5298,
+            "b2": 4751.1654,
+            "c": 12849.9073
+        }
+    }
+}

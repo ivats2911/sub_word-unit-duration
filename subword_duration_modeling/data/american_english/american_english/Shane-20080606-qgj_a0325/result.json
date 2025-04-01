@@ -1,0 +1,178 @@
+{
+    "task_id": "Shane-20080606-qgj_a0325",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Shane-20080606-qgj/wav/a0325.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Shane-20080606-qgj_a0325/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.5296878814697266,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.10971230133884143,
+        "noise": -1.0,
+        "duration": 3.125,
+        "snr": 22.50556292539518,
+        "zcr": 0.14488002232142858,
+        "speech_energy": 4.000809564385363,
+        "noise_energy": 0.022469405774716976
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.682607889175415
+        },
+        "language": "en",
+        "text": "With the paying.",
+        "text_normalized": "WITH THE PAYING",
+        "segments": [
+            {
+                "text": "With the paying.",
+                "text_normalized": "WITH THE PAYING",
+                "start": 0.0,
+                "duration": 1.2000000000000002,
+                "temperature": false,
+                "avg_logprob": -0.9593321255275181,
+                "compression_ratio": 0.6666666666666666,
+                "no_speech_prob": 0.009185831993818283,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.27,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "With",
+                        "word_normalized": "WITH",
+                        "start": 0.27,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.27,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.45,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.51,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.57,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3120802342891693
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 0.6,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.6,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.63,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.66,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8731217384338379
+                    },
+                    {
+                        "word": " paying.",
+                        "word_normalized": "PAYING",
+                        "start": 0.75,
+                        "duration": 0.45000000000000007,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 0.75,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.84,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.05,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.11,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.15233559906482697
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 331.9709,
+            "a1": 358.0965,
+            "a2": 288.005,
+            "b1": 286.9294,
+            "b2": 404.9021,
+            "c": 315.7003
+        }
+    }
+}

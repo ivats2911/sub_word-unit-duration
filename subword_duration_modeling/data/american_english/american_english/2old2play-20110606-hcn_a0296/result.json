@@ -1,0 +1,224 @@
+{
+    "task_id": "2old2play-20110606-hcn_a0296",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/2old2play-20110606-hcn/wav/a0296.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/2old2play-20110606-hcn_a0296/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.188420295715332,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.0029440144049073243,
+        "noise": 153.18051593896203,
+        "duration": 4.0,
+        "snr": 5.0488588304316036,
+        "zcr": 0.09993102058531746,
+        "speech_energy": 22.173349441043914,
+        "noise_energy": 6.9333866238594055
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.317248821258545
+        },
+        "language": "en",
+        "text": "Bacet was a fast-tigest man.",
+        "text_normalized": "BACET WAS A FAST TIGEST MAN",
+        "segments": [
+            {
+                "text": "Bacet was a fast-tigest man.",
+                "text_normalized": "BACET WAS A FAST TIGEST MAN",
+                "start": 0.0,
+                "duration": 2.64,
+                "temperature": false,
+                "avg_logprob": -0.7358558518545968,
+                "compression_ratio": 0.7777777777777778,
+                "no_speech_prob": 0.003117033513262868,
+                "words": [
+                    {
+                        "word": "Bacet",
+                        "word_normalized": "BACET",
+                        "start": 0.0,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 0.42,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.2924345601350069
+                    },
+                    {
+                        "word": " was",
+                        "word_normalized": "WAS",
+                        "start": 0.42,
+                        "duration": 0.42000000000000004,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.42,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.57,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.69,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9319036602973938
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 0.84,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 0.84,
+                                "duration": 0.21,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9755411148071289
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.05,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.05,
+                                "duration": 0.09,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " fast-tigest",
+                        "word_normalized": "FAST",
+                        "start": 1.14,
+                        "duration": 0.78,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 1.14,
+                                "duration": 0.39,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.53,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.74,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.541123278439045
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "TIGEST",
+                        "start": 1.92,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.92,
+                                "duration": 0.27,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.541123278439045
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.19,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.19,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " man.",
+                        "word_normalized": "MAN",
+                        "start": 2.22,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 2.22,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.28,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 2.43,
+                                "duration": 0.21,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9844660758972168
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 91.2711,
+            "a1": 134.0808,
+            "a2": 118.7773,
+            "b1": 104.3278,
+            "b2": 89.1046,
+            "c": 142.4623
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "task_id": "BFG-20120316-bdl_a0015",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/BFG-20120316-bdl/wav/a0015.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/BFG-20120316-bdl_a0015/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.2032701969146729,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.10376932934197376,
+        "noise": -1.0,
+        "duration": 4.375,
+        "snr": 6.840695408898377,
+        "zcr": 0.0018640225821167883,
+        "speech_energy": 157.8907906472146,
+        "noise_energy": 32.68039210313031
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.168243408203125
+        },
+        "language": "en",
+        "text": "It's the Arroboriallis.",
+        "text_normalized": "IT'S THE ARROBORIALLIS",
+        "segments": [
+            {
+                "text": "It's the Arroboriallis.",
+                "text_normalized": "IT'S THE ARROBORIALLIS",
+                "start": 0.0,
+                "duration": 2.58,
+                "temperature": false,
+                "avg_logprob": -0.6856118715726413,
+                "compression_ratio": 0.7419354838709677,
+                "no_speech_prob": 0.016823600977659225,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.81,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.81,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It's",
+                        "word_normalized": "IT'S",
+                        "start": 0.81,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.81,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t;A",
+                                "start": 0.9,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.96,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.937036782503128
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 1.05,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.05,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.14,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9287946820259094
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.29,
+                        "duration": 0.66,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.29,
+                                "duration": 0.66,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Arroboriallis.",
+                        "word_normalized": "ARROBORIALLIS",
+                        "start": 1.95,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.95,
+                                "duration": 0.63,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.32203713059425354
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 56.0273,
+            "a1": 96.2942,
+            "a2": 70.5342,
+            "b1": 60.9256,
+            "b2": 52.2516,
+            "c": 55.7443
+        }
+    }
+}

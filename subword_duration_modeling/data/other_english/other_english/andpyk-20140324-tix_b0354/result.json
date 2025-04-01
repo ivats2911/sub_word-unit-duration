@@ -1,0 +1,162 @@
+{
+    "task_id": "andpyk-20140324-tix_b0354",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/andpyk-20140324-tix/wav/b0354.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/andpyk-20140324-tix_b0354/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0401854515075684,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.05772785789629597,
+        "noise": -1.0,
+        "duration": 4.5,
+        "snr": 4.2216610643033645,
+        "zcr": 0.12715397828014185,
+        "speech_energy": 20.811457951863606,
+        "noise_energy": 7.872930170516624
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0484366416931152
+        },
+        "language": "en",
+        "text": "It's Z Manjang.",
+        "text_normalized": "IT'S Z MANJANG",
+        "segments": [
+            {
+                "text": "It's Z Manjang.",
+                "text_normalized": "IT'S Z MANJANG",
+                "start": 0.0,
+                "duration": 2.07,
+                "temperature": false,
+                "avg_logprob": -0.6484029293060303,
+                "compression_ratio": 0.6521739130434783,
+                "no_speech_prob": 0.0019528266275301576,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.96,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.96,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It's",
+                        "word_normalized": "IT'S",
+                        "start": 0.96,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.96,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t;A",
+                                "start": 1.11,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.23,
+                                "duration": 0.21,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9560171365737915
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.44,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.44,
+                                "duration": 0.09,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Z",
+                        "word_normalized": "Z",
+                        "start": 1.53,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "z",
+                                "start": 1.53,
+                                "duration": 0.24,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6598352193832397
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.77,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.77,
+                                "duration": 0.27,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Manjang.",
+                        "word_normalized": "MANJANG",
+                        "start": 2.04,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.04,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.44493284324804944
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 29726.9186,
+            "a1": 15984.5253,
+            "a2": 23856.1259,
+            "b1": 25107.2894,
+            "b2": 27283.4874,
+            "c": 25436.0699
+        }
+    }
+}

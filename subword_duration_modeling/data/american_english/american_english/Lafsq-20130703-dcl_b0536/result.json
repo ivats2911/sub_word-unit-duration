@@ -1,0 +1,192 @@
+{
+    "task_id": "Lafsq-20130703-dcl_b0536",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Lafsq-20130703-dcl/wav/b0536.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Lafsq-20130703-dcl_b0536/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1498432159423828,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.02162629757785467,
+        "noise": -1.0,
+        "duration": 5.375,
+        "snr": 6.678771666934536,
+        "zcr": 0.04615711030505952,
+        "speech_energy": 0.628385538926147,
+        "noise_energy": 0.13500473955098322
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.722381591796875
+        },
+        "language": "en",
+        "text": "Tifuate. Did I tell you?",
+        "text_normalized": "TIFUATE DID I TELL YOU",
+        "segments": [
+            {
+                "text": "Tifuate. Did I tell you?",
+                "text_normalized": "TIFUATE DID I TELL YOU",
+                "start": 0.0,
+                "duration": 2.6399999999999997,
+                "temperature": false,
+                "avg_logprob": -0.9324593544006348,
+                "compression_ratio": 0.75,
+                "no_speech_prob": 0.02065299265086651,
+                "words": [
+                    {
+                        "word": "Tifuate.",
+                        "word_normalized": "TIFUATE",
+                        "start": 0.0,
+                        "duration": 0.87,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 0.87,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.08148752897977829
+                    },
+                    {
+                        "word": " Did",
+                        "word_normalized": "DID",
+                        "start": 0.87,
+                        "duration": 0.66,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.87,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.02,
+                                "duration": 0.36,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.38,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7094284892082214
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.53,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.53,
+                                "duration": 0.51,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " I",
+                        "word_normalized": "I",
+                        "start": 2.04,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 2.04,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9894976615905762
+                    },
+                    {
+                        "word": " tell",
+                        "word_normalized": "TELL",
+                        "start": 2.13,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 2.13,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.22,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.34,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.37,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9990800619125366
+                    },
+                    {
+                        "word": " you?",
+                        "word_normalized": "YOU",
+                        "start": 2.4,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 2.4,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.52,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.55,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9982636570930481
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 56.5783,
+            "a1": 90.417,
+            "a2": 46.9353,
+            "b1": 50.0726,
+            "b2": 65.2454,
+            "c": 96.3441
+        }
+    }
+}

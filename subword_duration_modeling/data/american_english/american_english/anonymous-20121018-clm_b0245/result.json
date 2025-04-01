@@ -1,0 +1,250 @@
+{
+    "task_id": "anonymous-20121018-clm_b0245",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20121018-clm/wav/b0245.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20121018-clm_b0245/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.13810133934021,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.03992551212044232,
+        "noise": -1.0,
+        "duration": 4.125,
+        "snr": 3.493802792733952,
+        "zcr": 0.08367399467054264,
+        "speech_energy": 45.56263105465415,
+        "noise_energy": 20.38114203549013
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.820101261138916
+        },
+        "language": "en",
+        "text": "Yerson is still my chauffeur.",
+        "text_normalized": "YERSON IS STILL MY CHAUFFEUR",
+        "segments": [
+            {
+                "text": "Yerson is still my chauffeur.",
+                "text_normalized": "YERSON IS STILL MY CHAUFFEUR",
+                "start": 0.0,
+                "duration": 3.06,
+                "temperature": false,
+                "avg_logprob": -0.5730299216050369,
+                "compression_ratio": 0.7837837837837838,
+                "no_speech_prob": 0.0013598620425909758,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.14,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.14,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Yerson",
+                        "word_normalized": "YERSON",
+                        "start": 1.14,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.14,
+                                "duration": 0.39,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.30864110340674716
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.53,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.53,
+                                "duration": 0.09,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " is",
+                        "word_normalized": "IS",
+                        "start": 1.62,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.62,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.8,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9734407067298889
+                    },
+                    {
+                        "word": " still",
+                        "word_normalized": "STILL",
+                        "start": 1.98,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 1.98,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 2.01,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.07,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.13,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.16,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8889299631118774
+                    },
+                    {
+                        "word": " my",
+                        "word_normalized": "MY",
+                        "start": 2.22,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 2.22,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 2.28,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9390263557434082
+                    },
+                    {
+                        "word": " chauffeur.",
+                        "word_normalized": "CHAUFFEUR",
+                        "start": 2.46,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 2.46,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 2.55,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.64,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.67,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 2.7,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 2.79,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.82,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.91,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.94,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7503539323806763
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 7828.8875,
+            "a1": 4716.5561,
+            "a2": 7029.1055,
+            "b1": 7668.756,
+            "b2": 9258.17,
+            "c": 5024.5816
+        }
+    }
+}

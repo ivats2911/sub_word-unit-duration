@@ -1,0 +1,206 @@
+{
+    "task_id": "Q-20150512-gqm_a0193",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Q-20150512-gqm/wav/a0193.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Q-20150512-gqm_a0193/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.044844627380371,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.1322314049586777,
+        "noise": -1.0,
+        "duration": 3.0,
+        "snr": 21.000511008181697,
+        "zcr": 0.12481819315159574,
+        "speech_energy": 1.0148050487041473,
+        "noise_energy": 0.00805993460946613
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.3122422695159912
+        },
+        "language": "en",
+        "text": "It was extra advice.",
+        "text_normalized": "IT WAS EXTRA ADVICE",
+        "segments": [
+            {
+                "text": "It was extra advice.",
+                "text_normalized": "IT WAS EXTRA ADVICE",
+                "start": 0.0,
+                "duration": 1.86,
+                "temperature": false,
+                "avg_logprob": -0.6953774094581604,
+                "compression_ratio": 0.7142857142857143,
+                "no_speech_prob": 0.0047015477903187275,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.36,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It",
+                        "word_normalized": "IT",
+                        "start": 0.36,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.36,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.45,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.856205403804779
+                    },
+                    {
+                        "word": " was",
+                        "word_normalized": "WAS",
+                        "start": 0.51,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.51,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.57,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.6,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9967547059059143
+                    },
+                    {
+                        "word": " extra",
+                        "word_normalized": "EXTRA",
+                        "start": 0.72,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "e",
+                                "start": 0.72,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "x",
+                                "start": 0.84,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.99,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.05,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.08,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.132943794131279
+                    },
+                    {
+                        "word": " advice.",
+                        "word_normalized": "ADVICE",
+                        "start": 1.11,
+                        "duration": 0.75,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.14,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 1.17,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.23,
+                                "duration": 0.27,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 1.5,
+                                "duration": 0.21,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.71,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.2839416265487671
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 370.8003,
+            "a1": 500.5874,
+            "a2": 499.6663,
+            "b1": 389.0451,
+            "b2": 323.4448,
+            "c": 320.4793
+        }
+    }
+}

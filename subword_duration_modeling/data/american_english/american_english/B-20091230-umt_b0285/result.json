@@ -1,0 +1,260 @@
+{
+    "task_id": "B-20091230-umt_b0285",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/B-20091230-umt/wav/b0285.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/B-20091230-umt_b0285/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.215083122253418,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.07162965907537658,
+        "noise": 139.59757392255156,
+        "duration": 4.4373125,
+        "snr": 1.697451545707732,
+        "zcr": 0.013643772482014389,
+        "speech_energy": 162.5758505335041,
+        "noise_energy": 109.97928202837365
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.3146944046020508
+        },
+        "language": "en",
+        "text": "The Hyena proceeded to die.",
+        "text_normalized": "THE HYENA PROCEEDED TO DIE",
+        "segments": [
+            {
+                "text": "The Hyena proceeded to die.",
+                "text_normalized": "THE HYENA PROCEEDED TO DIE",
+                "start": 0.0,
+                "duration": 2.91,
+                "temperature": false,
+                "avg_logprob": -0.5531761646270752,
+                "compression_ratio": 0.7714285714285715,
+                "no_speech_prob": 0.0014229860389605165,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.63,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "The",
+                        "word_normalized": "THE",
+                        "start": 0.63,
+                        "duration": 0.69,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.63,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.78,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.84,
+                                "duration": 0.48,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8761669993400574
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.32,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.32,
+                                "duration": 0.06,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Hyena",
+                        "word_normalized": "HYENA",
+                        "start": 1.38,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.38,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.48584145307540894
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.41,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.41,
+                                "duration": 0.18,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " proceeded",
+                        "word_normalized": "PROCEEDED",
+                        "start": 1.59,
+                        "duration": 0.6900000000000001,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 1.59,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.71,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.77,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 1.83,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.95,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.04,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.1,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.13,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.19,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9613568782806396
+                    },
+                    {
+                        "word": " to",
+                        "word_normalized": "TO",
+                        "start": 2.28,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 2.28,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.34,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.984195351600647
+                    },
+                    {
+                        "word": " die.",
+                        "word_normalized": "DIE",
+                        "start": 2.46,
+                        "duration": 0.44999999999999996,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 2.46,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.52,
+                                "duration": 0.24,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.76,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.21954752504825592
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 103.3237,
+            "a1": 253.2795,
+            "a2": 155.9912,
+            "b1": 277.4438,
+            "b2": 156.4768,
+            "c": 121.4227
+        }
+    }
+}

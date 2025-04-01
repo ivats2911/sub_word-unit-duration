@@ -1,0 +1,286 @@
+{
+    "task_id": "tsmock-20121213-swe_b0507",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/tsmock-20121213-swe/wav/b0507.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/tsmock-20121213-swe_b0507/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1423461437225342,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.0552021868225092,
+        "noise": -1.0,
+        "duration": 4.25,
+        "snr": 14.997733173296863,
+        "zcr": 0.08074262805451128,
+        "speech_energy": 2.023912512120747,
+        "noise_energy": 0.0640351480493943
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9825561046600342
+        },
+        "language": "en",
+        "text": "Did I possess too much vitality?",
+        "text_normalized": "DID I POSSESS TOO MUCH VITALITY",
+        "segments": [
+            {
+                "text": "Did I possess too much vitality?",
+                "text_normalized": "DID I POSSESS TOO MUCH VITALITY",
+                "start": 0.0,
+                "duration": 2.8200000000000003,
+                "temperature": false,
+                "avg_logprob": -0.47676749229431153,
+                "compression_ratio": 0.8,
+                "no_speech_prob": 0.006583839654922485,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.72,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.72,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Did",
+                        "word_normalized": "DID",
+                        "start": 0.72,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.72,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.84,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 0.9,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5035631060600281
+                    },
+                    {
+                        "word": " I",
+                        "word_normalized": "I",
+                        "start": 0.96,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.96,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9911013841629028
+                    },
+                    {
+                        "word": " possess",
+                        "word_normalized": "POSSESS",
+                        "start": 1.08,
+                        "duration": 0.44999999999999996,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 1.08,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.17,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.23,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.32,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.35,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.44,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.896397054195404
+                    },
+                    {
+                        "word": " too",
+                        "word_normalized": "TOO",
+                        "start": 1.53,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.53,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.68,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.71,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9896817803382874
+                    },
+                    {
+                        "word": " much",
+                        "word_normalized": "MUCH",
+                        "start": 1.77,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 1.77,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.86,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 1.92,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.98,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9976173043251038
+                    },
+                    {
+                        "word": " vitality?",
+                        "word_normalized": "VITALITY",
+                        "start": 2.04,
+                        "duration": 0.78,
+                        "phones": [
+                            {
+                                "phone": "v",
+                                "start": 2.04,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.07,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 2.22,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.28,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.46,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 2.58,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 2.61,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 2.64,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.1914128214120865
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 4067.3754,
+            "a1": 2282.9693,
+            "a2": 3435.1273,
+            "b1": 3358.8124,
+            "b2": 4607.716,
+            "c": 5203.3822
+        }
+    }
+}

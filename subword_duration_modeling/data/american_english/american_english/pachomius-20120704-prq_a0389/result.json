@@ -1,0 +1,170 @@
+{
+    "task_id": "pachomius-20120704-prq_a0389",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/pachomius-20120704-prq/wav/a0389.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/pachomius-20120704-prq_a0389/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.5225093364715576,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.010099849605561817,
+        "noise": 5.737537094447798,
+        "duration": 3.125,
+        "snr": 0.3087988738547431,
+        "zcr": 0.02475785235969388,
+        "speech_energy": 371.33834663478814,
+        "noise_energy": 345.8516978254222
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 2.724754810333252
+        },
+        "language": "en",
+        "text": "May she sad.",
+        "text_normalized": "MAY SHE SAD",
+        "segments": [
+            {
+                "text": "May she sad.",
+                "text_normalized": "MAY SHE SAD",
+                "start": 0.0,
+                "duration": 1.86,
+                "temperature": false,
+                "avg_logprob": -0.7438953263419015,
+                "compression_ratio": 0.6,
+                "no_speech_prob": 0.03607708215713501,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.75,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.75,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "May",
+                        "word_normalized": "MAY",
+                        "start": 0.75,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.75,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.84,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.93,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.10621391236782074
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.08,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.08,
+                                "duration": 0.24,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " she",
+                        "word_normalized": "SHE",
+                        "start": 1.32,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 1.32,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.44,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.5,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6862563490867615
+                    },
+                    {
+                        "word": " sad.",
+                        "word_normalized": "SAD",
+                        "start": 1.56,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 1.56,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.65,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.77,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3980353772640228
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 2151.1718,
+            "a1": 2082.9313,
+            "a2": 1937.4254,
+            "b1": 2146.5954,
+            "b2": 1931.857,
+            "c": 2415.6004
+        }
+    }
+}

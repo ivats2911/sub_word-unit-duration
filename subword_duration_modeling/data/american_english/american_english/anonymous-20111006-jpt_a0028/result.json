@@ -1,0 +1,178 @@
+{
+    "task_id": "anonymous-20111006-jpt_a0028",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20111006-jpt/wav/a0028.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20111006-jpt_a0028/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.6624419689178467,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.026350688299920037,
+        "noise": -1.0,
+        "duration": 4.75,
+        "snr": 43.10725657328269,
+        "zcr": 0.15312368917785235,
+        "speech_energy": 40.220353046681765,
+        "noise_energy": 0.0019666189566636696
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8602924346923828
+        },
+        "language": "en",
+        "text": "Ravari, rivalry fraud.",
+        "text_normalized": "RAVARI RIVALRY FRAUD",
+        "segments": [
+            {
+                "text": "Ravari, rivalry fraud.",
+                "text_normalized": "RAVARI RIVALRY FRAUD",
+                "start": 0.0,
+                "duration": 3.3000000000000003,
+                "temperature": false,
+                "avg_logprob": -0.9279809951782226,
+                "compression_ratio": 0.7333333333333333,
+                "no_speech_prob": 0.0072768754325807095,
+                "words": [
+                    {
+                        "word": "Ravari,",
+                        "word_normalized": "RAVARI",
+                        "start": 0.0,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 0.63,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.41932104031244916
+                    },
+                    {
+                        "word": " rivalry",
+                        "word_normalized": "RIVALRY",
+                        "start": 0.63,
+                        "duration": 1.6800000000000002,
+                        "phones": [
+                            {
+                                "phone": "r",
+                                "start": 0.63,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.78,
+                                "duration": 1.08,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 1.86,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.92,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 2.04,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.07,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 2.1,
+                                "duration": 0.21,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.08215950429439545
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.31,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.31,
+                                "duration": 0.39,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " fraud.",
+                        "word_normalized": "FRAUD",
+                        "start": 2.7,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 2.7,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.88,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.97,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 3.06,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 3.15,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7398275136947632
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 6594.7772,
+            "a1": 4781.3457,
+            "a2": 2498.0437,
+            "b1": 11361.8796,
+            "b2": 7452.4662,
+            "c": 9578.558
+        }
+    }
+}

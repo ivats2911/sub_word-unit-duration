@@ -1,0 +1,202 @@
+{
+    "task_id": "bhart-20100106-lpu_b0262",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/bhart-20100106-lpu/wav/b0262.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/bhart-20100106-lpu_b0262/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.3666949272155762,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.01949106088716478,
+        "noise": 27.993139048694708,
+        "duration": 3.875,
+        "snr": -7.718816201439727,
+        "zcr": 0.04401335169057377,
+        "speech_energy": 5.630680598238463,
+        "noise_energy": 33.2998680571715
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 2.8324105739593506
+        },
+        "language": "en",
+        "text": "Saxins on to her job.",
+        "text_normalized": "SAXINS ON TO HER JOB",
+        "segments": [
+            {
+                "text": "Saxins on to her job.",
+                "text_normalized": "SAXINS ON TO HER JOB",
+                "start": 0.0,
+                "duration": 1.8900000000000001,
+                "temperature": false,
+                "avg_logprob": -0.6122374968095259,
+                "compression_ratio": 0.7241379310344828,
+                "no_speech_prob": 0.0020956264343112707,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.81,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.81,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Saxins",
+                        "word_normalized": "SAXINS",
+                        "start": 0.81,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.81,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.1784836252530416
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.96,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.96,
+                                "duration": 0.15,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " on",
+                        "word_normalized": "ON",
+                        "start": 1.11,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7305189371109009
+                    },
+                    {
+                        "word": " to",
+                        "word_normalized": "TO",
+                        "start": 1.23,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.23,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9931858777999878
+                    },
+                    {
+                        "word": " her",
+                        "word_normalized": "HER",
+                        "start": 1.35,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 1.35,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.44,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9907596111297607
+                    },
+                    {
+                        "word": " job.",
+                        "word_normalized": "JOB",
+                        "start": 1.53,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "j",
+                                "start": 1.53,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.59,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "b",
+                                "start": 1.77,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9545410871505737
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 155.4533,
+            "a1": 134.8963,
+            "a2": 124.9324,
+            "b1": 202.6749,
+            "b2": 155.2119,
+            "c": 210.7658
+        }
+    }
+}

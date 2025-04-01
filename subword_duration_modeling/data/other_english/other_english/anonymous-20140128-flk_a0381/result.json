@@ -1,0 +1,180 @@
+{
+    "task_id": "anonymous-20140128-flk_a0381",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/anonymous-20140128-flk/wav/a0381.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/anonymous-20140128-flk_a0381/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0092461109161377,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.625,
+        "snr": 11.919080592824024,
+        "zcr": 0.11040450865963855,
+        "speech_energy": 16.60141995612611,
+        "noise_energy": 1.067178768830167
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.701646089553833
+        },
+        "language": "en",
+        "text": "My name is Farkusen.",
+        "text_normalized": "MY NAME IS FARKUSEN",
+        "segments": [
+            {
+                "text": "My name is Farkusen.",
+                "text_normalized": "MY NAME IS FARKUSEN",
+                "start": 0.0,
+                "duration": 1.5899999999999999,
+                "temperature": false,
+                "avg_logprob": -0.5361885157498446,
+                "compression_ratio": 0.7142857142857143,
+                "no_speech_prob": 0.0025401965249329805,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.15,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "My",
+                        "word_normalized": "MY",
+                        "start": 0.15,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.15,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.27,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9223530292510986
+                    },
+                    {
+                        "word": " name",
+                        "word_normalized": "NAME",
+                        "start": 0.39,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.39,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.48,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "m",
+                                "start": 0.54,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.6,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.811379611492157
+                    },
+                    {
+                        "word": " is",
+                        "word_normalized": "IS",
+                        "start": 0.63,
+                        "duration": 0.30000000000000004,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.63,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.66,
+                                "duration": 0.27,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7178596258163452
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.93,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.93,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Farkusen.",
+                        "word_normalized": "FARKUSEN",
+                        "start": 0.96,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.96,
+                                "duration": 0.63,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.3881164416670799
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 49.1285,
+            "a1": 43.3644,
+            "a2": 39.5367,
+            "b1": 44.4222,
+            "b2": 59.8963,
+            "c": 80.094
+        }
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "task_id": "camdixon-20141207-xql_a0150",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/camdixon-20141207-xql/wav/a0150.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/camdixon-20141207-xql_a0150/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1099276542663574,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.875,
+        "snr": 22.101943803261065,
+        "zcr": 0.16939561631944444,
+        "speech_energy": 27.37908109029134,
+        "noise_energy": 0.16874250334997973
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.7396631240844727
+        },
+        "language": "en",
+        "text": "Good bye, Peter.",
+        "text_normalized": "GOOD BYE PETER",
+        "segments": [
+            {
+                "text": "Good bye, Peter.",
+                "text_normalized": "GOOD BYE PETER",
+                "start": 0.0,
+                "duration": 0.99,
+                "temperature": false,
+                "avg_logprob": -0.9763609170913696,
+                "compression_ratio": 0.6666666666666666,
+                "no_speech_prob": 0.01692923530936241,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.24,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Good",
+                        "word_normalized": "GOOD",
+                        "start": 0.24,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "g",
+                                "start": 0.24,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.36,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.39,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 0.42,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3690717816352844
+                    },
+                    {
+                        "word": " bye,",
+                        "word_normalized": "BYE",
+                        "start": 0.48,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "b",
+                                "start": 0.48,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.51,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.63,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.22146205604076385
+                    },
+                    {
+                        "word": " Peter.",
+                        "word_normalized": "PETER",
+                        "start": 0.66,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 0.66,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.72,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.84,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.87,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.9,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.14755821228027344
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1452.6133,
+            "a1": 4058.8227,
+            "a2": 2264.6447,
+            "b1": 1410.8312,
+            "b2": 2144.3714,
+            "c": 2325.8146
+        }
+    }
+}

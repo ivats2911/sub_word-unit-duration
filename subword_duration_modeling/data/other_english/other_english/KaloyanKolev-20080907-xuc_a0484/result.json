@@ -1,0 +1,152 @@
+{
+    "task_id": "KaloyanKolev-20080907-xuc_a0484",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/KaloyanKolev-20080907-xuc/wav/a0484.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/KaloyanKolev-20080907-xuc_a0484/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 0.9867229461669922,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.2186875,
+        "snr": 1.3763896814120258,
+        "zcr": 0.008537946428571428,
+        "speech_energy": 537.8651488061045,
+        "noise_energy": 391.7729409535725
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.8362605571746826
+        },
+        "language": "en",
+        "text": "No Sir E.",
+        "text_normalized": "NO SIR E",
+        "segments": [
+            {
+                "text": "No Sir E.",
+                "text_normalized": "NO SIR E",
+                "start": 0.0,
+                "duration": 1.62,
+                "temperature": false,
+                "avg_logprob": -0.5453689098358154,
+                "compression_ratio": 0.5294117647058824,
+                "no_speech_prob": 0.0183231383562088,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.54,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "No",
+                        "word_normalized": "NO",
+                        "start": 0.54,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.54,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.66,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.45239388942718506
+                    },
+                    {
+                        "word": " Sir",
+                        "word_normalized": "SIR",
+                        "start": 0.84,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.84,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.96,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.05,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.24286602437496185
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.2,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.2,
+                                "duration": 0.06,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " E.",
+                        "word_normalized": "E",
+                        "start": 1.26,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "e",
+                                "start": 1.26,
+                                "duration": 0.36,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8446637392044067
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1965.3952,
+            "a1": 1101.0327,
+            "a2": 2168.7033,
+            "b1": 2097.0086,
+            "b2": 2320.7326,
+            "c": 4561.9449
+        }
+    }
+}

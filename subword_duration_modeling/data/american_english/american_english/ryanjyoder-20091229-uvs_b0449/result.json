@@ -1,0 +1,184 @@
+{
+    "task_id": "ryanjyoder-20091229-uvs_b0449",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/ryanjyoder-20091229-uvs/wav/b0449.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/ryanjyoder-20091229-uvs_b0449/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0577795505523682,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 1.252625,
+        "snr": 17.859576311284417,
+        "zcr": 0.09764404296875,
+        "speech_energy": 44.122495958882,
+        "noise_energy": 0.7222747637165917
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.6488831043243408
+        },
+        "language": "en",
+        "text": "She wouldn't walk.",
+        "text_normalized": "SHE WOULDN'T WALK",
+        "segments": [
+            {
+                "text": "She wouldn't walk.",
+                "text_normalized": "SHE WOULDN'T WALK",
+                "start": 0.0,
+                "duration": 1.11,
+                "temperature": false,
+                "avg_logprob": -0.4333445131778717,
+                "compression_ratio": 0.6923076923076923,
+                "no_speech_prob": 0.01411907747387886,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.18,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "She",
+                        "word_normalized": "SHE",
+                        "start": 0.18,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.18,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.27,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.39,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.45608195662498474
+                    },
+                    {
+                        "word": " wouldn't",
+                        "word_normalized": "WOULDN'T",
+                        "start": 0.42,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.42,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.48,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.51,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.54,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 0.57,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "n;A",
+                                "start": 0.6,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.63,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8850758373737335
+                    },
+                    {
+                        "word": " walk.",
+                        "word_normalized": "WALK",
+                        "start": 0.66,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.66,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.75,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.87,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "k",
+                                "start": 0.93,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.780325710773468
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 3219.7722,
+            "a1": 1287.0639,
+            "a2": 2261.3871,
+            "b1": 2614.7187,
+            "b2": 3641.8747,
+            "c": 3474.7618
+        }
+    }
+}

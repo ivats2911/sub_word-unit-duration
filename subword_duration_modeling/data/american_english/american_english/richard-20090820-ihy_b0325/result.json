@@ -1,0 +1,266 @@
+{
+    "task_id": "richard-20090820-ihy_b0325",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/richard-20090820-ihy/wav/b0325.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/richard-20090820-ihy_b0325/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.076575517654419,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.375,
+        "snr": 1.387666718723066,
+        "zcr": 0.13690104166666667,
+        "speech_energy": 11.51356951580668,
+        "noise_energy": 8.364564137688529
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.3997364044189453
+        },
+        "language": "en",
+        "text": "It was a jaggedic in air-equacy.",
+        "text_normalized": "IT WAS A JAGGEDIC IN AIR EQUACY",
+        "segments": [
+            {
+                "text": "It was a jaggedic in air-equacy.",
+                "text_normalized": "IT WAS A JAGGEDIC IN AIR EQUACY",
+                "start": 0.0,
+                "duration": 2.19,
+                "temperature": false,
+                "avg_logprob": -0.7770301818847656,
+                "compression_ratio": 0.8,
+                "no_speech_prob": 0.002197782974690199,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.48,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It",
+                        "word_normalized": "IT",
+                        "start": 0.48,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.48,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.6,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8848149180412292
+                    },
+                    {
+                        "word": " was",
+                        "word_normalized": "WAS",
+                        "start": 0.66,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.66,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.72,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.78,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9956717491149902
+                    },
+                    {
+                        "word": " a",
+                        "word_normalized": "A",
+                        "start": 0.84,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 0.84,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9958036541938782
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.9,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.9,
+                                "duration": 0.18,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " jaggedic",
+                        "word_normalized": "JAGGEDIC",
+                        "start": 1.08,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.08,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.37241216003894806
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.11,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " in",
+                        "word_normalized": "IN",
+                        "start": 1.14,
+                        "duration": 0.44999999999999996,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.14,
+                                "duration": 0.36,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.5,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7245141267776489
+                    },
+                    {
+                        "word": " air-equacy.",
+                        "word_normalized": "AIR",
+                        "start": 1.59,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 1.59,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.74,
+                                "duration": 0.39,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.21038225044806796
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.13,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.13,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "EQUACY",
+                        "start": 2.16,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.16,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.21038225044806796
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 116.2117,
+            "a1": 295.563,
+            "a2": 222.9975,
+            "b1": 151.74,
+            "b2": 100.3922,
+            "c": 131.4014
+        }
+    }
+}

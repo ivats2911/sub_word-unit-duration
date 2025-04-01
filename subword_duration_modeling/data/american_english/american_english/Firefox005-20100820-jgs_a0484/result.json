@@ -1,0 +1,132 @@
+{
+    "task_id": "Firefox005-20100820-jgs_a0484",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Firefox005-20100820-jgs/wav/a0484.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Firefox005-20100820-jgs_a0484/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0783190727233887,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": 29.271562227322896,
+        "duration": 2.375,
+        "snr": 16.9858583131037,
+        "zcr": 0.05067708333333333,
+        "speech_energy": 141.90217006353683,
+        "noise_energy": 2.840555019867726
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.7794663906097412
+        },
+        "language": "en",
+        "text": "No, sorry.",
+        "text_normalized": "NO SORRY",
+        "segments": [
+            {
+                "text": "No, sorry.",
+                "text_normalized": "NO SORRY",
+                "start": 0.0,
+                "duration": 1.2000000000000002,
+                "temperature": false,
+                "avg_logprob": -0.45965572765895296,
+                "compression_ratio": 0.5555555555555556,
+                "no_speech_prob": 0.008397787809371948,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.39,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "No,",
+                        "word_normalized": "NO",
+                        "start": 0.39,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.39,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.48,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6321110129356384
+                    },
+                    {
+                        "word": " sorry.",
+                        "word_normalized": "SORRY",
+                        "start": 0.63,
+                        "duration": 0.5700000000000001,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.63,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.72,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.81,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.87,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.9,
+                                "duration": 0.3,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5904853343963623
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 71.2252,
+            "a1": 161.6094,
+            "a2": 97.312,
+            "b1": 65.4536,
+            "b2": 77.6545,
+            "c": 193.0338
+        }
+    }
+}

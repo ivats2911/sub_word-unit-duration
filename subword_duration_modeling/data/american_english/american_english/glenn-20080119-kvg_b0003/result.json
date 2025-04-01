@@ -1,0 +1,244 @@
+{
+    "task_id": "glenn-20080119-kvg_b0003",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/glenn-20080119-kvg/wav/b0003.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/glenn-20080119-kvg_b0003/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.026818037033081,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": 3.135812351469611,
+        "duration": 2.125,
+        "snr": 0.7555629009316805,
+        "zcr": 0.0068796641791044775,
+        "speech_energy": 895.4555578399122,
+        "noise_energy": 752.4674987792969
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.1436750888824463
+        },
+        "language": "en",
+        "text": "I can see that knife now.",
+        "text_normalized": "I CAN SEE THAT KNIFE NOW",
+        "segments": [
+            {
+                "text": "I can see that knife now.",
+                "text_normalized": "I CAN SEE THAT KNIFE NOW",
+                "start": 0.0,
+                "duration": 1.44,
+                "temperature": false,
+                "avg_logprob": -0.22351655960083008,
+                "compression_ratio": 0.7575757575757576,
+                "no_speech_prob": 0.007764593698084354,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.3,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I",
+                        "word_normalized": "I",
+                        "start": 0.3,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.3,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9011409878730774
+                    },
+                    {
+                        "word": " can",
+                        "word_normalized": "CAN",
+                        "start": 0.42,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 0.42,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.51,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.57,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9655854105949402
+                    },
+                    {
+                        "word": " see",
+                        "word_normalized": "SEE",
+                        "start": 0.63,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.63,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.69,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.72,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9684847593307495
+                    },
+                    {
+                        "word": " that",
+                        "word_normalized": "THAT",
+                        "start": 0.81,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.81,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.84,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.87,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.9,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9972822666168213
+                    },
+                    {
+                        "word": " knife",
+                        "word_normalized": "KNIFE",
+                        "start": 0.96,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "k",
+                                "start": 0.96,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.02,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.2665416896343231
+                    },
+                    {
+                        "word": " now.",
+                        "word_normalized": "NOW",
+                        "start": 1.23,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.26,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 1.38,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9890096783638
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 179.899,
+            "a1": 243.2204,
+            "a2": 187.9379,
+            "b1": 166.8399,
+            "b2": 186.5398,
+            "c": 231.4805
+        }
+    }
+}

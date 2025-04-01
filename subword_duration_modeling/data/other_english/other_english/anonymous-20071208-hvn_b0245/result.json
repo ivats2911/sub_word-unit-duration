@@ -1,0 +1,202 @@
+{
+    "task_id": "anonymous-20071208-hvn_b0245",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/other/anonymous-20071208-hvn/wav/b0245.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/other_english/anonymous-20071208-hvn_b0245/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 0.9936380386352539,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.5,
+        "snr": -1.2973605183909624,
+        "zcr": 0.055868028085443035,
+        "speech_energy": 0.35606725842401543,
+        "noise_energy": 0.4800296823183696
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0116498470306396
+        },
+        "language": "en",
+        "text": "Herison is still my tover.",
+        "text_normalized": "HERISON IS STILL MY TOVER",
+        "segments": [
+            {
+                "text": "Herison is still my tover.",
+                "text_normalized": "HERISON IS STILL MY TOVER",
+                "start": 0.0,
+                "duration": 2.3099999999999996,
+                "temperature": false,
+                "avg_logprob": -0.7474550767378374,
+                "compression_ratio": 0.7647058823529411,
+                "no_speech_prob": 0.007897167466580868,
+                "words": [
+                    {
+                        "word": "Herison",
+                        "word_normalized": "HERISON",
+                        "start": 0.0,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 0.0,
+                                "duration": 0.27,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.23239167034626007
+                    },
+                    {
+                        "word": " is",
+                        "word_normalized": "IS",
+                        "start": 0.27,
+                        "duration": 0.54,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.27,
+                                "duration": 0.27,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.54,
+                                "duration": 0.27,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9793961048126221
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.81,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.81,
+                                "duration": 0.09,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " still",
+                        "word_normalized": "STILL",
+                        "start": 0.9,
+                        "duration": 0.48,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.9,
+                                "duration": 0.21,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.11,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.2,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.35,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9785224795341492
+                    },
+                    {
+                        "word": " my",
+                        "word_normalized": "MY",
+                        "start": 1.38,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 1.38,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.5,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9386006593704224
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.65,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.65,
+                                "duration": 0.36,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " tover.",
+                        "word_normalized": "TOVER",
+                        "start": 2.01,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.01,
+                                "duration": 0.3,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.26653143763542175
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 548.3402,
+            "a1": 752.4022,
+            "a2": 797.9028,
+            "b1": 652.2289,
+            "b2": 894.3347,
+            "c": 345.3028
+        }
+    }
+}

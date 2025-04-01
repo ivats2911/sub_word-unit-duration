@@ -1,0 +1,182 @@
+{
+    "task_id": "surgemcgee-20120722-gyy_a0098",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/surgemcgee-20120722-gyy/wav/a0098.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/surgemcgee-20120722-gyy_a0098/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.6334812641143799,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.13673349117564965,
+        "noise": 27.675952713373466,
+        "duration": 3.25,
+        "snr": 21.066249011056115,
+        "zcr": 0.058833103553921566,
+        "speech_energy": 301.53154772381447,
+        "noise_energy": 2.358890904320611
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9526937007904053
+        },
+        "language": "en",
+        "text": "Sell I care you.",
+        "text_normalized": "SELL I CARE YOU",
+        "segments": [
+            {
+                "text": "Sell I care you.",
+                "text_normalized": "SELL I CARE YOU",
+                "start": 0.0,
+                "duration": 1.65,
+                "temperature": false,
+                "avg_logprob": -0.6160931057400174,
+                "compression_ratio": 0.6666666666666666,
+                "no_speech_prob": 0.015156975947320461,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.36,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Sell",
+                        "word_normalized": "SELL",
+                        "start": 0.36,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.36,
+                                "duration": 0.24,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.6,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.72,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.29802123457193375
+                    },
+                    {
+                        "word": " I",
+                        "word_normalized": "I",
+                        "start": 0.81,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.81,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6808820366859436
+                    },
+                    {
+                        "word": " care",
+                        "word_normalized": "CARE",
+                        "start": 0.93,
+                        "duration": 0.38999999999999996,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 0.93,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.05,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.14,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.26,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5576145052909851
+                    },
+                    {
+                        "word": " you.",
+                        "word_normalized": "YOU",
+                        "start": 1.32,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 1.32,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.41,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.53,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.980674684047699
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1421.9363,
+            "a1": 784.1156,
+            "a2": 1134.593,
+            "b1": 1318.9854,
+            "b2": 1401.91,
+            "c": 1289.1991
+        }
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "task_id": "tristau-20090801-jli_b0457",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/tristau-20090801-jli/wav/b0457.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/tristau-20090801-jli_b0457/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1997406482696533,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 1.492,
+        "snr": 42.445867115939976,
+        "zcr": 0.13913937832446807,
+        "speech_energy": 386.45524088541674,
+        "noise_energy": 0.022004549908969138
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 2.020059585571289
+        },
+        "language": "en",
+        "text": "Salvation.",
+        "text_normalized": "SALVATION",
+        "segments": [
+            {
+                "text": "Salvation.",
+                "text_normalized": "SALVATION",
+                "start": 0.0,
+                "duration": 0.9299999999999999,
+                "temperature": false,
+                "avg_logprob": -0.6762460867563883,
+                "compression_ratio": 0.5555555555555556,
+                "no_speech_prob": 0.0044911024160683155,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.18,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Salvation.",
+                        "word_normalized": "SALVATION",
+                        "start": 0.18,
+                        "duration": 0.7499999999999999,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.18,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.3,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 0.39,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 0.42,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.51,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.6,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.72,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.81,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.36470814794301987
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 25888.1041,
+            "a1": 19335.2508,
+            "a2": 42203.6403,
+            "b1": 15022.7717,
+            "b2": 65335.6526,
+            "c": 55520.0774
+        }
+    }
+}

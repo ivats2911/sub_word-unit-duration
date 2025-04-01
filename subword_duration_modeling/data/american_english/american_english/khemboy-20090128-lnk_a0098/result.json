@@ -1,0 +1,188 @@
+{
+    "task_id": "khemboy-20090128-lnk_a0098",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/khemboy-20090128-lnk/wav/a0098.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/khemboy-20090128-lnk_a0098/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.661466121673584,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.04413530117929525,
+        "noise": -1.0,
+        "duration": 4.0,
+        "snr": 32.22225556871304,
+        "zcr": 0.11187065972222222,
+        "speech_energy": 6.498797285941339,
+        "noise_energy": 0.003895896704907113
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.9251725673675537
+        },
+        "language": "en",
+        "text": "Shall I care you.",
+        "text_normalized": "SHALL I CARE YOU",
+        "segments": [
+            {
+                "text": "Shall I care you.",
+                "text_normalized": "SHALL I CARE YOU",
+                "start": 0.0,
+                "duration": 2.34,
+                "temperature": false,
+                "avg_logprob": -0.5794609387715658,
+                "compression_ratio": 0.68,
+                "no_speech_prob": 0.025277573615312576,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.41,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.41,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Shall",
+                        "word_normalized": "SHALL",
+                        "start": 1.41,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 1.41,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.5,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.59,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.62,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.65,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.37627311050891876
+                    },
+                    {
+                        "word": " I",
+                        "word_normalized": "I",
+                        "start": 1.68,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.68,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8998380303382874
+                    },
+                    {
+                        "word": " care",
+                        "word_normalized": "CARE",
+                        "start": 1.77,
+                        "duration": 0.30000000000000004,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 1.77,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.86,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.95,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.04,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5505621433258057
+                    },
+                    {
+                        "word": " you.",
+                        "word_normalized": "YOU",
+                        "start": 2.07,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 2.07,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.13,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.25,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9389932751655579
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1349.3979,
+            "a1": 1153.4003,
+            "a2": 1134.2795,
+            "b1": 1337.8272,
+            "b2": 1979.4301,
+            "c": 1199.2234
+        }
+    }
+}

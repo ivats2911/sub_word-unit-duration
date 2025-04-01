@@ -1,0 +1,172 @@
+{
+    "task_id": "polerizer-20091231-nfw_rp-05",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/polerizer-20091231-nfw/wav/rp-05.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/polerizer-20091231-nfw_rp-05/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.7950046062469482,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.375,
+        "snr": 67.0257663219654,
+        "zcr": 0.09370442708333333,
+        "speech_energy": 5.478019222971939,
+        "noise_energy": 1.0865430037180583e-06
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.9557490348815918
+        },
+        "language": "en",
+        "text": "On the horizon.",
+        "text_normalized": "ON THE HORIZON",
+        "segments": [
+            {
+                "text": "On the horizon.",
+                "text_normalized": "ON THE HORIZON",
+                "start": 0.0,
+                "duration": 1.08,
+                "temperature": false,
+                "avg_logprob": -0.4121694564819336,
+                "compression_ratio": 0.6521739130434783,
+                "no_speech_prob": 0.017216157168149948,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.24,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "On",
+                        "word_normalized": "ON",
+                        "start": 0.24,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 0.24,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.3,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3716379702091217
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 0.36,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.36,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.39,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.42,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9636638164520264
+                    },
+                    {
+                        "word": " horizon.",
+                        "word_normalized": "HORIZON",
+                        "start": 0.45,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.45,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.51,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 0.57,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.63,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "z",
+                                "start": 0.75,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.87,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.96,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9951809644699097
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 675.5384,
+            "a1": 655.5035,
+            "a2": 597.3104,
+            "b1": 454.6739,
+            "b2": 1035.917,
+            "c": 626.4336
+        }
+    }
+}

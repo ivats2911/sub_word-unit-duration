@@ -1,0 +1,160 @@
+{
+    "task_id": "joel-20091116-uin_a0251",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/joel-20091116-uin/wav/a0251.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/joel-20091116-uin_a0251/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.1360604763031006,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": 1.4094053220641118,
+        "duration": 1.303625,
+        "snr": 12.802704471579922,
+        "zcr": 0.10043111661585366,
+        "speech_energy": 103.84492106821344,
+        "noise_energy": 5.4464662075042725
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.6009266376495361
+        },
+        "language": "en",
+        "text": "I may manage.",
+        "text_normalized": "I MAY MANAGE",
+        "segments": [
+            {
+                "text": "I may manage.",
+                "text_normalized": "I MAY MANAGE",
+                "start": 0.0,
+                "duration": 1.17,
+                "temperature": false,
+                "avg_logprob": -0.39268888745989117,
+                "compression_ratio": 0.6842105263157895,
+                "no_speech_prob": 0.02687118761241436,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.3,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I",
+                        "word_normalized": "I",
+                        "start": 0.3,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.3,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7730677723884583
+                    },
+                    {
+                        "word": " may",
+                        "word_normalized": "MAY",
+                        "start": 0.45,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.45,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.6,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.66,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.590222179889679
+                    },
+                    {
+                        "word": " manage.",
+                        "word_normalized": "MANAGE",
+                        "start": 0.72,
+                        "duration": 0.45,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.72,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.81,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.9,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.02,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.11,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9541425108909607
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 386.1003,
+            "a1": 286.5663,
+            "a2": 467.2239,
+            "b1": 389.0452,
+            "b2": 409.2372,
+            "c": 366.4587
+        }
+    }
+}

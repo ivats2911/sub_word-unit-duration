@@ -1,0 +1,192 @@
+{
+    "task_id": "petjal-20110303-cxb_b0388",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/petjal-20110303-cxb/wav/b0388.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/petjal-20110303-cxb_b0388/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.7973175048828125,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.008071414345816638,
+        "noise": -1.0,
+        "duration": 5.125,
+        "snr": 37.183640920350264,
+        "zcr": 0.23713788334627328,
+        "speech_energy": 13.763028481648972,
+        "noise_energy": 0.0026323880862306665
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0049371719360352
+        },
+        "language": "en",
+        "text": "I made no more Overchairs.",
+        "text_normalized": "I MADE NO MORE OVERCHAIRS",
+        "segments": [
+            {
+                "text": "I made no more Overchairs.",
+                "text_normalized": "I MADE NO MORE OVERCHAIRS",
+                "start": 0.0,
+                "duration": 3.1199999999999997,
+                "temperature": false,
+                "avg_logprob": -0.41519004648382013,
+                "compression_ratio": 0.7647058823529411,
+                "no_speech_prob": 0.003810223424807191,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.35,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.35,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I",
+                        "word_normalized": "I",
+                        "start": 1.35,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.35,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9416313767433167
+                    },
+                    {
+                        "word": " made",
+                        "word_normalized": "MADE",
+                        "start": 1.53,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 1.53,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.65,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.74,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.77,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9596593379974365
+                    },
+                    {
+                        "word": " no",
+                        "word_normalized": "NO",
+                        "start": 1.83,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 1.83,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.89,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9909536838531494
+                    },
+                    {
+                        "word": " more",
+                        "word_normalized": "MORE",
+                        "start": 2.04,
+                        "duration": 1.05,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 2.04,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 2.1,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.19,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.28,
+                                "duration": 0.81,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9953346848487854
+                    },
+                    {
+                        "word": " Overchairs.",
+                        "word_normalized": "OVERCHAIRS",
+                        "start": 3.09,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 3.09,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.5759600897630056
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 165.5008,
+            "a1": 299.4332,
+            "a2": 192.1543,
+            "b1": 162.7328,
+            "b2": 176.0557,
+            "c": 291.3903
+        }
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "task_id": "anonymous-20150102-hhn_a0080",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/anonymous-20150102-hhn/wav/a0080.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/anonymous-20150102-hhn_a0080/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4072868824005127,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.037716291443229646,
+        "noise": 4.211738414709073,
+        "duration": 4.5,
+        "snr": 7.577469064200607,
+        "zcr": 0.0634834884751773,
+        "speech_energy": 264.42581055656314,
+        "noise_energy": 46.190954624921424
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.1417510509490967
+        },
+        "language": "en",
+        "text": "What is Ginnies fail to?",
+        "text_normalized": "WHAT IS GINNIES FAIL TO",
+        "segments": [
+            {
+                "text": "What is Ginnies fail to?",
+                "text_normalized": "WHAT IS GINNIES FAIL TO",
+                "start": 0.0,
+                "duration": 2.13,
+                "temperature": false,
+                "avg_logprob": -0.8379789699207653,
+                "compression_ratio": 0.75,
+                "no_speech_prob": 0.013478673994541168,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.87,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.87,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "What",
+                        "word_normalized": "WHAT",
+                        "start": 0.87,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 0.87,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.93,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.05,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8093997240066528
+                    },
+                    {
+                        "word": " is",
+                        "word_normalized": "IS",
+                        "start": 1.08,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.08,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.842130720615387
+                    },
+                    {
+                        "word": " Ginnies",
+                        "word_normalized": "GINNIES",
+                        "start": 1.23,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.23,
+                                "duration": 0.42,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.34658727546532947
+                    },
+                    {
+                        "word": " fail",
+                        "word_normalized": "FAIL",
+                        "start": 1.65,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 1.65,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.68,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.71,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.77,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.09984291344881058
+                    },
+                    {
+                        "word": " to?",
+                        "word_normalized": "TO",
+                        "start": 1.86,
+                        "duration": 0.27,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 1.86,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.95,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.773205041885376
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 56.9475,
+            "a1": 56.6044,
+            "a2": 57.9762,
+            "b1": 46.8005,
+            "b2": 66.1569,
+            "c": 69.6186
+        }
+    }
+}

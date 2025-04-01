@@ -1,0 +1,306 @@
+{
+    "task_id": "tsmock-20121215-gtn_a0373",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/tsmock-20121215-gtn/wav/a0373.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/tsmock-20121215-gtn_a0373/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.3167765140533447,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.022164752400938872,
+        "noise": -1.0,
+        "duration": 5.25,
+        "snr": 18.03161365958238,
+        "zcr": 0.08265861742424242,
+        "speech_energy": 0.1601978032677262,
+        "noise_energy": 0.002520549266288678
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.4706916809082031
+        },
+        "language": "en",
+        "text": "Points of view, new ideas, wife.",
+        "text_normalized": "POINTS OF VIEW NEW IDEAS WIFE",
+        "segments": [
+            {
+                "text": "Points of view, new ideas, wife.",
+                "text_normalized": "POINTS OF VIEW NEW IDEAS WIFE",
+                "start": 0.0,
+                "duration": 3.63,
+                "temperature": false,
+                "avg_logprob": -0.5811189810434977,
+                "compression_ratio": 0.8,
+                "no_speech_prob": 0.013923167251050472,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.72,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.72,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Points",
+                        "word_normalized": "POINTS",
+                        "start": 0.72,
+                        "duration": 0.45000000000000007,
+                        "phones": [
+                            {
+                                "phone": "p",
+                                "start": 0.72,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.84,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.93,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.02,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.08,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.05574726685881615
+                    },
+                    {
+                        "word": " of",
+                        "word_normalized": "OF",
+                        "start": 1.17,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 1.2,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8337513208389282
+                    },
+                    {
+                        "word": " view,",
+                        "word_normalized": "VIEW",
+                        "start": 1.26,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "v",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.29,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.38,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 1.53,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9916673302650452
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.65,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.65,
+                                "duration": 0.18,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " new",
+                        "word_normalized": "NEW",
+                        "start": 1.83,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 1.83,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.92,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 2.01,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9572469592094421
+                    },
+                    {
+                        "word": " ideas,",
+                        "word_normalized": "IDEAS",
+                        "start": 2.13,
+                        "duration": 0.6299999999999999,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 2.13,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.19,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 2.34,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.46,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 2.58,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9947671890258789
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 2.76,
+                        "duration": 0.3,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 2.76,
+                                "duration": 0.3,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " wife.",
+                        "word_normalized": "WIFE",
+                        "start": 3.06,
+                        "duration": 0.57,
+                        "phones": [
+                            {
+                                "phone": "w",
+                                "start": 3.06,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 3.24,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 3.45,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 3.54,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8206465244293213
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 733.524,
+            "a1": 2172.3436,
+            "a2": 1645.6166,
+            "b1": 1052.1695,
+            "b2": 638.4735,
+            "c": 883.9809
+        }
+    }
+}

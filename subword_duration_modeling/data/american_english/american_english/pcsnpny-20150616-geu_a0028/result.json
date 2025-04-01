@@ -1,0 +1,174 @@
+{
+    "task_id": "pcsnpny-20150616-geu_a0028",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/pcsnpny-20150616-geu/wav/a0028.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/pcsnpny-20150616-geu_a0028/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.594616413116455,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.02493074792243761,
+        "noise": -1.0,
+        "duration": 4.0,
+        "snr": -1.6811451228517198,
+        "zcr": 0.1456511966765873,
+        "speech_energy": 253.22542967171304,
+        "noise_energy": 372.925283883068
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.8207669258117676
+        },
+        "language": "en",
+        "text": "Ravari, Pravari fraud.",
+        "text_normalized": "RAVARI PRAVARI FRAUD",
+        "segments": [
+            {
+                "text": "Ravari, Pravari fraud.",
+                "text_normalized": "RAVARI PRAVARI FRAUD",
+                "start": 0.0,
+                "duration": 2.6999999999999997,
+                "temperature": false,
+                "avg_logprob": -0.9160494804382324,
+                "compression_ratio": 0.8461538461538461,
+                "no_speech_prob": 0.009933160617947578,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 1.74,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 1.74,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Ravari,",
+                        "word_normalized": "RAVARI",
+                        "start": 1.74,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.74,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.2556975334882736
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.77,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.77,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " Pravari",
+                        "word_normalized": "PRAVARI",
+                        "start": 1.8,
+                        "duration": 0.06,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 1.8,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.5441971272230148
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.86,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.86,
+                                "duration": 0.21,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " fraud.",
+                        "word_normalized": "FRAUD",
+                        "start": 2.07,
+                        "duration": 0.63,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 2.07,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 2.25,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 2.37,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 2.55,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 2.58,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.3223463296890259
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 115.6645,
+            "a1": 18.7932,
+            "a2": 57.2664,
+            "b1": 58.9386,
+            "b2": 88.9201,
+            "c": 56.1048
+        }
+    }
+}

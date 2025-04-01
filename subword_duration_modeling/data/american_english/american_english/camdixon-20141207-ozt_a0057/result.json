@@ -1,0 +1,176 @@
+{
+    "task_id": "camdixon-20141207-ozt_a0057",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/camdixon-20141207-ozt/wav/a0057.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/camdixon-20141207-ozt_a0057/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.7555994987487793,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 4.627701420704338e-05,
+        "noise": -1.0,
+        "duration": 4.5,
+        "snr": 23.27100154640693,
+        "zcr": 0.17708333333333334,
+        "speech_energy": 31.211315057216545,
+        "noise_energy": 0.146964321165909
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.8920650482177734
+        },
+        "language": "en",
+        "text": "I have no idea.",
+        "text_normalized": "I HAVE NO IDEA",
+        "segments": [
+            {
+                "text": "I have no idea.",
+                "text_normalized": "I HAVE NO IDEA",
+                "start": 0.0,
+                "duration": 1.5899999999999999,
+                "temperature": false,
+                "avg_logprob": -0.3252236843109131,
+                "compression_ratio": 0.6521739130434783,
+                "no_speech_prob": 0.013836201280355453,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.81,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.81,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "I",
+                        "word_normalized": "I",
+                        "start": 0.81,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.81,
+                                "duration": 0.15,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9373425841331482
+                    },
+                    {
+                        "word": " have",
+                        "word_normalized": "HAVE",
+                        "start": 0.96,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "h",
+                                "start": 0.96,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "v",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.05,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9944900274276733
+                    },
+                    {
+                        "word": " no",
+                        "word_normalized": "NO",
+                        "start": 1.08,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 1.08,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9983158111572266
+                    },
+                    {
+                        "word": " idea.",
+                        "word_normalized": "IDEA",
+                        "start": 1.23,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.26,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.38,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.47,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9685845971107483
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 36.7553,
+            "a1": 79.6966,
+            "a2": 49.17,
+            "b1": 46.5629,
+            "b2": 35.7322,
+            "c": 29.572
+        }
+    }
+}

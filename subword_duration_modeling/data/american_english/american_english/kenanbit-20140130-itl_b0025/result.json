@@ -1,0 +1,212 @@
+{
+    "task_id": "kenanbit-20140130-itl_b0025",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/kenanbit-20140130-itl/wav/b0025.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/kenanbit-20140130-itl_b0025/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4398114681243896,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.22902050382805664,
+        "noise": -1.0,
+        "duration": 3.375,
+        "snr": 19.74809993078975,
+        "zcr": 0.1342865566037736,
+        "speech_energy": 76.20077717060946,
+        "noise_energy": 0.8075127861014119
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.7427570819854736
+        },
+        "language": "en",
+        "text": "Now you understand.",
+        "text_normalized": "NOW YOU UNDERSTAND",
+        "segments": [
+            {
+                "text": "Now you understand.",
+                "text_normalized": "NOW YOU UNDERSTAND",
+                "start": 0.0,
+                "duration": 2.01,
+                "temperature": false,
+                "avg_logprob": -0.23558666024889266,
+                "compression_ratio": 0.7037037037037037,
+                "no_speech_prob": 0.004463706631213427,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.51,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Now",
+                        "word_normalized": "NOW",
+                        "start": 0.51,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.51,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.66,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 0.87,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.7221817970275879
+                    },
+                    {
+                        "word": " you",
+                        "word_normalized": "YOU",
+                        "start": 0.93,
+                        "duration": 0.21,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 0.93,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.02,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.08,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.919464647769928
+                    },
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 1.14,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 1.14,
+                                "duration": 0.03,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": " understand.",
+                        "word_normalized": "UNDERSTAND",
+                        "start": 1.17,
+                        "duration": 0.84,
+                        "phones": [
+                            {
+                                "phone": "u",
+                                "start": 1.17,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.23,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.32,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.35,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.41,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.44,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.56,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.62,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.8,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.86,
+                                "duration": 0.15,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9887005686759949
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 173.4403,
+            "a1": 332.1047,
+            "a2": 156.8375,
+            "b1": 176.2585,
+            "b2": 187.6398,
+            "c": 226.3341
+        }
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "task_id": "Ertain-20140905-ptf_b0357",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/Ertain-20140905-ptf/wav/b0357.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/Ertain-20140905-ptf_b0357/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.0970313549041748,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.13251695046840256,
+        "noise": 110.48900092716913,
+        "duration": 3.5,
+        "snr": 4.809589844746611,
+        "zcr": 0.015647194602272728,
+        "speech_energy": 57.89650781655018,
+        "noise_energy": 19.129049210321337
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0036935806274414
+        },
+        "language": "en",
+        "text": "The law of Clubbing.",
+        "text_normalized": "THE LAW OF CLUBBING",
+        "segments": [
+            {
+                "text": "The law of Clubbing.",
+                "text_normalized": "THE LAW OF CLUBBING",
+                "start": 0.0,
+                "duration": 2.04,
+                "temperature": false,
+                "avg_logprob": -0.4878310627407498,
+                "compression_ratio": 0.7142857142857143,
+                "no_speech_prob": 0.007444171700626612,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.42,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "The",
+                        "word_normalized": "THE",
+                        "start": 0.42,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.42,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.51,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.54,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8473654389381409
+                    },
+                    {
+                        "word": " law",
+                        "word_normalized": "LAW",
+                        "start": 0.57,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "l",
+                                "start": 0.57,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 0.66,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 0.75,
+                                "duration": 0.18,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6085619926452637
+                    },
+                    {
+                        "word": " of",
+                        "word_normalized": "OF",
+                        "start": 0.93,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 0.93,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 0.99,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.977790117263794
+                    },
+                    {
+                        "word": " Clubbing.",
+                        "word_normalized": "CLUBBING",
+                        "start": 1.08,
+                        "duration": 0.9599999999999999,
+                        "phones": [
+                            {
+                                "phone": "c",
+                                "start": 1.08,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "l",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 1.23,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "b",
+                                "start": 1.29,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "b",
+                                "start": 1.32,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.35,
+                                "duration": 0.42,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.77,
+                                "duration": 0.18,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.95,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.42759744822978973
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 850.4719,
+            "a1": 1370.3771,
+            "a2": 1959.0254,
+            "b1": 614.1295,
+            "b2": 1470.4832,
+            "c": 1429.0917
+        }
+    }
+}

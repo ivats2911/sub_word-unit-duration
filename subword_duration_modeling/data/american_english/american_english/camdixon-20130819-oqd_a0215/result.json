@@ -1,0 +1,222 @@
+{
+    "task_id": "camdixon-20130819-oqd_a0215",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/camdixon-20130819-oqd/wav/a0215.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/camdixon-20130819-oqd_a0215/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4514689445495605,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.2116045851232685,
+        "noise": -1.0,
+        "duration": 3.0,
+        "snr": 15.136502347755226,
+        "zcr": 0.10593625332446809,
+        "speech_energy": 91.08981291453043,
+        "noise_energy": 2.7913839389116335
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.0842599868774414
+        },
+        "language": "en",
+        "text": "They die out of space.",
+        "text_normalized": "THEY DIE OUT OF SPACE",
+        "segments": [
+            {
+                "text": "They die out of space.",
+                "text_normalized": "THEY DIE OUT OF SPACE",
+                "start": 0.0,
+                "duration": 1.5299999999999998,
+                "temperature": false,
+                "avg_logprob": -0.46644836001926,
+                "compression_ratio": 0.7333333333333333,
+                "no_speech_prob": 0.013859818689525127,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.39,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "They",
+                        "word_normalized": "THEY",
+                        "start": 0.39,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.39,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.45,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.48,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.51,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.564683735370636
+                    },
+                    {
+                        "word": " die",
+                        "word_normalized": "DIE",
+                        "start": 0.54,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.54,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.63,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.81,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9499166011810303
+                    },
+                    {
+                        "word": " out",
+                        "word_normalized": "OUT",
+                        "start": 0.93,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 0.93,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.99,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8069760203361511
+                    },
+                    {
+                        "word": " of",
+                        "word_normalized": "OF",
+                        "start": 1.05,
+                        "duration": 0.09,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 1.05,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9965369701385498
+                    },
+                    {
+                        "word": " space.",
+                        "word_normalized": "SPACE",
+                        "start": 1.14,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 1.14,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "p",
+                                "start": 1.23,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.32,
+                                "duration": 0.15,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "c",
+                                "start": 1.47,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.5,
+                                "duration": 0.03,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.24541619420051575
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 444.8189,
+            "a1": 797.0459,
+            "a2": 518.223,
+            "b1": 424.1148,
+            "b2": 453.576,
+            "c": 581.8577
+        }
+    }
+}

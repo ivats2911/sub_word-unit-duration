@@ -1,0 +1,194 @@
+{
+    "task_id": "camdixon-20130819-vwy_a0215",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/camdixon-20130819-vwy/wav/a0215.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/camdixon-20130819-vwy_a0215/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.4052948951721191,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": -1.0,
+        "duration": 2.5,
+        "snr": 14.519839208831195,
+        "zcr": 0.1354084256329114,
+        "speech_energy": 55.54817744663783,
+        "noise_energy": 1.961940775314967
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.397714376449585
+        },
+        "language": "en",
+        "text": "The diet of spend.",
+        "text_normalized": "THE DIET OF SPEND",
+        "segments": [
+            {
+                "text": "The diet of spend.",
+                "text_normalized": "THE DIET OF SPEND",
+                "start": 0.0,
+                "duration": 1.29,
+                "temperature": false,
+                "avg_logprob": -0.700620174407959,
+                "compression_ratio": 0.6923076923076923,
+                "no_speech_prob": 0.013380422256886959,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.24,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "The",
+                        "word_normalized": "THE",
+                        "start": 0.24,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.24,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.3,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.36,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6895041465759277
+                    },
+                    {
+                        "word": " diet",
+                        "word_normalized": "DIET",
+                        "start": 0.42,
+                        "duration": 0.42000000000000004,
+                        "phones": [
+                            {
+                                "phone": "d",
+                                "start": 0.42,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.48,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.69,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 0.81,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.4694540202617645
+                    },
+                    {
+                        "word": " of",
+                        "word_normalized": "OF",
+                        "start": 0.84,
+                        "duration": 0.12,
+                        "phones": [
+                            {
+                                "phone": "o",
+                                "start": 0.84,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 0.9,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8695119619369507
+                    },
+                    {
+                        "word": " spend.",
+                        "word_normalized": "SPEND",
+                        "start": 0.96,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "s",
+                                "start": 0.96,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "p",
+                                "start": 1.02,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.11,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.2,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.06621408462524414
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1108.5621,
+            "a1": 945.7145,
+            "a2": 910.9196,
+            "b1": 1237.9982,
+            "b2": 937.4756,
+            "c": 819.8229
+        }
+    }
+}

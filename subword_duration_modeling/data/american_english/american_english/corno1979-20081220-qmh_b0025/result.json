@@ -1,0 +1,196 @@
+{
+    "task_id": "corno1979-20081220-qmh_b0025",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/corno1979-20081220-qmh/wav/b0025.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/corno1979-20081220-qmh_b0025/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.477156400680542,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 1.0,
+        "noise": 61.228222109172734,
+        "duration": 2.5,
+        "snr": 25.78297765960816,
+        "zcr": 0.029358682753164556,
+        "speech_energy": 152.33212292678957,
+        "noise_energy": 0.4022478472952749
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 0.6114754676818848
+        },
+        "language": "en",
+        "text": "Now you understand.",
+        "text_normalized": "NOW YOU UNDERSTAND",
+        "segments": [
+            {
+                "text": "Now you understand.",
+                "text_normalized": "NOW YOU UNDERSTAND",
+                "start": 0.0,
+                "duration": 1.74,
+                "temperature": false,
+                "avg_logprob": -0.18573931285313197,
+                "compression_ratio": 0.7037037037037037,
+                "no_speech_prob": 0.0058495886623859406,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.51,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.51,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "Now",
+                        "word_normalized": "NOW",
+                        "start": 0.51,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "n",
+                                "start": 0.51,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.6,
+                                "duration": 0.21,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "w",
+                                "start": 0.81,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.822292685508728
+                    },
+                    {
+                        "word": " you",
+                        "word_normalized": "YOU",
+                        "start": 0.84,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "y",
+                                "start": 0.84,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 0.93,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.96,
+                                "duration": 0.06,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9544317722320557
+                    },
+                    {
+                        "word": " understand.",
+                        "word_normalized": "UNDERSTAND",
+                        "start": 1.02,
+                        "duration": 0.72,
+                        "phones": [
+                            {
+                                "phone": "u",
+                                "start": 1.02,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.05,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.11,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.14,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 1.23,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.35,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.53,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "d",
+                                "start": 1.62,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9887551069259644
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 173.4403,
+            "a1": 332.1047,
+            "a2": 156.8375,
+            "b1": 176.2585,
+            "b2": 187.6398,
+            "c": 226.3341
+        }
+    }
+}

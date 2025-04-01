@@ -1,0 +1,230 @@
+{
+    "task_id": "teeks99-20091212-ffu_b0211",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/teeks99-20091212-ffu/wav/b0211.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/teeks99-20091212-ffu_b0211/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.55723237991333,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.12218105893330625,
+        "noise": -1.0,
+        "duration": 3.125,
+        "snr": 26.5084379253005,
+        "zcr": 0.1333854830994898,
+        "speech_energy": 5.426854527357853,
+        "noise_energy": 0.012125632104774317
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.004828691482544
+        },
+        "language": "en",
+        "text": "This is eighteen eighty.",
+        "text_normalized": "THIS IS EIGHTEEN EIGHTY",
+        "segments": [
+            {
+                "text": "This is eighteen eighty.",
+                "text_normalized": "THIS IS EIGHTEEN EIGHTY",
+                "start": 0.0,
+                "duration": 1.92,
+                "temperature": false,
+                "avg_logprob": -0.30015623569488525,
+                "compression_ratio": 0.9230769230769231,
+                "no_speech_prob": 0.004629002418369055,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.6,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.6,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "This",
+                        "word_normalized": "THIS",
+                        "start": 0.6,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.6,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.69,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.72,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.75,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8062540888786316
+                    },
+                    {
+                        "word": " is",
+                        "word_normalized": "IS",
+                        "start": 0.84,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.84,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.93,
+                                "duration": 0.09,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9948613047599792
+                    },
+                    {
+                        "word": " eighteen",
+                        "word_normalized": "EIGHTEEN",
+                        "start": 1.02,
+                        "duration": 0.48000000000000004,
+                        "phones": [
+                            {
+                                "phone": "e",
+                                "start": 1.02,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.11,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.17,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.2,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.23,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.29,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.32,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "n",
+                                "start": 1.38,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.43324440717697144
+                    },
+                    {
+                        "word": " eighty.",
+                        "word_normalized": "EIGHTY",
+                        "start": 1.5,
+                        "duration": 0.42,
+                        "phones": [
+                            {
+                                "phone": "e",
+                                "start": 1.5,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.62,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.65,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.68,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.71,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 1.74,
+                                "duration": 0.18,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8959878087043762
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 131.4862,
+            "a1": 133.8813,
+            "a2": 199.2324,
+            "b1": 150.3488,
+            "b2": 239.6293,
+            "c": 160.391
+        }
+    }
+}

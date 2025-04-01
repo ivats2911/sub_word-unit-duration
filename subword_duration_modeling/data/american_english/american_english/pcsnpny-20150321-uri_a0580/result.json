@@ -1,0 +1,234 @@
+{
+    "task_id": "pcsnpny-20150321-uri_a0580",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/pcsnpny-20150321-uri/wav/a0580.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/pcsnpny-20150321-uri_a0580/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.05501389503479,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.22047076709010816,
+        "noise": -1.0,
+        "duration": 3.0,
+        "snr": 40.28764160359436,
+        "zcr": 0.2168903756648936,
+        "speech_energy": 46.66558852735555,
+        "noise_energy": 0.004367496714823776
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.5969481468200684
+        },
+        "language": "en",
+        "text": "This is my fifth forage.",
+        "text_normalized": "THIS IS MY FIFTH FORAGE",
+        "segments": [
+            {
+                "text": "This is my fifth forage.",
+                "text_normalized": "THIS IS MY FIFTH FORAGE",
+                "start": 0.0,
+                "duration": 1.9500000000000002,
+                "temperature": false,
+                "avg_logprob": -0.32123048305511476,
+                "compression_ratio": 0.8,
+                "no_speech_prob": 0.003311190055683255,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.36,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "This",
+                        "word_normalized": "THIS",
+                        "start": 0.36,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.36,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.48,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 0.51,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.54,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.6914339661598206
+                    },
+                    {
+                        "word": " is",
+                        "word_normalized": "IS",
+                        "start": 0.6,
+                        "duration": 0.15,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.6,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.69,
+                                "duration": 0.06,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9878969192504883
+                    },
+                    {
+                        "word": " my",
+                        "word_normalized": "MY",
+                        "start": 0.75,
+                        "duration": 0.18,
+                        "phones": [
+                            {
+                                "phone": "m",
+                                "start": 0.75,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "y",
+                                "start": 0.81,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9949383735656738
+                    },
+                    {
+                        "word": " fifth",
+                        "word_normalized": "FIFTH",
+                        "start": 0.93,
+                        "duration": 0.36,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 0.93,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "i",
+                                "start": 1.02,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "f",
+                                "start": 1.11,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "t",
+                                "start": 1.23,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 1.26,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.8317030668258667
+                    },
+                    {
+                        "word": " forage.",
+                        "word_normalized": "FORAGE",
+                        "start": 1.29,
+                        "duration": 0.66,
+                        "phones": [
+                            {
+                                "phone": "f",
+                                "start": 1.29,
+                                "duration": 0.06,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.35,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.47,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.5,
+                                "duration": 0.18,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "g",
+                                "start": 1.68,
+                                "duration": 0.15,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 1.83,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.5778035968542099
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 2406.2088,
+            "a1": 1724.8442,
+            "a2": 2233.7433,
+            "b1": 2640.5833,
+            "b2": 2211.4816,
+            "c": 2358.3043
+        }
+    }
+}

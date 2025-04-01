@@ -1,0 +1,188 @@
+{
+    "task_id": "kenanbit-20130805-cpn_a0015",
+    "audio_file": "s3://cupa-data-speech-audio/voxforge/american_english/kenanbit-20130805-cpn/wav/a0015.wav",
+    "transcript_file": "s3://saeid-test-output/asr/voxforge/american_english/kenanbit-20130805-cpn_a0015/result.json",
+    "status": "completed",
+    "app_version": "0.0.3-dev",
+    "processing_time": 1.2936668395996094,
+    "audio_info": {
+        "clipping": 0.0,
+        "dynamic-ratio": 0.02604739336877631,
+        "noise": 146.12313956423694,
+        "duration": 4.0,
+        "snr": 14.35193369105318,
+        "zcr": 0.059070405505952384,
+        "speech_energy": 235.32336459805566,
+        "noise_energy": 8.639163237351637
+    },
+    "result": {
+        "asr_info": {
+            "app_version": "2.0.1-dev.2",
+            "model": {
+                "name": "tiny.en",
+                "version": "1.2.0",
+                "device": "cuda"
+            },
+            "transcription_time": 1.3511497974395752
+        },
+        "language": "en",
+        "text": "It's the Aurora Boryales.",
+        "text_normalized": "IT'S THE AURORA BORYALES",
+        "segments": [
+            {
+                "text": "It's the Aurora Boryales.",
+                "text_normalized": "IT'S THE AURORA BORYALES",
+                "start": 0.0,
+                "duration": 2.3099999999999996,
+                "temperature": false,
+                "avg_logprob": -0.5282722386446866,
+                "compression_ratio": 0.7575757575757576,
+                "no_speech_prob": 0.0055348239839077,
+                "words": [
+                    {
+                        "word": "",
+                        "word_normalized": "sil",
+                        "start": 0.0,
+                        "duration": 0.39,
+                        "phones": [
+                            {
+                                "phone": "SIL",
+                                "start": 0.0,
+                                "duration": 0.39,
+                                "class": "sil"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": null
+                    },
+                    {
+                        "word": "It's",
+                        "word_normalized": "IT'S",
+                        "start": 0.39,
+                        "duration": 0.32999999999999996,
+                        "phones": [
+                            {
+                                "phone": "i",
+                                "start": 0.39,
+                                "duration": 0.12,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "t;A",
+                                "start": 0.51,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "s",
+                                "start": 0.6,
+                                "duration": 0.12,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9080160856246948
+                    },
+                    {
+                        "word": " the",
+                        "word_normalized": "THE",
+                        "start": 0.72,
+                        "duration": 0.24,
+                        "phones": [
+                            {
+                                "phone": "t",
+                                "start": 0.72,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "h",
+                                "start": 0.81,
+                                "duration": 0.03,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "e",
+                                "start": 0.84,
+                                "duration": 0.12,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.9738097786903381
+                    },
+                    {
+                        "word": " Aurora",
+                        "word_normalized": "AURORA",
+                        "start": 0.96,
+                        "duration": 1.32,
+                        "phones": [
+                            {
+                                "phone": "a",
+                                "start": 0.96,
+                                "duration": 0.03,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "u",
+                                "start": 0.99,
+                                "duration": 0.06,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.05,
+                                "duration": 0.12,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "o",
+                                "start": 1.17,
+                                "duration": 0.09,
+                                "class": "V"
+                            },
+                            {
+                                "phone": "r",
+                                "start": 1.26,
+                                "duration": 0.09,
+                                "class": "C"
+                            },
+                            {
+                                "phone": "a",
+                                "start": 1.35,
+                                "duration": 0.93,
+                                "class": "V"
+                            }
+                        ],
+                        "oov": false,
+                        "probability": 0.24859805405139923
+                    },
+                    {
+                        "word": " Boryales.",
+                        "word_normalized": "BORYALES",
+                        "start": 2.28,
+                        "duration": 0.03,
+                        "phones": [
+                            {
+                                "phone": "<oov>",
+                                "start": 2.28,
+                                "duration": 0.03,
+                                "class": "C"
+                            }
+                        ],
+                        "oov": true,
+                        "probability": 0.39644043644269306
+                    }
+                ]
+            }
+        ],
+        "ppl": {
+            "0": 1227.3454,
+            "a1": 3601.6376,
+            "a2": 3957.9168,
+            "b1": 3980.7654,
+            "b2": 942.1066,
+            "c": 3544.325
+        }
+    }
+}
