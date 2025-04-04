@@ -22,118 +22,96 @@ from torch.utils.data import DataLoader, TensorDataset
 
 logger = logging.getLogger(__name__)
 
-
 class BaseModel(ABC):
     """Abstract base class for duration models."""
     
     @abstractmethod
     def train(self, X_train, y_train, X_val=None, y_val=None):
-        """Train the model."""
         pass
-    
+
     @abstractmethod
     def predict(self, X):
-        """Make predictions."""
         pass
-    
+
     def save(self, path):
-        """Save the model to disk."""
         with open(path, 'wb') as f:
             pickle.dump(self, f)
-    
+
     @classmethod
     def load(cls, path):
-        """Load a model from disk."""
         with open(path, 'rb') as f:
             return pickle.load(f)
 
 
 class BaselineModel(BaseModel):
-    """
-    Baseline model that predicts durations based on mean and variance.
-    """
-    
     def __init__(self, smooth_factor=1.0):
-        """
-        Initialize the baseline model.
-        
-        Args:
-            smooth_factor: Laplace smoothing factor
-        """
         self.smooth_factor = smooth_factor
         self.phone_stats = {}
         self.global_mean = 0.0
         self.global_std = 0.0
-    
+
     def train(self, X_train, y_train, X_val=None, y_val=None):
-        """
-        Train the baseline model by computing statistics.
-        
-        Args:
-            X_train: Training features
-            y_train: Training targets
-            X_val: Validation features (not used)
-            y_val: Validation targets (not used)
-        """
-        # Create a DataFrame with phone identities and durations
-        df = pd.DataFrame({'phone': X_train.argmax(axis=1), 'duration': y_train})
-        
-        # Calculate global statistics
+        from scipy.sparse import issparse
+
+        num_phones = getattr(X_train, 'shape', [])[1] if hasattr(X_train, 'shape') else 0
+        if hasattr(X_train, 'num_phones'):
+            num_phones = X_train.num_phones
+
+        if issparse(X_train):
+            phone_indices = X_train[:, :num_phones].argmax(axis=1).A1
+        else:
+            phone_indices = X_train[:, :num_phones].argmax(axis=1)
+
+        df = pd.DataFrame({'phone': phone_indices, 'duration': y_train})
+
         self.global_mean = np.mean(y_train)
         self.global_std = np.std(y_train)
-        
-        # Calculate statistics for each phone
+
         phone_stats = df.groupby('phone').agg({
             'duration': ['count', 'mean', 'std']
         })
-        
         phone_stats.columns = ['_'.join(col).strip() for col in phone_stats.columns.values]
         phone_stats = phone_stats.reset_index()
-        
-        # Apply Laplace smoothing for phones with few examples
+
         for idx, row in phone_stats.iterrows():
             count = row['duration_count']
             mean = row['duration_mean']
             std = row['duration_std'] if not np.isnan(row['duration_std']) else 0.0
-            
-            # Apply smoothing
+
             smoothed_mean = (count * mean + self.smooth_factor * self.global_mean) / (count + self.smooth_factor)
             smoothed_std = np.sqrt((count * std**2 + self.smooth_factor * self.global_std**2) / (count + self.smooth_factor))
-            
+
             self.phone_stats[row['phone']] = {
                 'mean': smoothed_mean,
                 'std': smoothed_std,
                 'count': count
             }
-        
+
         logger.info(f"Trained baseline model with {len(self.phone_stats)} phones")
         return self
-    
+
     def predict(self, X):
-        """
-        Predict durations using phone statistics.
-        
-        Args:
-            X: Input features
-            
-        Returns:
-            Array of predicted durations
-        """
+        from scipy.sparse import issparse
+
+        num_phones = getattr(X, 'shape', [])[1] if hasattr(X, 'shape') else 0
+        if hasattr(X, 'num_phones'):
+            num_phones = X.num_phones
+
+        if issparse(X):
+            phone_indices = X[:, :num_phones].argmax(axis=1).A1
+        else:
+            phone_indices = X[:, :num_phones].argmax(axis=1)
+
         predictions = []
-        
-        # Get phone identity from one-hot encoding
-        phones = X.argmax(axis=1)
-        
-        for phone in phones:
-            if phone in self.phone_stats:
-                # Use phone-specific statistics
-                mean = self.phone_stats[phone]['mean']
-                predictions.append(mean)
+        for idx in phone_indices:
+            if idx in self.phone_stats:
+                predictions.append(self.phone_stats[idx]['mean'])
             else:
-                # Use global statistics for unseen phones
                 predictions.append(self.global_mean)
-        
+
         return np.array(predictions)
+
+
 
 
 class LinearModel(BaseModel):
