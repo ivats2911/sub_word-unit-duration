@@ -298,13 +298,13 @@ class LSTMModel(BaseModel):
         ).to(self.device)
         
         # Create data loaders
-        X_train_tensor = torch.FloatTensor(X_train).to(self.device)
+        X_train_tensor = torch.FloatTensor(X_train.toarray()).to(self.device)
         y_train_tensor = torch.FloatTensor(y_train).to(self.device)
         train_dataset = TensorDataset(X_train_tensor, y_train_tensor)
         train_loader = DataLoader(train_dataset, batch_size=self.batch_size, shuffle=True)
         
         if X_val is not None and y_val is not None:
-            X_val_tensor = torch.FloatTensor(X_val).to(self.device)
+            X_val_tensor = torch.FloatTensor(X_val.toarray()).to(self.device)
             y_val_tensor = torch.FloatTensor(y_val).to(self.device)
             val_dataset = TensorDataset(X_val_tensor, y_val_tensor)
             val_loader = DataLoader(val_dataset, batch_size=self.batch_size)
@@ -377,7 +377,7 @@ class LSTMModel(BaseModel):
             raise ValueError("Model has not been trained yet")
         
         self.model.eval()
-        X_tensor = torch.FloatTensor(X).to(self.device)
+        X_tensor = torch.FloatTensor(X.toarray()).to(self.device)
         
         with torch.no_grad():
             predictions = self.model(X_tensor).cpu().numpy()

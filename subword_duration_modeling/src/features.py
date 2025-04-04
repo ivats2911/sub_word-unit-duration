@@ -10,6 +10,7 @@ import numpy as np
 from typing import Tuple, Any
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from scipy.sparse import hstack
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -95,9 +96,18 @@ class FeatureExtractor:
 
         return X, y
 
-def extract_features(df: pd.DataFrame, config: Any) -> Tuple[Any, np.ndarray]:
-    extractor = FeatureExtractor(config)
-    extractor.fit(df)
+def extract_features(df: pd.DataFrame, config: Any, extractor: FeatureExtractor = None, max_samples: int = None) -> Tuple[Any, np.ndarray, FeatureExtractor]:
+    if extractor is None:
+        extractor = FeatureExtractor(config)
+        extractor.fit(df)
+        config.num_phones = extractor.num_phones  # Store this for downstream models
+
+    if max_samples is not None:
+        df = df.iloc[:max_samples]
+        logger.info(f"Using only {max_samples} samples for feature extraction.")
+
+    start = time.time()
     X, y = extractor.transform(df)
-    config.num_phones = extractor.num_phones  # Store this for downstream models
-    return X, y
+    logger.info(f"Feature extraction took {time.time() - start:.2f} seconds.")
+    return X, y, extractor
+
