@@ -17,36 +17,60 @@ logger = logging.getLogger(__name__)
 
 def plot_duration_histograms(df: pd.DataFrame, by_class: bool = False, save_path: Optional[str] = None):
     """
-    Plot histograms of phone durations.
+    Plot histograms of phone durations with consistent axes.
     
     Args:
         df: DataFrame with phone data
         by_class: Whether to separate by phone class
-        save_path: Path to save the plot
+        save_path: If provided, saves the plot to this path
     """
     plt.figure(figsize=(12, 6))
-    
-    if by_class and 'phone_class' in df.columns:
-        # Plot separate histograms by phone class
-        for cls, group in df.groupby('phone_class'):
-            sns.histplot(group['phone_duration'], label=cls, kde=True, alpha=0.5)
-        
+
+    # Clip extreme durations to 99.5 percentile
+    max_duration = df['phone_duration'].quantile(0.995)
+    clipped_df = df[df['phone_duration'] <= max_duration]
+
+    # Use dynamic bin range and bin width
+    bin_min = 0
+    bin_max = np.ceil(max_duration * 20) / 20  # round up to nearest 0.05
+    bins = np.linspace(bin_min, bin_max, 50)  # 50 bins between min and max
+
+    if by_class and 'phone_class' in clipped_df.columns:
+        classes = clipped_df['phone_class'].unique()
+        for cls in classes:
+            group = clipped_df[clipped_df['phone_class'] == cls]
+            sns.histplot(
+                group['phone_duration'],
+                label=cls,
+                bins=bins,
+                kde=True,
+                element='step',
+                alpha=0.5,
+                common_norm=False
+            )
         plt.legend()
         plt.title('Phone Duration Distribution by Class')
     else:
-        # Plot overall histogram
-        sns.histplot(df['phone_duration'], kde=True)
+        sns.histplot(
+            clipped_df['phone_duration'],
+            bins=bins,
+            kde=True,
+            color='steelblue',
+            element='step'
+        )
         plt.title('Overall Phone Duration Distribution')
-    
-    plt.xlabel('Duration (s)')
+
+    plt.xlabel('Duration (seconds)')
     plt.ylabel('Frequency')
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    
+
     if save_path:
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
     
     plt.show()
+
+
 
 
 def plot_top_phones_by_duration(df: pd.DataFrame, n: int = 20, save_path: Optional[str] = None):
